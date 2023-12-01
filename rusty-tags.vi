@@ -1,10 +1,164 @@
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
-!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
-!_TAG_PROGRAM_NAME	Exuberant Ctags	//
-!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.8	//
+Adhoc	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub struct Adhoc;$/;"	s
+AdhocKind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub trait AdhocKind: Sized {$/;"	t
+BacktraceFrame	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    struct BacktraceFrame {$/;"	s
+BacktraceSymbol	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    struct BacktraceSymbol {$/;"	s
+BothDebug	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^pub trait BothDebug {$/;"	t
+Boxed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub struct Boxed;$/;"	s
+BoxedError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^pub struct BoxedError(pub Box<dyn StdError + Send + Sync>);$/;"	s
+BoxedKind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub trait BoxedKind: Sized {$/;"	t
+Buf	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^struct Buf {$/;"	s
+BytesOrWide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    enum BytesOrWide {$/;"	g
+Capture	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    struct Capture {$/;"	s
+CastTo	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^pub trait CastTo {$/;"	t
+Chain	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^pub struct Chain<'a> {$/;"	s
+Context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^pub trait Context<T, E>: context::private::Sealed {$/;"	t
+DisplayError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^pub struct DisplayError<M>(pub M);$/;"	s
+ENABLED	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^            static ENABLED: AtomicUsize = AtomicUsize::new(0);$/;"	c
+Error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^pub struct Error {$/;"	s
+ErrorVTable	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^struct ErrorVTable {$/;"	s
+Indented	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^struct Indented<'a, D> {$/;"	s
+Inner	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    enum Inner {$/;"	g
+Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    type Item = &'a (dyn StdError + 'static);$/;"	T
+LazilyResolvedCapture	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    struct LazilyResolvedCapture {$/;"	s
+MessageError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^pub struct MessageError<M>(pub M);$/;"	s
+Mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^pub struct Mut<'a, T>$/;"	s
+NotBothDebug	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^pub trait NotBothDebug {$/;"	t
+Ok	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^pub fn Ok<T>(t: T) -> Result<T> {$/;"	f
+Own	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^pub struct Own<T>$/;"	s
+Quoted	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^struct Quoted<C>(C);$/;"	s
+Ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^pub struct Ref<'a, T>$/;"	s
+Result	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^pub type Result<T, E = Error> = core::result::Result<T, E>;$/;"	T
+Sealed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    pub trait Sealed {}$/;"	t
+StdError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    pub trait StdError {$/;"	t
+StdError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^trait StdError: Debug + Display {$/;"	t
+Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    type Target = dyn StdError + Send + Sync + 'static;$/;"	T
+Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    type Target = T;$/;"	T
+Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    type Target;$/;"	T
+Trait	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub struct Trait;$/;"	s
+TraitKind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub trait TraitKind: Sized {$/;"	t
+__anyhow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/macros.rs	/^macro_rules! __anyhow {$/;"	d
+__dispatch_ensure	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^    fn __dispatch_ensure(self, msg: &'static str) -> Error {$/;"	f
+__dispatch_ensure	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^    fn __dispatch_ensure(self, msg: &'static str) -> Error;$/;"	f
+__fallback_ensure	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^macro_rules! __fallback_ensure {$/;"	d
+__fancy_ensure	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^macro_rules! __fancy_ensure {$/;"	d
+__parse_ensure	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^macro_rules! __parse_ensure {$/;"	d
+_assert	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    fn _assert<T: Send + Sync>() {}$/;"	f
+_assert_send_sync	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^fn _assert_send_sync() {$/;"	f
+anyhow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/macros.rs	/^macro_rules! anyhow {$/;"	d
+anyhow_kind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^    fn anyhow_kind(&self) -> Adhoc {$/;"	f
+anyhow_kind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^    fn anyhow_kind(&self) -> Boxed {$/;"	f
+anyhow_kind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^    fn anyhow_kind(&self) -> Trait {$/;"	f
+as_ptr	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn as_ptr(self) -> *const T {$/;"	f
+as_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn as_ref(&self) -> &(dyn StdError + 'static) {$/;"	f
+as_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn as_ref(&self) -> &(dyn StdError + Send + Sync + 'static) {$/;"	f
+as_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^    fn as_str(&self) -> &str {$/;"	f
+backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^macro_rules! backtrace {$/;"	d
+backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn backtrace(&self) -> &impl_backtrace!() {$/;"	f
+backtrace_if_absent	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^macro_rules! backtrace_if_absent {$/;"	d
+bail	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/macros.rs	/^macro_rules! bail {$/;"	d
+boxed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub unsafe fn boxed(self) -> Box<T> {$/;"	f
+by_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn by_mut(&mut self) -> Mut<T> {$/;"	f
+by_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn by_mut(self) -> Mut<'a, T> {$/;"	f
+by_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn by_ref(&self) -> Ref<T> {$/;"	f
+by_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn by_ref(self) -> Ref<'a, T> {$/;"	f
+cast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn cast<U: CastTo>(self) -> Mut<'a, U::Target> {$/;"	f
+cast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn cast<U: CastTo>(self) -> Own<U::Target> {$/;"	f
+cast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn cast<U: CastTo>(self) -> Ref<'a, U::Target> {$/;"	f
+chain	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn chain(&self) -> Chain {$/;"	f
+clone	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    fn clone(&self) -> Self {$/;"	f
+construct	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    unsafe fn construct<E>($/;"	f
+context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn context<C>(self, context: C) -> Result<T, Error>$/;"	f
+context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn context<C>(self, context: C) -> Self$/;"	f
+context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    fn context<C>(self, context: C) -> Result<T, Error>$/;"	f
+context_backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn context_backtrace<C>(e: Ref<ErrorImpl>) -> Option<&Backtrace>$/;"	f
+context_chain_downcast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn context_chain_downcast<C>(e: Ref<ErrorImpl>, target: TypeId) -> Option<Ref<()>>$/;"	f
+context_chain_downcast_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn context_chain_downcast_mut<C>(e: Mut<ErrorImpl>, target: TypeId) -> Option<Mut<()>>$/;"	f
+context_chain_drop_rest	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn context_chain_drop_rest<C>(e: Own<ErrorImpl>, target: TypeId)$/;"	f
+context_downcast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn context_downcast<C, E>(e: Ref<ErrorImpl>, target: TypeId) -> Option<Ref<()>>$/;"	f
+context_downcast_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn context_downcast_mut<C, E>(e: Mut<ErrorImpl>, target: TypeId) -> Option<Mut<()>>$/;"	f
+context_drop_rest	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn context_drop_rest<C, E>(e: Own<ErrorImpl>, target: TypeId)$/;"	f
+create	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn create(ip: usize) -> Backtrace {$/;"	f
+default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn default() -> Self {$/;"	f
+deref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn deref(&self) -> &Self::Target {$/;"	f
+deref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub unsafe fn deref(self) -> &'a T {$/;"	f
+deref_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn deref_mut(&mut self) -> &mut Self::Target {$/;"	f
+deref_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub unsafe fn deref_mut(self) -> &'a mut T {$/;"	f
+downcast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn downcast<E>(mut self) -> Result<E, Self>$/;"	f
+downcast_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn downcast_mut<E>(&mut self) -> Option<&mut E>$/;"	f
+downcast_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn downcast_ref<E>(&self) -> Option<&E>$/;"	f
+drop	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn drop(&mut self) {$/;"	f
+enabled	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn enabled() -> bool {$/;"	f
+ensure	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/macros.rs	/^macro_rules! ensure {$/;"	d
+erase	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn erase(&self) -> Ref<ErrorImpl> {$/;"	f
+ext_context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^        fn ext_context<C>(self, context: C) -> Error$/;"	f
+extend	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn extend<'b>(self) -> Mut<'b, T> {$/;"	f
 first_digit	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn first_digit(s: &str) -> char {$/;"	f
+first_num	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn first_num(s: &str) -> i64 {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+force	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn force(&self) -> &Capture {$/;"	f
+format_err	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    pub fn format_err(args: Arguments) -> Error {$/;"	f
+from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn from(error: E) -> Self {$/;"	f
+from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn from(error: Error) -> Self {$/;"	f
+from_raw	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn from_raw(ptr: NonNull<T>) -> Self {$/;"	f
+impl_backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^macro_rules! impl_backtrace {$/;"	d
+is	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn is<E>(&self) -> bool$/;"	f
 last_digit	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn last_digit(s: &str) -> char {$/;"	f
+last_num	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn last_num(s: &str) -> i64 {$/;"	f
+len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn len(&self) -> usize {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn main() {$/;"	f
-problem1	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn problem1() -> io::Result<i64> {$/;"	f
+msg	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn msg<M>(message: M) -> Self$/;"	f
+must_use	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    pub fn must_use(error: Error) -> Error {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn new(capture: Capture) -> Self {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    pub fn new(head: &'a (dyn StdError + 'static)) -> Self {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^    fn new() -> Self {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn new<E>(error: E) -> Self$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^    pub fn new(self, error: Box<dyn StdError + Send + Sync>) -> Error {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^    pub fn new<E>(self, error: E) -> Error$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^    pub fn new<M>(self, message: M) -> Error$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn new(ptr: &'a T) -> Self {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn new(ptr: &'a mut T) -> Self {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn new(ptr: Box<T>) -> Self {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn next(&mut self) -> Option<Self::Item> {$/;"	f
+next_back	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn next_back(&mut self) -> Option<Self::Item> {$/;"	f
+no_backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^fn no_backtrace(e: Ref<ErrorImpl>) -> Option<&Backtrace> {$/;"	f
+no_digits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^    fn no_digits() {$/;"	f
+num_strings	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn num_strings() -> Vec<&'static str> {$/;"	f
+object_boxed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_boxed<E>(e: Own<ErrorImpl>) -> Box<dyn StdError + Send + Sync + 'static>$/;"	f
+object_downcast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_downcast<E>(e: Ref<ErrorImpl>, target: TypeId) -> Option<Ref<()>>$/;"	f
+object_downcast_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_downcast_mut<E>(e: Mut<ErrorImpl>, target: TypeId) -> Option<Mut<()>>$/;"	f
+object_drop	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_drop<E>(e: Own<ErrorImpl>) {$/;"	f
+object_drop_front	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_drop_front<E>(e: Own<ErrorImpl>, target: TypeId) {$/;"	f
+object_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_mut<E>(e: Mut<ErrorImpl>) -> &mut (dyn StdError + Send + Sync + 'static)$/;"	f
+object_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_ref<E>(e: Ref<ErrorImpl>) -> Ref<dyn StdError + Send + Sync + 'static>$/;"	f
+one_digit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^    fn one_digit() {$/;"	f
+output_filename	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    fn output_filename($/;"	f
+provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
+provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
+provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    unsafe fn provide<'a>(this: Ref<'a, Self>, request: &mut Request<'a>) {$/;"	f
+provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^    fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
+read	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub unsafe fn read(self) -> T {$/;"	f
+render	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^fn render(msg: &'static str, lhs: &dyn Debug, rhs: &dyn Debug) -> Error {$/;"	f
+resolve	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn resolve(&mut self) {$/;"	f
+root_cause	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn root_cause(&self) -> &(dyn StdError + 'static) {$/;"	f
+size_hint	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn size_hint(&self) -> (usize, Option<usize>) {$/;"	f
+source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
+source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
+source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
+source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star1() -> io::Result<i64> {$/;"	f
+star2	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star2() -> anyhow::Result<u64> {$/;"	f
+test_first_num	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn test_first_num() {$/;"	f
+thiserror_provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn thiserror_provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
+two_digits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^    fn two_digits() {$/;"	f
+vtable	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn vtable(p: NonNull<ErrorImpl>) -> &'static ErrorVTable {$/;"	f
+with_context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn with_context<C, F>(self, context: F) -> Result<T, Error>$/;"	f
+with_context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    fn with_context<C, F>(self, f: F) -> Result<T, Error>$/;"	f
+write_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
+write_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^    fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
+write_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^    fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
