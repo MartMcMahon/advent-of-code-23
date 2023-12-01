@@ -1,0 +1,10 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+first_digit	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn first_digit(s: &str) -> char {$/;"	f
+last_digit	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn last_digit(s: &str) -> char {$/;"	f
+main	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn main() {$/;"	f
+problem1	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn problem1() -> io::Result<i64> {$/;"	f
