@@ -9,35 +9,109 @@ Boxed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.
 BoxedError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^pub struct BoxedError(pub Box<dyn StdError + Send + Sync>);$/;"	s
 BoxedKind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub trait BoxedKind: Sized {$/;"	t
 Buf	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^struct Buf {$/;"	s
+Builder	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^struct Builder {$/;"	s
 BytesOrWide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    enum BytesOrWide {$/;"	g
 Capture	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    struct Capture {$/;"	s
+CaptureLocations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct CaptureLocations(captures::Captures);$/;"	s
+CaptureLocations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct CaptureLocations(captures::Captures);$/;"	s
+CaptureMatches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct CaptureMatches<'r, 'h> {$/;"	s
+CaptureMatches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct CaptureMatches<'r, 'h> {$/;"	s
+CaptureNames	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct CaptureNames<'r>(captures::GroupInfoPatternNames<'r>);$/;"	s
+CaptureNames	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct CaptureNames<'r>(captures::GroupInfoPatternNames<'r>);$/;"	s
+Captures	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct Captures<'h> {$/;"	s
+Captures	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct Captures<'h> {$/;"	s
+CapturesDebugMap	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^        struct CapturesDebugMap<'a> {$/;"	s
+CapturesDebugMap	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^        struct CapturesDebugMap<'a> {$/;"	s
 CastTo	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^pub trait CastTo {$/;"	t
 Chain	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^pub struct Chain<'a> {$/;"	s
 Context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^pub trait Context<T, E>: context::private::Sealed {$/;"	t
 DisplayError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^pub struct DisplayError<M>(pub M);$/;"	s
 ENABLED	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^            static ENABLED: AtomicUsize = AtomicUsize::new(0);$/;"	c
+Err	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    type Err = Error;$/;"	T
+Err	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    type Err = Error;$/;"	T
 Error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^pub struct Error {$/;"	s
+Error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/error.rs	/^pub enum Error {$/;"	g
+Error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    type Error = Error;$/;"	T
+Error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    type Error = Error;$/;"	T
 ErrorVTable	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^struct ErrorVTable {$/;"	s
+Game	/Users/mart/code/advent-of-code-23/src/main.rs	/^struct Game {$/;"	s
 Indented	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^struct Indented<'a, D> {$/;"	s
 Inner	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    enum Inner {$/;"	g
+IntoIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    type IntoIter = SetMatchesIntoIter;$/;"	T
+IntoIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    type IntoIter = SetMatchesIter<'a>;$/;"	T
+IntoIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    type IntoIter = SetMatchesIntoIter;$/;"	T
+IntoIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    type IntoIter = SetMatchesIter<'a>;$/;"	T
 Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    type Item = &'a (dyn StdError + 'static);$/;"	T
+Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    type Item = &'h [u8];$/;"	T
+Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    type Item = Captures<'h>;$/;"	T
+Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    type Item = Match<'h>;$/;"	T
+Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    type Item = Option<&'r str>;$/;"	T
+Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    type Item = Option<Match<'h>>;$/;"	T
+Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    type Item = &'h str;$/;"	T
+Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    type Item = Captures<'h>;$/;"	T
+Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    type Item = Match<'h>;$/;"	T
+Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    type Item = Option<&'r str>;$/;"	T
+Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    type Item = Option<Match<'h>>;$/;"	T
+Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    type Item = usize;$/;"	T
+Item	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    type Item = usize;$/;"	T
+Key	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^        struct Key<'a>(usize, Option<&'a str>);$/;"	s
+Key	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^        struct Key<'a>(usize, Option<&'a str>);$/;"	s
 LazilyResolvedCapture	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    struct LazilyResolvedCapture {$/;"	s
+Locations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub type Locations = CaptureLocations;$/;"	T
+Locations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub type Locations = CaptureLocations;$/;"	T
+Match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct Match<'h> {$/;"	s
+Match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct Match<'h> {$/;"	s
+Matches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct Matches<'r, 'h> {$/;"	s
+Matches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct Matches<'r, 'h> {$/;"	s
 MessageError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^pub struct MessageError<M>(pub M);$/;"	s
 Mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^pub struct Mut<'a, T>$/;"	s
+NoExpand	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct NoExpand<'s>(pub &'s [u8]);$/;"	s
+NoExpand	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct NoExpand<'s>(pub &'s str);$/;"	s
 NotBothDebug	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^pub trait NotBothDebug {$/;"	t
 Ok	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^pub fn Ok<T>(t: T) -> Result<T> {$/;"	f
+Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    type Output = [u8];$/;"	T
+Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    type Output = str;$/;"	T
 Own	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^pub struct Own<T>$/;"	s
 Quoted	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^struct Quoted<C>(C);$/;"	s
+RE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/lib.rs	/^    static RE: Lazy<Regex> = Lazy::new(|| Regex::new(r"...").unwrap());$/;"	c
 Ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^pub struct Ref<'a, T>$/;"	s
+Regex	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct Regex {$/;"	s
+Regex	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct Regex {$/;"	s
+RegexBuilder	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    pub struct RegexBuilder {$/;"	s
+RegexSearcher	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/pattern.rs	/^pub struct RegexSearcher<'r, 't> {$/;"	s
+RegexSet	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^pub struct RegexSet {$/;"	s
+RegexSet	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^pub struct RegexSet {$/;"	s
+RegexSetBuilder	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    pub struct RegexSetBuilder {$/;"	s
+Replacer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub trait Replacer {$/;"	t
+Replacer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub trait Replacer {$/;"	t
+ReplacerRef	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct ReplacerRef<'a, R: ?Sized>(&'a mut R);$/;"	s
+ReplacerRef	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct ReplacerRef<'a, R: ?Sized>(&'a mut R);$/;"	s
 Result	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^pub type Result<T, E = Error> = core::result::Result<T, E>;$/;"	T
+Round	/Users/mart/code/advent-of-code-23/src/main.rs	/^struct Round {$/;"	s
 Sealed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    pub trait Sealed {}$/;"	t
+Searcher	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/pattern.rs	/^    type Searcher = RegexSearcher<'r, 't>;$/;"	T
+SetMatches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^pub struct SetMatches(PatternSet);$/;"	s
+SetMatches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^pub struct SetMatches(PatternSet);$/;"	s
+SetMatchesIntoIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^pub struct SetMatchesIntoIter {$/;"	s
+SetMatchesIntoIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^pub struct SetMatchesIntoIter {$/;"	s
+SetMatchesIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^pub struct SetMatchesIter<'a>(PatternSetIter<'a>);$/;"	s
+SetMatchesIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^pub struct SetMatchesIter<'a>(PatternSetIter<'a>);$/;"	s
+Split	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct Split<'r, 'h> {$/;"	s
+Split	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct Split<'r, 'h> {$/;"	s
+SplitN	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct SplitN<'r, 'h> {$/;"	s
+SplitN	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct SplitN<'r, 'h> {$/;"	s
 StdError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    pub trait StdError {$/;"	t
 StdError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^trait StdError: Debug + Display {$/;"	t
+SubCaptureMatches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct SubCaptureMatches<'c, 'h> {$/;"	s
+SubCaptureMatches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct SubCaptureMatches<'c, 'h> {$/;"	s
+TEST_INPUT	/Users/mart/code/advent-of-code-23/src/main.rs	/^    const TEST_INPUT: &str = r#"Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green$/;"	c
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    type Target = dyn StdError + Send + Sync + 'static;$/;"	T
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    type Target = T;$/;"	T
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    type Target;$/;"	T
 Trait	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub struct Trait;$/;"	s
 TraitKind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub trait TraitKind: Sized {$/;"	t
+Value	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^        struct Value<'a>(Match<'a>);$/;"	s
+Value	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^        struct Value<'a>(Match<'a>);$/;"	s
 __anyhow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/macros.rs	/^macro_rules! __anyhow {$/;"	d
 __dispatch_ensure	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^    fn __dispatch_ensure(self, msg: &'static str) -> Error {$/;"	f
 __dispatch_ensure	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^    fn __dispatch_ensure(self, msg: &'static str) -> Error;$/;"	f
@@ -50,19 +124,50 @@ anyhow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1
 anyhow_kind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^    fn anyhow_kind(&self) -> Adhoc {$/;"	f
 anyhow_kind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^    fn anyhow_kind(&self) -> Boxed {$/;"	f
 anyhow_kind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^    fn anyhow_kind(&self) -> Trait {$/;"	f
+as_bytes	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn as_bytes(&self) -> &'h [u8] {$/;"	f
 as_ptr	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn as_ptr(self) -> *const T {$/;"	f
 as_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn as_ref(&self) -> &(dyn StdError + 'static) {$/;"	f
 as_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn as_ref(&self) -> &(dyn StdError + Send + Sync + 'static) {$/;"	f
 as_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^    fn as_str(&self) -> &str {$/;"	f
+as_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn as_str(&self) -> &str {$/;"	f
+as_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn as_str(&self) -> &'h str {$/;"	f
+as_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn as_str(&self) -> &str {$/;"	f
 backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^macro_rules! backtrace {$/;"	d
 backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn backtrace(&self) -> &impl_backtrace!() {$/;"	f
 backtrace_if_absent	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^macro_rules! backtrace_if_absent {$/;"	d
 bail	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/macros.rs	/^macro_rules! bail {$/;"	d
 boxed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub unsafe fn boxed(self) -> Box<T> {$/;"	f
+build	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn build(&self) -> Result<Regex, Error> {$/;"	f
+build	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn build(&self) -> Result<RegexSet, Error> {$/;"	f
+build_many_bytes	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn build_many_bytes(&self) -> Result<crate::bytes::RegexSet, Error> {$/;"	f
+build_many_string	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn build_many_string(&self) -> Result<crate::RegexSet, Error> {$/;"	f
+build_one_bytes	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn build_one_bytes(&self) -> Result<crate::bytes::Regex, Error> {$/;"	f
+build_one_string	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn build_one_string(&self) -> Result<crate::Regex, Error> {$/;"	f
 by_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn by_mut(&mut self) -> Mut<T> {$/;"	f
 by_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn by_mut(self) -> Mut<'a, T> {$/;"	f
 by_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn by_ref(&self) -> Ref<T> {$/;"	f
 by_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn by_ref(self) -> Ref<'a, T> {$/;"	f
+by_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn by_ref<'r>(&'r mut self) -> ReplacerRef<'r, Self> {$/;"	f
+by_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn by_ref<'r>(&'r mut self) -> ReplacerRef<'r, Self> {$/;"	f
+capture_locations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn capture_locations(&self) -> CaptureLocations {$/;"	f
+capture_locations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn capture_locations(&self) -> CaptureLocations {$/;"	f
+capture_names	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn capture_names(&self) -> CaptureNames<'_> {$/;"	f
+capture_names	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn capture_names(&self) -> CaptureNames<'_> {$/;"	f
+captures	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn captures<'h>(&self, haystack: &'h [u8]) -> Option<Captures<'h>> {$/;"	f
+captures	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn captures<'h>(&self, haystack: &'h str) -> Option<Captures<'h>> {$/;"	f
+captures_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn captures_at<'h>($/;"	f
+captures_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn captures_at<'h>($/;"	f
+captures_iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn captures_iter<'r, 'h>($/;"	f
+captures_iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn captures_iter<'r, 'h>($/;"	f
+captures_len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn captures_len(&self) -> usize {$/;"	f
+captures_len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn captures_len(&self) -> usize {$/;"	f
+captures_read	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn captures_read<'h>($/;"	f
+captures_read	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn captures_read<'h>($/;"	f
+captures_read_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn captures_read_at<'h>($/;"	f
+captures_read_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn captures_read_at<'h>($/;"	f
+case_insensitive	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn case_insensitive(&mut self, yes: bool) -> &mut RegexBuilder {$/;"	f
+case_insensitive	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn case_insensitive(&mut self, yes: bool) -> &mut RegexSetBuilder {$/;"	f
+case_insensitive	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn case_insensitive(&mut self, yes: bool) -> &mut Builder {$/;"	f
 cast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn cast<U: CastTo>(self) -> Mut<'a, U::Target> {$/;"	f
 cast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn cast<U: CastTo>(self) -> Own<U::Target> {$/;"	f
 cast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn cast<U: CastTo>(self) -> Ref<'a, U::Target> {$/;"	f
@@ -79,21 +184,50 @@ context_chain_drop_rest	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22b
 context_downcast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn context_downcast<C, E>(e: Ref<ErrorImpl>, target: TypeId) -> Option<Ref<()>>$/;"	f
 context_downcast_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn context_downcast_mut<C, E>(e: Mut<ErrorImpl>, target: TypeId) -> Option<Mut<()>>$/;"	f
 context_drop_rest	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn context_drop_rest<C, E>(e: Own<ErrorImpl>, target: TypeId)$/;"	f
+count	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn count(self) -> usize {$/;"	f
+count	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn count(self) -> usize {$/;"	f
 create	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn create(ip: usize) -> Backtrace {$/;"	f
+crlf	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn crlf(&mut self, yes: bool) -> &mut RegexBuilder {$/;"	f
+crlf	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn crlf(&mut self, yes: bool) -> &mut RegexSetBuilder {$/;"	f
+crlf	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn crlf(&mut self, yes: bool) -> &mut Builder {$/;"	f
 default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn default() -> Self {$/;"	f
+default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn default() -> Builder {$/;"	f
+default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    fn default() -> Self {$/;"	f
+default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    fn default() -> Self {$/;"	f
 deref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn deref(&self) -> &Self::Target {$/;"	f
 deref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub unsafe fn deref(self) -> &'a T {$/;"	f
 deref_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn deref_mut(&mut self) -> &mut Self::Target {$/;"	f
 deref_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub unsafe fn deref_mut(self) -> &'a mut T {$/;"	f
+description	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/error.rs	/^    fn description(&self) -> &str {$/;"	f
+dfa_size_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn dfa_size_limit($/;"	f
+dfa_size_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn dfa_size_limit(&mut self, bytes: usize) -> &mut RegexBuilder {$/;"	f
+dfa_size_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn dfa_size_limit(&mut self, limit: usize) -> &mut Builder {$/;"	f
+dot_matches_new_line	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn dot_matches_new_line($/;"	f
+dot_matches_new_line	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn dot_matches_new_line(&mut self, yes: bool) -> &mut Builder {$/;"	f
 downcast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn downcast<E>(mut self) -> Result<E, Self>$/;"	f
 downcast_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn downcast_mut<E>(&mut self) -> Option<&mut E>$/;"	f
 downcast_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn downcast_ref<E>(&self) -> Option<&E>$/;"	f
 drop	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn drop(&mut self) {$/;"	f
+empty	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn empty() -> RegexSet {$/;"	f
+empty	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn empty() -> RegexSet {$/;"	f
 enabled	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn enabled() -> bool {$/;"	f
+end	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn end(&self) -> usize {$/;"	f
+end	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn end(&self) -> usize {$/;"	f
 ensure	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/macros.rs	/^macro_rules! ensure {$/;"	d
 erase	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn erase(&self) -> Ref<ErrorImpl> {$/;"	f
+escape	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/lib.rs	/^pub fn escape(pattern: &str) -> alloc::string::String {$/;"	f
+expand	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn expand(&self, replacement: &[u8], dst: &mut Vec<u8>) {$/;"	f
+expand	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn expand(&self, replacement: &str, dst: &mut String) {$/;"	f
 ext_context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^        fn ext_context<C>(self, context: C) -> Error$/;"	f
 extend	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn extend<'b>(self) -> Mut<'b, T> {$/;"	f
+extract	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn extract<const N: usize>(&self) -> (&'h [u8], [&'h [u8]; N]) {$/;"	f
+extract	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn extract<const N: usize>(&self) -> (&'h str, [&'h str; N]) {$/;"	f
+find	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn find<'h>(&self, haystack: &'h [u8]) -> Option<Match<'h>> {$/;"	f
+find	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn find<'h>(&self, haystack: &'h str) -> Option<Match<'h>> {$/;"	f
+find_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn find_at<'h>($/;"	f
+find_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn find_at<'h>($/;"	f
+find_iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn find_iter<'r, 'h>(&'r self, haystack: &'h [u8]) -> Matches<'r, 'h> {$/;"	f
+find_iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn find_iter<'r, 'h>(&'r self, haystack: &'h str) -> Matches<'r, 'h> {$/;"	f
 first_digit	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn first_digit(s: &str) -> char {$/;"	f
 first_num	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn first_num(s: &str) -> i64 {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {$/;"	f
@@ -101,21 +235,98 @@ fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/error.rs	/^    fn fmt(&self, f: &mut core::fmt::Formatter<'_>) -> core::fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^            fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn fmt(&self, f: &mut core::fmt::Formatter<'_>) -> core::fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^            fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn fmt(&self, f: &mut core::fmt::Formatter<'_>) -> core::fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    fn fmt(&self, f: &mut core::fmt::Formatter<'_>) -> core::fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    fn fmt(&self, f: &mut core::fmt::Formatter<'_>) -> core::fmt::Result {$/;"	f
 force	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn force(&self) -> &Capture {$/;"	f
 format_err	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    pub fn format_err(args: Arguments) -> Error {$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn from(error: E) -> Self {$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn from(error: Error) -> Self {$/;"	f
+from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn from(m: Match<'h>) -> &'h [u8] {$/;"	f
+from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn from(m: Match<'h>) -> core::ops::Range<usize> {$/;"	f
+from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn from(m: Match<'h>) -> &'h str {$/;"	f
+from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn from(m: Match<'h>) -> core::ops::Range<usize> {$/;"	f
 from_raw	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn from_raw(ptr: NonNull<T>) -> Self {$/;"	f
+from_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn from_str(s: &str) -> Result<Regex, Error> {$/;"	f
+from_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn from_str(s: &str) -> Result<Regex, Error> {$/;"	f
+get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn get(&self, i: usize) -> Option<(usize, usize)> {$/;"	f
+get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn get(&self, i: usize) -> Option<Match<'h>> {$/;"	f
+get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn get(&self, i: usize) -> Option<(usize, usize)> {$/;"	f
+get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn get(&self, i: usize) -> Option<Match<'h>> {$/;"	f
+get_min_cubes	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn get_min_cubes(&self) -> Round {$/;"	f
+haystack	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/pattern.rs	/^    fn haystack(&self) -> &'t str {$/;"	f
+ignore_whitespace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn ignore_whitespace($/;"	f
+ignore_whitespace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn ignore_whitespace(&mut self, yes: bool) -> &mut RegexBuilder {$/;"	f
+ignore_whitespace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn ignore_whitespace(&mut self, yes: bool) -> &mut Builder {$/;"	f
+imp	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/find_byte.rs	/^    fn imp(needle: u8, haystack: &[u8]) -> Option<usize> {$/;"	f
 impl_backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^macro_rules! impl_backtrace {$/;"	d
+index	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn index<'a>(&'a self, i: usize) -> &'a [u8] {$/;"	f
+index	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn index<'a>(&'a self, name: &'n str) -> &'a [u8] {$/;"	f
+index	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn index<'a>(&'a self, i: usize) -> &'a str {$/;"	f
+index	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn index<'a>(&'a self, name: &'n str) -> &'a str {$/;"	f
+into_iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    fn into_iter(self) -> Self::IntoIter {$/;"	f
+into_iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    fn into_iter(self) -> Self::IntoIter {$/;"	f
+into_searcher	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/pattern.rs	/^    fn into_searcher(self, haystack: &'t str) -> RegexSearcher<'r, 't> {$/;"	f
 is	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn is<E>(&self) -> bool$/;"	f
+is_empty	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn is_empty(&self) -> bool {$/;"	f
+is_empty	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn is_empty(&self) -> bool {$/;"	f
+is_empty	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn is_empty(&self) -> bool {$/;"	f
+is_empty	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn is_empty(&self) -> bool {$/;"	f
+is_match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn is_match(&self, haystack: &[u8]) -> bool {$/;"	f
+is_match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn is_match(&self, haystack: &str) -> bool {$/;"	f
+is_match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn is_match(&self, haystack: &[u8]) -> bool {$/;"	f
+is_match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn is_match(&self, haystack: &str) -> bool {$/;"	f
+is_match_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn is_match_at(&self, haystack: &[u8], start: usize) -> bool {$/;"	f
+is_match_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn is_match_at(&self, haystack: &str, start: usize) -> bool {$/;"	f
+is_match_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn is_match_at(&self, haystack: &[u8], start: usize) -> bool {$/;"	f
+is_match_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn is_match_at(&self, haystack: &str, start: usize) -> bool {$/;"	f
+is_valid	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn is_valid(&self) -> bool {$/;"	f
+iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn iter<'c>(&'c self) -> SubCaptureMatches<'c, 'h> {$/;"	f
+iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn iter<'c>(&'c self) -> SubCaptureMatches<'c, 'h> {$/;"	f
+iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn iter(&self) -> SetMatchesIter<'_> {$/;"	f
+iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn iter(&self) -> SetMatchesIter<'_> {$/;"	f
 last_digit	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn last_digit(s: &str) -> char {$/;"	f
 last_num	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn last_num(s: &str) -> i64 {$/;"	f
 len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn len(&self) -> usize {$/;"	f
+len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn len(&self) -> usize {$/;"	f
+len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn len(&self) -> usize {$/;"	f
+len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn len(&self) -> usize {$/;"	f
+len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn len(&self) -> usize {$/;"	f
+line_terminator	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn line_terminator(&mut self, byte: u8) -> &mut RegexBuilder {$/;"	f
+line_terminator	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn line_terminator(&mut self, byte: u8) -> &mut RegexSetBuilder {$/;"	f
+line_terminator	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn line_terminator(&mut self, byte: u8) -> &mut Builder {$/;"	f
+locations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn locations(&self) -> CaptureLocations {$/;"	f
+locations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn locations(&self) -> CaptureLocations {$/;"	f
+main	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/lib.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn main() {$/;"	f
+matched	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn matched(&self, index: usize) -> bool {$/;"	f
+matched	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn matched(&self, index: usize) -> bool {$/;"	f
+matched_any	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn matched_any(&self) -> bool {$/;"	f
+matched_any	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn matched_any(&self) -> bool {$/;"	f
+matches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn matches(&self, haystack: &[u8]) -> SetMatches {$/;"	f
+matches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn matches(&self, haystack: &str) -> SetMatches {$/;"	f
+matches_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn matches_at(&self, haystack: &[u8], start: usize) -> SetMatches {$/;"	f
+matches_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn matches_at(&self, haystack: &str, start: usize) -> SetMatches {$/;"	f
+matches_read_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn matches_read_at($/;"	f
+matches_read_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn matches_read_at($/;"	f
 msg	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn msg<M>(message: M) -> Self$/;"	f
+multi_line	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn multi_line(&mut self, yes: bool) -> &mut RegexBuilder {$/;"	f
+multi_line	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn multi_line(&mut self, yes: bool) -> &mut RegexSetBuilder {$/;"	f
+multi_line	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn multi_line(&mut self, yes: bool) -> &mut Builder {$/;"	f
 must_use	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    pub fn must_use(error: Error) -> Error {$/;"	f
+name	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn name(&self, name: &str) -> Option<Match<'h>> {$/;"	f
+name	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn name(&self, name: &str) -> Option<Match<'h>> {$/;"	f
+nest_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn nest_limit(&mut self, limit: u32) -> &mut RegexBuilder {$/;"	f
+nest_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn nest_limit(&mut self, limit: u32) -> &mut RegexSetBuilder {$/;"	f
+nest_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn nest_limit(&mut self, limit: u32) -> &mut Builder {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn new(capture: Capture) -> Self {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    pub fn new(head: &'a (dyn StdError + 'static)) -> Self {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^    fn new() -> Self {$/;"	f
@@ -126,10 +337,41 @@ new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn new(ptr: &'a T) -> Self {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn new(ptr: &'a mut T) -> Self {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn new(ptr: Box<T>) -> Self {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn new(pattern: &str) -> RegexBuilder {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn new<I, S>(patterns: I) -> RegexSetBuilder$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn new<I, S>(patterns: I) -> Builder$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn new(haystack: &'h [u8], start: usize, end: usize) -> Match<'h> {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn new(re: &str) -> Result<Regex, Error> {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn new(haystack: &'h str, start: usize, end: usize) -> Match<'h> {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn new(re: &str) -> Result<Regex, Error> {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn new<I, S>(exprs: I) -> Result<RegexSet, Error>$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn new<I, S>(exprs: I) -> Result<RegexSet, Error>$/;"	f
+new	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn new() -> Self {$/;"	f
 next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn next(&mut self) -> Option<Self::Item> {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/pattern.rs	/^    fn next(&mut self) -> SearchStep {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn next(&mut self) -> Option<&'h [u8]> {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn next(&mut self) -> Option<Captures<'h>> {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn next(&mut self) -> Option<Match<'h>> {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn next(&mut self) -> Option<Option<&'r str>> {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn next(&mut self) -> Option<Option<Match<'h>>> {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn next(&mut self) -> Option<&'h str> {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn next(&mut self) -> Option<Captures<'h>> {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn next(&mut self) -> Option<Match<'h>> {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn next(&mut self) -> Option<Option<&'r str>> {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn next(&mut self) -> Option<Option<Match<'h>>> {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    fn next(&mut self) -> Option<usize> {$/;"	f
+next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    fn next(&mut self) -> Option<usize> {$/;"	f
 next_back	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn next_back(&mut self) -> Option<Self::Item> {$/;"	f
+next_back	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    fn next_back(&mut self) -> Option<usize> {$/;"	f
+next_back	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    fn next_back(&mut self) -> Option<usize> {$/;"	f
 no_backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^fn no_backtrace(e: Ref<ErrorImpl>) -> Option<&Backtrace> {$/;"	f
 no_digits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^    fn no_digits() {$/;"	f
+no_expansion	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn no_expansion(&mut self) -> Option<Cow<'_, [u8]>> {$/;"	f
+no_expansion	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn no_expansion<'r>(&'r mut self) -> Option<Cow<'r, [u8]>> {$/;"	f
+no_expansion	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^fn no_expansion<T: AsRef<[u8]>>(replacement: &T) -> Option<Cow<'_, [u8]>> {$/;"	f
+no_expansion	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn no_expansion(&mut self) -> Option<Cow<'_, str>> {$/;"	f
+no_expansion	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn no_expansion<'r>(&'r mut self) -> Option<Cow<'r, str>> {$/;"	f
+no_expansion	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^fn no_expansion<T: AsRef<str>>(replacement: &T) -> Option<Cow<'_, str>> {$/;"	f
 num_strings	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn num_strings() -> Vec<&'static str> {$/;"	f
 object_boxed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_boxed<E>(e: Own<ErrorImpl>) -> Box<dyn StdError + Send + Sync + 'static>$/;"	f
 object_downcast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_downcast<E>(e: Ref<ErrorImpl>, target: TypeId) -> Option<Ref<()>>$/;"	f
@@ -138,30 +380,89 @@ object_drop	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/any
 object_drop_front	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_drop_front<E>(e: Own<ErrorImpl>, target: TypeId) {$/;"	f
 object_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_mut<E>(e: Mut<ErrorImpl>) -> &mut (dyn StdError + Send + Sync + 'static)$/;"	f
 object_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_ref<E>(e: Ref<ErrorImpl>) -> Ref<dyn StdError + Send + Sync + 'static>$/;"	f
+octal	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn octal(&mut self, yes: bool) -> &mut RegexBuilder {$/;"	f
+octal	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn octal(&mut self, yes: bool) -> &mut RegexSetBuilder {$/;"	f
+octal	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn octal(&mut self, yes: bool) -> &mut Builder {$/;"	f
 one_digit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^    fn one_digit() {$/;"	f
 output_filename	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    fn output_filename($/;"	f
+patterns	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn patterns(&self) -> &[String] {$/;"	f
+patterns	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn patterns(&self) -> &[String] {$/;"	f
+pos	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn pos(&self, i: usize) -> Option<(usize, usize)> {$/;"	f
+pos	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn pos(&self, i: usize) -> Option<(usize, usize)> {$/;"	f
+pow	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn pow(&self) -> u32 {$/;"	f
+proc_line	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn proc_line(line: String) -> Game {$/;"	f
 provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
 provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
 provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    unsafe fn provide<'a>(this: Ref<'a, Self>, request: &mut Request<'a>) {$/;"	f
 provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^    fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
+range	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn range(&self) -> core::ops::Range<usize> {$/;"	f
+range	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn range(&self) -> core::ops::Range<usize> {$/;"	f
 read	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub unsafe fn read(self) -> T {$/;"	f
+read_captures_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn read_captures_at<'h>($/;"	f
+read_captures_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn read_captures_at<'h>($/;"	f
+read_matches_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn read_matches_at($/;"	f
+read_matches_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn read_matches_at($/;"	f
 render	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^fn render(msg: &'static str, lhs: &dyn Debug, rhs: &dyn Debug) -> Error {$/;"	f
+replace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn replace<'h, R: Replacer>($/;"	f
+replace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn replace<'h, R: Replacer>($/;"	f
+replace_all	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn replace_all<'h, R: Replacer>($/;"	f
+replace_all	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn replace_all<'h, R: Replacer>($/;"	f
+replace_append	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn replace_append(&mut self, _: &Captures<'_>, dst: &mut Vec<u8>) {$/;"	f
+replace_append	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn replace_append(&mut self, caps: &Captures<'_>, dst: &mut Vec<u8>) {$/;"	f
+replace_append	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn replace_append(&mut self, caps: &Captures<'_>, dst: &mut Vec<u8>);$/;"	f
+replace_append	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn replace_append(&mut self, _: &Captures<'_>, dst: &mut String) {$/;"	f
+replace_append	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn replace_append(&mut self, caps: &Captures<'_>, dst: &mut String) {$/;"	f
+replace_append	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn replace_append(&mut self, caps: &Captures<'_>, dst: &mut String);$/;"	f
+replacen	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn replacen<'h, R: Replacer>($/;"	f
+replacen	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn replacen<'h, R: Replacer>($/;"	f
 resolve	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn resolve(&mut self) {$/;"	f
 root_cause	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn root_cause(&self) -> &(dyn StdError + 'static) {$/;"	f
+shortest_match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn shortest_match(&self, haystack: &[u8]) -> Option<usize> {$/;"	f
+shortest_match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn shortest_match(&self, haystack: &str) -> Option<usize> {$/;"	f
+shortest_match_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn shortest_match_at($/;"	f
+shortest_match_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn shortest_match_at($/;"	f
 size_hint	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn size_hint(&self) -> (usize, Option<usize>) {$/;"	f
+size_hint	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn size_hint(&self) -> (usize, Option<usize>) {$/;"	f
+size_hint	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn size_hint(&self) -> (usize, Option<usize>) {$/;"	f
+size_hint	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    fn size_hint(&self) -> (usize, Option<usize>) {$/;"	f
+size_hint	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    fn size_hint(&self) -> (usize, Option<usize>) {$/;"	f
+size_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn size_limit(&mut self, bytes: usize) -> &mut RegexBuilder {$/;"	f
+size_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn size_limit(&mut self, bytes: usize) -> &mut RegexSetBuilder {$/;"	f
+size_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn size_limit(&mut self, limit: usize) -> &mut Builder {$/;"	f
+some_helper_function	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/lib.rs	/^fn some_helper_function(haystack: &str) -> bool {$/;"	f
 source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
 source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
 source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
 source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
+split	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn split<'r, 'h>(&'r self, haystack: &'h [u8]) -> Split<'r, 'h> {$/;"	f
+split	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn split<'r, 'h>(&'r self, haystack: &'h str) -> Split<'r, 'h> {$/;"	f
+splitn	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn splitn<'r, 'h>($/;"	f
+splitn	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn splitn<'r, 'h>($/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star1() -> io::Result<i64> {$/;"	f
-star1	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star1() -> anyhow::Result<i32> {$/;"	f
-star1	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star1() -> anyhow::Result {}$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star1() -> anyhow::Result<u32> {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star1() -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star2() -> anyhow::Result<u64> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star2() -> anyhow::Result<i32> {$/;"	f
-star2	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star2() -> anyhow::Result {}$/;"	f
+star2	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star2() -> anyhow::Result<i32> {$/;"	f
+start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn start(&self) -> usize {$/;"	f
+start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn start(&self) -> usize {$/;"	f
+static_captures_len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn static_captures_len(&self) -> Option<usize> {$/;"	f
+static_captures_len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn static_captures_len(&self) -> Option<usize> {$/;"	f
+swap_greed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn swap_greed(&mut self, yes: bool) -> &mut RegexBuilder {$/;"	f
+swap_greed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn swap_greed(&mut self, yes: bool) -> &mut RegexSetBuilder {$/;"	f
+swap_greed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn swap_greed(&mut self, yes: bool) -> &mut Builder {$/;"	f
 test_first_num	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn test_first_num() {$/;"	f
+test_proc_line	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn test_proc_line() {$/;"	f
+test_star2	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn test_star2() {$/;"	f
 thiserror_provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn thiserror_provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
+try_from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn try_from(s: &str) -> Result<Regex, Error> {$/;"	f
+try_from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn try_from(s: String) -> Result<Regex, Error> {$/;"	f
+try_from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn try_from(s: &str) -> Result<Regex, Error> {$/;"	f
+try_from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn try_from(s: String) -> Result<Regex, Error> {$/;"	f
 two_digits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^    fn two_digits() {$/;"	f
+unicode	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn unicode(&mut self, yes: bool) -> &mut RegexBuilder {$/;"	f
+unicode	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn unicode(&mut self, yes: bool) -> &mut RegexSetBuilder {$/;"	f
+unicode	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn unicode(&mut self, yes: bool) -> &mut Builder {$/;"	f
 vtable	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn vtable(p: NonNull<ErrorImpl>) -> &'static ErrorVTable {$/;"	f
 with_context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn with_context<C, F>(self, context: F) -> Result<T, Error>$/;"	f
 with_context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    fn with_context<C, F>(self, f: F) -> Result<T, Error>$/;"	f
