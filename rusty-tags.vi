@@ -94,8 +94,8 @@ ensure	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1
 erase	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn erase(&self) -> Ref<ErrorImpl> {$/;"	f
 ext_context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^        fn ext_context<C>(self, context: C) -> Error$/;"	f
 extend	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn extend<'b>(self) -> Mut<'b, T> {$/;"	f
-first_digit	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn first_digit(s: &str) -> char {$/;"	f
-first_num	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn first_num(s: &str) -> i64 {$/;"	f
+first_digit	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn first_digit(s: &str) -> char {$/;"	f
+first_num	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn first_num(s: &str) -> i64 {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
@@ -108,10 +108,12 @@ from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0
 from_raw	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn from_raw(ptr: NonNull<T>) -> Self {$/;"	f
 impl_backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^macro_rules! impl_backtrace {$/;"	d
 is	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn is<E>(&self) -> bool$/;"	f
-last_digit	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn last_digit(s: &str) -> char {$/;"	f
-last_num	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn last_num(s: &str) -> i64 {$/;"	f
+last_digit	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn last_digit(s: &str) -> char {$/;"	f
+last_num	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn last_num(s: &str) -> i64 {$/;"	f
 len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn len(&self) -> usize {$/;"	f
+main	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn main() {$/;"	f
+main	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn main() {$/;"	f
 msg	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn msg<M>(message: M) -> Self$/;"	f
 must_use	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    pub fn must_use(error: Error) -> Error {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn new(capture: Capture) -> Self {$/;"	f
@@ -128,7 +130,7 @@ next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0
 next_back	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn next_back(&mut self) -> Option<Self::Item> {$/;"	f
 no_backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^fn no_backtrace(e: Ref<ErrorImpl>) -> Option<&Backtrace> {$/;"	f
 no_digits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^    fn no_digits() {$/;"	f
-num_strings	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn num_strings() -> Vec<&'static str> {$/;"	f
+num_strings	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn num_strings() -> Vec<&'static str> {$/;"	f
 object_boxed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_boxed<E>(e: Own<ErrorImpl>) -> Box<dyn StdError + Send + Sync + 'static>$/;"	f
 object_downcast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_downcast<E>(e: Ref<ErrorImpl>, target: TypeId) -> Option<Ref<()>>$/;"	f
 object_downcast_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn object_downcast_mut<E>(e: Mut<ErrorImpl>, target: TypeId) -> Option<Mut<()>>$/;"	f
@@ -151,9 +153,13 @@ source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1
 source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
 source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
 source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
-star1	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star1() -> io::Result<i64> {$/;"	f
-star2	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star2() -> anyhow::Result<u64> {$/;"	f
-test_first_num	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn test_first_num() {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star1() -> io::Result<i64> {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star1() -> anyhow::Result<i32> {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star1() -> anyhow::Result {}$/;"	f
+star2	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star2() -> anyhow::Result<u64> {$/;"	f
+star2	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star2() -> anyhow::Result<i32> {$/;"	f
+star2	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star2() -> anyhow::Result {}$/;"	f
+test_first_num	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn test_first_num() {$/;"	f
 thiserror_provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn thiserror_provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
 two_digits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^    fn two_digits() {$/;"	f
 vtable	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^unsafe fn vtable(p: NonNull<ErrorImpl>) -> &'static ErrorVTable {$/;"	f
