@@ -1,23 +1,29 @@
-use std::cmp::max;
-use std::collections::HashSet;
+use std::collections::{HashMap, HashSet};
 use std::io::prelude::*;
 use std::io::{self};
 use std::{fs::File, io::BufReader};
 
 #[derive(Clone, Debug, Eq, Hash, PartialEq)]
-struct PartNum {
+struct Part {
     coords: (usize, usize),
     num: u32,
+}
+#[derive(Debug)]
+struct Star {
+    parts: HashSet<Part>,
+    coords: (usize, usize),
 }
 struct Matrix {
     // data: [[char; 140]; 140],
     data: Vec<Vec<char>>,
     symbols_list: Vec<(usize, usize)>,
+    stars: Vec<Star>, // HashMap<(usize, usize), Vec<Star>>,
 }
 impl Matrix {
     fn from_lines(lines: &Vec<String>) -> Matrix {
         let mut symbols_list = Vec::new();
         let mut data = Vec::new();
+        let mut stars = Vec::new();
 
         for (y, line) in lines.iter().enumerate() {
             let chars = line.chars().collect::<Vec<_>>();
@@ -26,6 +32,12 @@ impl Matrix {
                 if *c != '.' && !c.is_digit(10) {
                     println!("found {} at ({}, {})", *c, x, y);
                     symbols_list.push((x, y));
+                    // if c == &'*' {
+                    //     stars.push(Star {
+                    //         coords: (x, y),
+                    //         parts: Vec::new(),
+                    //     })
+                    // }
                 }
                 //     matrix.data[y][x] = *c;
             }
@@ -35,6 +47,7 @@ impl Matrix {
             // data: [['.'; 140]; 140],
             data,
             symbols_list,
+            stars,
         }
     }
     fn get(&self, x: usize, y: usize) -> Option<char> {
@@ -45,7 +58,7 @@ impl Matrix {
         }
     }
 
-    fn get_number_at(&self, x: i32, y: i32) -> Option<PartNum> {
+    fn get_number_at(&self, x: i32, y: i32) -> Option<Part> {
         if x < 0 || y < 0 {
             return None;
         }
@@ -115,13 +128,13 @@ impl Matrix {
             }
         };
 
-        Some(PartNum {
+        Some(Part {
             coords: (start_x, y),
             num: n,
         })
     }
 
-    fn sum_parts(&self) -> u64 {
+    fn sum_parts(&mut self) -> u64 {
         let mut read_coords: HashSet<(usize, usize)> = HashSet::new();
         let mut part_sum: u64 = 0;
         for symbol_coords in self.symbols_list.iter() {
@@ -159,6 +172,16 @@ impl Matrix {
                 mods.push((symbol_coords.0 + 1, symbol_coords.1));
             }
 
+            // gear stuff
+            let mut is_star = false;
+            if self.get(symbol_coords.0, symbol_coords.1) == Some('*') {
+                self.stars.push(Star {
+                    coords: (symbol_coords.0, symbol_coords.1),
+                    parts: HashSet::new(),
+                });
+                is_star = true;
+            }
+
             for m in mods {
                 if let Some(part) = self.get_number_at(m.0 as i32, m.1 as i32) {
                     if !read_coords.contains(&(part.coords.0, part.coords.1)) {
@@ -174,17 +197,37 @@ impl Matrix {
                         );
                     }
                     read_coords.insert((part.coords.0, part.coords.1));
+                    if is_star {
+                        let s = self.stars.last_mut().unwrap();
+                        println!("s: {:#?}", s);
+                        self.stars.last_mut().unwrap().parts.insert(part);
+                    }
                 }
             }
         }
         part_sum
+    }
+
+    fn sum_gears(&mut self) -> u64 {
+        // let _x = &self.sum_parts();
+
+        let mut sum = 0;
+        for star in self.stars.iter() {
+            println!("parts {:#?}", star.parts);
+            if star.parts.len() != 2 {
+                continue;
+            }
+            let parts: Vec<Part> = star.parts.iter().cloned().collect();
+            sum += parts[0].num * parts[1].num;
+        }
+        sum as u64
     }
 }
 
 fn main() {
     let input = read_input(3).unwrap();
     println!("star 1: {}", star1(input.to_owned()).unwrap());
-    println!("star 2: {}", star2().unwrap());
+    println!("star 2: {}", star2(input.to_owned()).unwrap());
 }
 
 fn read_input(day: u8) -> io::Result<Vec<String>> {
@@ -198,14 +241,18 @@ fn read_input(day: u8) -> io::Result<Vec<String>> {
 }
 
 fn star1(input: Vec<String>) -> anyhow::Result<u64> {
-    let matrix = Matrix::from_lines(&input);
+    let mut matrix = Matrix::from_lines(&input);
     let part_sum = matrix.sum_parts();
 
     Ok(part_sum)
 }
 
-fn star2() -> anyhow::Result<i32> {
-    Ok(0)
+fn star2(input: Vec<String>) -> anyhow::Result<u64> {
+    let mut matrix = Matrix::from_lines(&input);
+    // needs to run to populate stars vec
+    let _x = matrix.sum_parts();
+    let sum = matrix.sum_gears();
+    Ok(sum)
 }
 
 #[cfg(test)]
@@ -226,13 +273,13 @@ mod tests {
     #[test]
     fn test_star1() {
         let input_lines: Vec<String> = INPUT.split("\n").map(|s| s.to_owned()).collect();
-        let matrix = Matrix::from_lines(&input_lines);
+        let mut matrix = Matrix::from_lines(&input_lines);
 
         assert_eq!(matrix.data.len(), 10);
         assert_eq!(matrix.data[0][0], '4');
         assert_eq!(matrix.data[4][0], '6');
 
-        let pn = PartNum {
+        let pn = Part {
             coords: (0, 0),
             num: 467,
         };
@@ -245,6 +292,10 @@ mod tests {
 
     #[test]
     fn test_star2() {
-        assert_eq!(super::star2().unwrap(), 0);
+        let input_lines: Vec<String> = INPUT.split("\n").map(|s| s.to_owned()).collect();
+        let mut matrix = Matrix::from_lines(&input_lines);
+        let _x = matrix.sum_parts();
+        assert_eq!(matrix.stars.len(), 3);
+        assert_eq!(matrix.sum_gears(), 467835);
     }
 }
