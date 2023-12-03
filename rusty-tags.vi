@@ -2,6 +2,7 @@
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
 Adhoc	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub struct Adhoc;$/;"	s
 AdhocKind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub trait AdhocKind: Sized {$/;"	t
+Args	/Users/mart/code/advent-of-code-23/src/main.rs	/^struct Args {$/;"	s
 BacktraceFrame	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    struct BacktraceFrame {$/;"	s
 BacktraceSymbol	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    struct BacktraceSymbol {$/;"	s
 BothDebug	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^pub trait BothDebug {$/;"	t
@@ -34,7 +35,7 @@ Error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.1
 Error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    type Error = Error;$/;"	T
 Error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    type Error = Error;$/;"	T
 ErrorVTable	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^struct ErrorVTable {$/;"	s
-Game	/Users/mart/code/advent-of-code-23/src/main.rs	/^struct Game {$/;"	s
+Game	/Users/mart/code/advent-of-code-23/src/day2.rs	/^struct Game {$/;"	s
 Indented	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^struct Indented<'a, D> {$/;"	s
 Inner	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    enum Inner {$/;"	g
 IntoIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    type IntoIter = SetMatchesIntoIter;$/;"	T
@@ -87,7 +88,7 @@ Replacer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-
 ReplacerRef	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct ReplacerRef<'a, R: ?Sized>(&'a mut R);$/;"	s
 ReplacerRef	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct ReplacerRef<'a, R: ?Sized>(&'a mut R);$/;"	s
 Result	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^pub type Result<T, E = Error> = core::result::Result<T, E>;$/;"	T
-Round	/Users/mart/code/advent-of-code-23/src/main.rs	/^struct Round {$/;"	s
+Round	/Users/mart/code/advent-of-code-23/src/day2.rs	/^struct Round {$/;"	s
 Sealed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    pub trait Sealed {}$/;"	t
 Searcher	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/pattern.rs	/^    type Searcher = RegexSearcher<'r, 't>;$/;"	T
 SetMatches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^pub struct SetMatches(PatternSet);$/;"	s
@@ -104,7 +105,7 @@ StdError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow
 StdError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^trait StdError: Debug + Display {$/;"	t
 SubCaptureMatches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct SubCaptureMatches<'c, 'h> {$/;"	s
 SubCaptureMatches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct SubCaptureMatches<'c, 'h> {$/;"	s
-TEST_INPUT	/Users/mart/code/advent-of-code-23/src/main.rs	/^    const TEST_INPUT: &str = r#"Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green$/;"	c
+TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    const TEST_INPUT: &str = r#"Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green$/;"	c
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    type Target = dyn StdError + Send + Sync + 'static;$/;"	T
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    type Target = T;$/;"	T
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    type Target;$/;"	T
@@ -259,7 +260,7 @@ get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.
 get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn get(&self, i: usize) -> Option<Match<'h>> {$/;"	f
 get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn get(&self, i: usize) -> Option<(usize, usize)> {$/;"	f
 get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn get(&self, i: usize) -> Option<Match<'h>> {$/;"	f
-get_min_cubes	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn get_min_cubes(&self) -> Round {$/;"	f
+get_min_cubes	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn get_min_cubes(&self) -> Round {$/;"	f
 haystack	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/pattern.rs	/^    fn haystack(&self) -> &'t str {$/;"	f
 ignore_whitespace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn ignore_whitespace($/;"	f
 ignore_whitespace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn ignore_whitespace(&mut self, yes: bool) -> &mut RegexBuilder {$/;"	f
@@ -286,7 +287,7 @@ is_match_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/reg
 is_match_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn is_match_at(&self, haystack: &str, start: usize) -> bool {$/;"	f
 is_match_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn is_match_at(&self, haystack: &[u8], start: usize) -> bool {$/;"	f
 is_match_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn is_match_at(&self, haystack: &str, start: usize) -> bool {$/;"	f
-is_valid	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn is_valid(&self) -> bool {$/;"	f
+is_valid	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn is_valid(&self) -> bool {$/;"	f
 iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn iter<'c>(&'c self) -> SubCaptureMatches<'c, 'h> {$/;"	f
 iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn iter<'c>(&'c self) -> SubCaptureMatches<'c, 'h> {$/;"	f
 iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn iter(&self) -> SetMatchesIter<'_> {$/;"	f
@@ -305,6 +306,7 @@ locations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex
 locations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn locations(&self) -> CaptureLocations {$/;"	f
 main	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/lib.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn main() {$/;"	f
+main	/Users/mart/code/advent-of-code-23/src/day2.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn main() {$/;"	f
 matched	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn matched(&self, index: usize) -> bool {$/;"	f
@@ -346,7 +348,7 @@ new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn new(re: &str) -> Result<Regex, Error> {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn new<I, S>(exprs: I) -> Result<RegexSet, Error>$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn new<I, S>(exprs: I) -> Result<RegexSet, Error>$/;"	f
-new	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn new() -> Self {$/;"	f
+new	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn new() -> Self {$/;"	f
 next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn next(&mut self) -> Option<Self::Item> {$/;"	f
 next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/pattern.rs	/^    fn next(&mut self) -> SearchStep {$/;"	f
 next	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn next(&mut self) -> Option<&'h [u8]> {$/;"	f
@@ -389,8 +391,8 @@ patterns	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-
 patterns	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn patterns(&self) -> &[String] {$/;"	f
 pos	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn pos(&self, i: usize) -> Option<(usize, usize)> {$/;"	f
 pos	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn pos(&self, i: usize) -> Option<(usize, usize)> {$/;"	f
-pow	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn pow(&self) -> u32 {$/;"	f
-proc_line	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn proc_line(line: String) -> Game {$/;"	f
+pow	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn pow(&self) -> u32 {$/;"	f
+proc_line	/Users/mart/code/advent-of-code-23/src/day2.rs	/^fn proc_line(line: String) -> Game {$/;"	f
 provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
 provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
 provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    unsafe fn provide<'a>(this: Ref<'a, Self>, request: &mut Request<'a>) {$/;"	f
@@ -439,9 +441,11 @@ split	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.1
 splitn	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn splitn<'r, 'h>($/;"	f
 splitn	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn splitn<'r, 'h>($/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star1() -> io::Result<i64> {$/;"	f
-star1	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star1() -> anyhow::Result<u32> {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/day2.rs	/^fn star1() -> anyhow::Result<u32> {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star1() -> anyhow::Result<i32> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star1() -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star2() -> anyhow::Result<u64> {$/;"	f
+star2	/Users/mart/code/advent-of-code-23/src/day2.rs	/^fn star2() -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star2() -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star2() -> anyhow::Result<i32> {$/;"	f
 start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn start(&self) -> usize {$/;"	f
@@ -452,8 +456,8 @@ swap_greed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/rege
 swap_greed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn swap_greed(&mut self, yes: bool) -> &mut RegexSetBuilder {$/;"	f
 swap_greed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn swap_greed(&mut self, yes: bool) -> &mut Builder {$/;"	f
 test_first_num	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn test_first_num() {$/;"	f
-test_proc_line	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn test_proc_line() {$/;"	f
-test_star2	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn test_star2() {$/;"	f
+test_proc_line	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn test_proc_line() {$/;"	f
+test_star2	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn test_star2() {$/;"	f
 thiserror_provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn thiserror_provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
 try_from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn try_from(s: &str) -> Result<Regex, Error> {$/;"	f
 try_from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn try_from(s: String) -> Result<Regex, Error> {$/;"	f
