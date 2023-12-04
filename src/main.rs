@@ -1,5 +1,5 @@
 use regex::Regex;
-use std::collections::HashSet;
+use std::collections::{HashMap, HashSet};
 use std::io::prelude::*;
 use std::io::{self};
 use std::{fs::File, io::BufReader};
@@ -10,8 +10,8 @@ fn main() {
         let line = line.unwrap();
         lines.push(line);
     }
-    println!("star 1: {}", star1(lines).unwrap());
-    println!("star 2: {}", star2().unwrap());
+    println!("star 1: {}", star1(lines.clone()).unwrap());
+    println!("star 2: {}", star2(lines).unwrap());
 }
 
 fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {
@@ -69,8 +69,43 @@ fn count_winning_nums(winning: Vec<u32>, ours: Vec<u32>) -> u32 {
     count
 }
 
-fn star2() -> anyhow::Result<i32> {
-    Ok(0)
+fn star2(lines: Vec<String>) -> anyhow::Result<i32> {
+    let mut card_count = [1; 203];
+    let mut card_tally = 0;
+
+    for (i, line) in lines.into_iter().enumerate() {
+        let pipe_index = line.find("|").unwrap();
+        let col_index = line.find(":").unwrap();
+        let (left, our_list) = line.split_at(pipe_index);
+        let (game, win_list) = &left.split_at(col_index + 2);
+
+        let re = Regex::new(r"^Card +(\d+): ").unwrap();
+        let (full_cap, [num]) = re.captures(&game).unwrap().extract();
+        let card_n = num.parse::<u32>().unwrap();
+
+        let winning = win_list
+            .split_whitespace()
+            .map(|x| x.parse::<u32>().unwrap())
+            .collect::<Vec<u32>>();
+
+        let ours = our_list
+            .split_whitespace()
+            .skip(1)
+            .map(|x| x.parse::<u32>().unwrap())
+            .collect::<Vec<u32>>();
+
+        card_tally += card_count[i];
+        let c = count_winning_nums(winning, ours);
+        if c == 0 {
+            continue;
+        }
+        for z in i + 1..i + 1 + c as usize {
+            card_count[z] += card_count[i];
+        }
+    }
+
+    // Ok(card_count.into_iter().sum())
+    Ok(card_tally)
 }
 
 #[cfg(test)]
@@ -96,7 +131,11 @@ Card 6: 31 18 13 56 72 | 74 77 10 23 35 67 36 11"#;
 
     #[test]
     fn test_star2() -> anyhow::Result<()> {
-        assert_eq!(star2()?, 0);
+        let lines = INPUT
+            .split("\n")
+            .map(|x| x.to_string())
+            .collect::<Vec<String>>();
+        assert_eq!(star2(lines)?, 30);
         Ok(())
     }
 }
