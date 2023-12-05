@@ -2,7 +2,6 @@ use regex::Regex;
 use std::collections::HashMap;
 use std::io::prelude::*;
 use std::io::{self};
-use std::mem::transmute;
 use std::{fs::File, io::BufReader};
 
 fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {
@@ -78,6 +77,7 @@ fn star1(lines: Vec<String>) -> u64 {
 }
 
 fn star2(lines: Vec<String>) -> u64 {
+// this never finished running, and was one off in the test
     let mut map_chain: Vec<Vec<GardenMap>> = Vec::new();
     let mut cats_list = lines.split(|s| s == "");
     let seeds_str: String = cats_list.nth(0).unwrap().to_vec()[0].to_owned();
@@ -186,5 +186,14 @@ humidity-to-location map:
             .collect::<Vec<String>>();
 
         assert_eq!(star1(lines.clone()), 35);
+    }
+
+    #[test]
+    fn test_star2() {
+        let lines = INPUT
+            .split("\n")
+            .map(|x| x.to_string())
+            .collect::<Vec<String>>();
+        assert_eq!(star2(lines.clone()), 46);
     }
 }
