@@ -1578,6 +1578,8 @@ get_number_at	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn get_number
 get_powers	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/cached.rs	/^    fn get_powers() -> &'static ModeratePathPowers {$/;"	f
 get_powers	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/cached.rs	/^    fn get_powers() -> &'static ModeratePathPowers;$/;"	f
 get_renames	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn get_renames($/;"	f
+get_seed_ranges	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn get_seed_ranges(s: String) -> Vec<(u64, u64)> {$/;"	f
+get_seeds	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn get_seeds(s: String) -> Vec<u64> {$/;"	f
 get_ser_and_de	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn get_ser_and_de<'c, T, F, R>($/;"	f
 get_small	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/cached.rs	/^    pub fn get_small(&self, index: usize) -> ExtendedFloat {$/;"	f
 get_small_int	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/cached.rs	/^    pub fn get_small_int(&self, index: usize) -> u64 {$/;"	f
@@ -2499,7 +2501,7 @@ star2	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star2() -> anyhow::Res
 star2	/Users/mart/code/advent-of-code-23/src/day2.rs	/^fn star2() -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn star2(input: Vec<String>) -> anyhow::Result<u64> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
-star2	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
+star2	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star2(lines: Vec<String>) -> u64 {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn start(&self) -> usize {$/;"	f
 start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn start(&self) -> usize {$/;"	f

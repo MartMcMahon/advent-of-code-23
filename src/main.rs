@@ -1,6 +1,8 @@
 use regex::Regex;
+use std::collections::HashMap;
 use std::io::prelude::*;
 use std::io::{self};
+use std::mem::transmute;
 use std::{fs::File, io::BufReader};
 
 fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {
@@ -17,7 +19,7 @@ fn main() {
     }
 
     println!("star 1: {}", star1(lines.clone()));
-    println!("star 2: {}", star2(lines).unwrap());
+    println!("star 2: {}", star2(lines));
 }
 
 fn get_next_link(maps: &Vec<GardenMap>, i: u64) -> u64 {
@@ -28,6 +30,28 @@ fn get_next_link(maps: &Vec<GardenMap>, i: u64) -> u64 {
         }
     }
     i
+}
+
+fn get_seeds(s: String) -> Vec<u64> {
+    s.split_whitespace()
+        .skip(1)
+        .map(|s| u64::from_str_radix(s, 10).unwrap())
+        .collect()
+}
+fn get_seed_ranges(s: String) -> Vec<(u64, u64)> {
+    let ns: Vec<u64> = s
+        .split_whitespace()
+        .skip(1)
+        .map(|s| u64::from_str_radix(s, 10).unwrap())
+        .collect();
+
+    let mut res = Vec::new();
+    for i in 0..ns.len() {
+        if i % 2 == 0 {
+            res.push((ns[i], ns[i + 1]));
+        }
+    }
+    res
 }
 
 fn star1(lines: Vec<String>) -> u64 {
@@ -41,11 +65,7 @@ fn star1(lines: Vec<String>) -> u64 {
 
     let mut locs = Vec::new();
 
-    let seeds: Vec<u64> = seeds_str
-        .split_whitespace()
-        .skip(1)
-        .map(|s| u64::from_str_radix(s, 10).unwrap())
-        .collect();
+    let seeds: Vec<u64> = get_seeds(seeds_str);
     for seed in seeds {
         let mut next_link = seed;
         for i in 0..7 {
@@ -57,8 +77,37 @@ fn star1(lines: Vec<String>) -> u64 {
     locs.into_iter().reduce(|x, y| std::cmp::min(x, y)).unwrap()
 }
 
-fn star2(lines: Vec<String>) -> anyhow::Result<i32> {
-    Ok(0)
+fn star2(lines: Vec<String>) -> u64 {
+    let mut map_chain: Vec<Vec<GardenMap>> = Vec::new();
+    let mut cats_list = lines.split(|s| s == "");
+    let seeds_str: String = cats_list.nth(0).unwrap().to_vec()[0].to_owned();
+    for cat_str in cats_list {
+        let maps = GardenMap::vec_from_lines(cat_str.to_vec());
+        map_chain.push(maps);
+    }
+
+    let mut locs: Vec<u64> = Vec::new();
+
+    let answer_map: HashMap<u64, u64> = HashMap::new();
+    let seed_ranges: Vec<(u64, u64)> = get_seed_ranges(seeds_str);
+    let mut c = 0;
+    for (start, length) in seed_ranges {
+        println!("calcing seed range: {}", c);
+        for seed in start..start + length {
+            if let Some(l) = answer_map.get(&(seed)) {
+                locs.push(*l);
+                continue;
+            }
+            let mut next_link = seed;
+            for i in 0..7 {
+                next_link = get_next_link(&map_chain[i], next_link);
+            }
+            locs.push(next_link);
+        }
+        c += 1;
+    }
+
+    locs.into_iter().reduce(|x, y| std::cmp::min(x, y)).unwrap()
 }
 
 struct GardenMap {
