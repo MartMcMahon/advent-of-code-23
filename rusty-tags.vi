@@ -7,15 +7,26 @@ AdhocKind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyho
 AdjacentlyTaggedEnumVariant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/ser.rs	/^pub struct AdjacentlyTaggedEnumVariant {$/;"	s
 AdjacentlyTaggedEnumVariantSeed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^pub struct AdjacentlyTaggedEnumVariantSeed<F> {$/;"	s
 AdjacentlyTaggedEnumVariantVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^pub struct AdjacentlyTaggedEnumVariantVisitor<F> {$/;"	s
+AlignType	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum AlignType$/;"	g
 Append	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/gnuplot_backend/mod.rs	/^trait Append<T> {$/;"	t
 ArrayInPlaceVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^struct ArrayInPlaceVisitor<'a, A: 'a>(&'a mut A);$/;"	s
 ArrayVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^struct ArrayVisitor<A> {$/;"	s
+ArrowData	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^struct ArrowData$/;"	s
+ArrowheadType	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum ArrowheadType$/;"	g
 AsCast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^pub trait AsCast: AsPrimitive {$/;"	t
 AsPrimitive	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^pub trait AsPrimitive: Sized + Copy + PartialOrd {$/;"	t
 AsyncBencher	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/bencher.rs	/^pub struct AsyncBencher<'a, 'b, A: AsyncExecutor, M: Measurement = WallTime> {$/;"	s
 AsyncExecutor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/async_executor.rs	/^pub trait AsyncExecutor {$/;"	t
 AsyncStdExecutor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/async_executor.rs	/^pub struct AsyncStdExecutor;$/;"	s
 Attr	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^struct Attr<'c, T> {$/;"	s
+AutoOption	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum AutoOption<T>$/;"	g
+Axes2D	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^pub struct Axes2D$/;"	s
+Axes3D	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^pub struct Axes3D$/;"	s
+AxesCommon	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub trait AxesCommon: AxesCommonPrivate$/;"	t
+AxesCommonData	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub struct AxesCommonData$/;"	s
+AxesCommonPrivate	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub trait AxesCommonPrivate$/;"	t
+AxesVariant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^enum AxesVariant$/;"	g
+AxisData	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub struct AxisData$/;"	s
 AxisScale	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^pub enum AxisScale {$/;"	g
 AxisScale	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^pub enum AxisScale {$/;"	g
 BASE10_BIAS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/cached_float80.rs	/^const BASE10_BIAS: i32 = 350;$/;"	c
@@ -50,6 +61,8 @@ BenchmarkId	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cri
 BenchmarkValueGroup	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^struct BenchmarkValueGroup<'a> {$/;"	s
 BoolAttr	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^struct BoolAttr<'c>(Attr<'c, ()>);$/;"	s
 BoolVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^struct BoolVisitor;$/;"	s
+BorderLocation2D	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum BorderLocation2D$/;"	g
+BorderOptions	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^struct BorderOptions$/;"	s
 BorrowAttribute	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^struct BorrowAttribute {$/;"	s
 Borrowed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^pub struct Borrowed<'de, T: 'de + ?Sized>(pub &'de T);$/;"	s
 BorrowedBytesDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^pub struct BorrowedBytesDeserializer<'de, E> {$/;"	s
@@ -80,6 +93,8 @@ CARRY_MASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serd
 CARRY_MASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const CARRY_MASK: u64 = 0x20000000000000;$/;"	c
 CARRY_MASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const CARRY_MASK: u64;$/;"	c
 CHANGE_STATS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/mod.rs	/^const CHANGE_STATS: [Statistic; 2] = [Statistic::Mean, Statistic::Median];$/;"	c
+CIVIDIS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/palettes/cm_listed.rs	/^pub const CIVIDIS: PaletteType<&'static [(f32, f32, f32, f32)]> = PaletteType::Custom(&[$/;"	c
+COLOR	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub const COLOR: PaletteType<&'static [(f32, f32, f32, f32)]> = Formula(7, 5, 15);$/;"	c
 COMPARISON_COLORS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/gnuplot_backend/summary.rs	/^static COMPARISON_COLORS: [Color; NUM_COLORS] = [$/;"	c
 COMPARISON_COLORS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/plotters_backend/summary.rs	/^static COMPARISON_COLORS: [RGBColor; NUM_COLORS] = [$/;"	c
 CONTENT	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const CONTENT: Symbol = Symbol("content");$/;"	c
@@ -106,6 +121,7 @@ ChangeEstimates	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f
 ChangePointEstimates	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/estimate.rs	/^pub struct ChangePointEstimates {$/;"	s
 CharEscape	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^pub enum CharEscape {$/;"	g
 CharVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^struct CharVisitor;$/;"	s
+CloseSentinel	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^pub struct CloseSentinel$/;"	s
 CompactFormatter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^pub struct CompactFormatter;$/;"	s
 Comparison	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^struct Comparison {$/;"	s
 ComparisonResult	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^enum ComparisonResult {$/;"	g
@@ -124,6 +140,8 @@ ContentSerializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba1500
 ContentVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^    struct ContentVisitor<'de> {$/;"	s
 Context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^pub trait Context<T, E>: context::private::Sealed {$/;"	t
 Context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^struct Context {$/;"	s
+ContourStyle	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum ContourStyle$/;"	g
+Coordinate	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/coordinates.rs	/^pub enum Coordinate$/;"	g
 CowBytesVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^    struct CowBytesVisitor;$/;"	s
 CowStrDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^pub struct CowStrDeserializer<'a, E> {$/;"	s
 CowStrVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^    struct CowStrVisitor;$/;"	s
@@ -154,8 +172,11 @@ DESERIALIZE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ser
 DESERIALIZE_WITH	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const DESERIALIZE_WITH: Symbol = Symbol("deserialize_with");$/;"	c
 DX	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/kernel.rs	/^                        const DX: $ty = 1e-3;$/;"	c
 DX	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/mod.rs	/^                    const DX: $ty = 1e-3;$/;"	c
+DashType	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum DashType$/;"	g
 Data	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/bivariate/mod.rs	/^pub struct Data<'a, X, Y>(&'a [X], &'a [Y]);$/;"	s
 Data	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/ast.rs	/^pub enum Data<'a> {$/;"	g
+DataSourceType	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^enum DataSourceType$/;"	g
+DataType	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/datatype.rs	/^pub trait DataType: Clone$/;"	t
 DeImplGenerics	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^struct DeImplGenerics<'a>(&'a Parameters);$/;"	s
 DeTypeGenerics	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^struct DeTypeGenerics<'a>(&'a Parameters);$/;"	s
 Default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^pub enum Default {$/;"	g
@@ -289,7 +310,10 @@ FieldVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/se
 FieldVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^            struct FieldVisitor;$/;"	s
 FieldVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/number.rs	/^        struct FieldVisitor;$/;"	s
 FieldVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^        struct FieldVisitor;$/;"	s
+Figure	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^pub struct Figure$/;"	s
 FileCsvReport	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/csv_report.rs	/^pub struct FileCsvReport;$/;"	s
+FillPatternType	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum FillPatternType$/;"	g
+FillRegionType	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum FillRegionType$/;"	g
 FindTyParams	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/bound.rs	/^    struct FindTyParams<'ast> {$/;"	s
 First	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^        type First = A;$/;"	T
 First	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^        type First;$/;"	T
@@ -312,10 +336,14 @@ Fused	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_jso
 FuturesExecutor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/async_executor.rs	/^pub struct FuturesExecutor;$/;"	s
 GETTER	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const GETTER: Symbol = Symbol("getter");$/;"	c
 GNUPLOT_VERSION	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^static GNUPLOT_VERSION: Lazy<Result<Version, VersionError>> = Lazy::new(criterion_plot::version);$/;"	c
+GRAY	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub const GRAY: PaletteType<&'static [(f32, f32, f32, f32)]> = Gray(1.0);$/;"	c
 Game	/Users/mart/code/advent-of-code-23/src/day2.rs	/^struct Game {$/;"	s
 GardenMap	/Users/mart/code/advent-of-code-23/src/day5.rs	/^struct GardenMap {$/;"	s
 Gaussian	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/kernel.rs	/^pub struct Gaussian;$/;"	s
+GnuplotInitError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/error_types.rs	/^pub struct GnuplotInitError$/;"	s
+GnuplotVersion	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub struct GnuplotVersion$/;"	s
 HALF	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const HALF: i32 = Self::FULL \/ 2;$/;"	c
+HELIX	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub const HELIX: PaletteType<&'static [(f32, f32, f32, f32)]> = CubeHelix(0.5, -0.8, 2.0, 1.0);$/;"	c
 HEX	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^static HEX: [u8; 256] = {$/;"	c
 HEX_DIGITS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^                static HEX_DIGITS: [u8; 16] = *b"0123456789abcdef";$/;"	c
 HIDDEN_BIT_MASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const HIDDEN_BIT_MASK: Self::Unsigned;$/;"	c
@@ -325,8 +353,10 @@ HIGH_MILD	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crite
 HIGH_SEVERE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^        static HIGH_SEVERE: Label = HighSevere;$/;"	c
 HIMASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const HIMASK: Self;$/;"	c
 HIMASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const HIMASK: u64 = 0xFFFFFFFF00000000;$/;"	c
+HOT	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub const HOT: PaletteType<&'static [(f32, f32, f32, f32)]> = Formula(34, 35, 36);$/;"	c
 Hi64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^trait Hi64<T>: AsRef<[T]> {$/;"	t
 Html	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^pub struct Html {$/;"	s
+INFERNO	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/palettes/cm_listed.rs	/^pub const INFERNO: PaletteType<&'static [(f32, f32, f32, f32)]> = PaletteType::Custom(&[$/;"	c
 INFINITY_BITS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const INFINITY_BITS: Self::Unsigned;$/;"	c
 INFINITY_BITS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const INFINITY_BITS: u32 = 0x7F800000;$/;"	c
 INFINITY_BITS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const INFINITY_BITS: u64 = 0x7FF0000000000000;$/;"	c
@@ -419,13 +449,19 @@ LOMASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_js
 LOW_MILD	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^        static LOW_MILD: Label = LowMild;$/;"	c
 LOW_SEVERE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^        static LOW_SEVERE: Label = LowSevere;$/;"	c
 Label	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^pub enum Label {$/;"	g
+LabelData	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub struct LabelData$/;"	s
+LabelOption	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum LabelOption<T>$/;"	g
+LabelType	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub enum LabelType$/;"	g
 LabeledSample	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^pub struct LabeledSample<'a, A>$/;"	s
 LazilyResolvedCapture	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    struct LazilyResolvedCapture {$/;"	s
+LegendData	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^struct LegendData$/;"	s
+LegendOption	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum LegendOption<T>$/;"	g
 Limb	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^pub type Limb = u32;$/;"	T
 Limb	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^pub type Limb = u64;$/;"	T
 LineColIterator	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/iter.rs	/^pub struct LineColIterator<I> {$/;"	s
 Locations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub type Locations = CaptureLocations;$/;"	T
 Locations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub type Locations = CaptureLocations;$/;"	T
+MAGMA	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/palettes/cm_listed.rs	/^pub const MAGMA: PaletteType<&'static [(f32, f32, f32, f32)]> = PaletteType::Custom(&[$/;"	c
 MANTISSA_MASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const MANTISSA_MASK: Self::Unsigned;$/;"	c
 MANTISSA_MASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const MANTISSA_MASK: u32 = 0x007FFFFF;$/;"	c
 MANTISSA_MASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const MANTISSA_MASK: u64 = 0x000FFFFFFFFFFFFF;$/;"	c
@@ -462,6 +498,8 @@ MapKeySerializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001
 MapRefDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^    struct MapRefDeserializer<'a, 'de: 'a, E>$/;"	s
 MapRefDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/de.rs	/^struct MapRefDeserializer<'de> {$/;"	s
 MapVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^                struct MapVisitor<K, V $(, $typaram)*> {$/;"	s
+MarginSide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum MarginSide$/;"	g
+Margins	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub struct Margins$/;"	s
 Match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct Match<'h> {$/;"	s
 Match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct Match<'h> {$/;"	s
 Match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/fragment.rs	/^pub struct Match(pub Fragment);$/;"	s
@@ -473,6 +511,9 @@ MessageError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/an
 MessageError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^pub enum MessageError {$/;"	g
 Metadata	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    struct Metadata {$/;"	s
 MissingFieldDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^    struct MissingFieldDeserializer<E>(&'static str, PhantomData<E>);$/;"	s
+MultiplotFillDirection	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum MultiplotFillDirection$/;"	g
+MultiplotFillOrder	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum MultiplotFillOrder$/;"	g
+MultiplotOptions	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^struct MultiplotOptions$/;"	s
 Mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^pub struct Mut<'a, T>$/;"	s
 N	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/number.rs	/^enum N {$/;"	g
 N	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/number.rs	/^type N = String;$/;"	T
@@ -520,6 +561,15 @@ OptionVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/s
 OsStringVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^struct OsStringVisitor;$/;"	s
 OutgoingMessage	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^pub enum OutgoingMessage<'a> {$/;"	g
 Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^    type Output = Label;$/;"	T
+Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^	type Output = AutoOption<String>;$/;"	T
+Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^	type Output = LabelOption<String>;$/;"	T
+Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^	type Output = LegendOption<String>;$/;"	T
+Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^	type Output = PaletteType<Vec<(f32, f32, f32, f32)>>;$/;"	T
+Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^	type Output = PlotOption<String>;$/;"	T
+Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^	type Output = Tick<T, String>;$/;"	T
+Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^	type Output = TickOption<String>;$/;"	T
+Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/util.rs	/^	type Output = Vec<<T as OneWayOwned>::Output>;$/;"	T
+Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/util.rs	/^	type Output;$/;"	T
 Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    type Output = [u8];$/;"	T
 Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    type Output = str;$/;"	T
 Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    type Output = Value;$/;"	T
@@ -527,6 +577,7 @@ Output	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_js
 Own	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^pub struct Own<T>$/;"	s
 Owned	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^    type Owned = Box<RawValue>;$/;"	T
 OwnedRawDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^pub struct OwnedRawDeserializer {$/;"	s
+PLASMA	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/palettes/cm_listed.rs	/^pub const PLASMA: PaletteType<&'static [(f32, f32, f32, f32)]> = PaletteType::Custom(&[$/;"	c
 POINT_SIZE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/gnuplot_backend/mod.rs	/^const POINT_SIZE: PointSize = PointSize(0.75);$/;"	c
 POINT_SIZE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/plotters_backend/mod.rs	/^static POINT_SIZE: u32 = 3;$/;"	c
 POW10	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^static POW10: [f64; 309] = [$/;"	c
@@ -568,6 +619,7 @@ Pair	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.
 PairDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^struct PairDeserializer<A, B, E>(A, B, PhantomData<E>);$/;"	s
 PairVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^struct PairVisitor<A, B, E>(Option<A>, Option<B>, PhantomData<E>);$/;"	s
 Pairs	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/bivariate/mod.rs	/^pub struct Pairs<'a, X: 'a, Y: 'a> {$/;"	s
+PaletteType	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum PaletteType<T>$/;"	g
 Parameters	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^struct Parameters {$/;"	s
 Parameters	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/ser.rs	/^struct Parameters {$/;"	s
 ParseError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/case.rs	/^pub struct ParseError<'a> {$/;"	s
@@ -579,9 +631,13 @@ PhantomDataVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba150
 Plot	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^struct Plot {$/;"	s
 PlotConfiguration	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^pub struct PlotConfiguration {$/;"	s
 PlotConfiguration	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^pub struct PlotConfiguration {$/;"	s
+PlotElement	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub struct PlotElement$/;"	s
+PlotOption	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum PlotOption<T>$/;"	g
+PlotType	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub enum PlotType$/;"	g
 PlottersBackend	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/plotters_backend/mod.rs	/^pub struct PlottersBackend;$/;"	s
 PlottingBackend	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^pub enum PlottingBackend {$/;"	g
 PointEstimates	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/estimate.rs	/^pub struct PointEstimates {$/;"	s
+Position	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub struct Position$/;"	s
 Position	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^pub struct Position {$/;"	s
 PrettyFormatter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^pub struct PrettyFormatter<'a> {$/;"	s
 PrimitiveVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^                struct PrimitiveVisitor;$/;"	s
@@ -589,6 +645,7 @@ Profiler	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criter
 QU	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    const QU: bool = true; \/\/ quote \\x22$/;"	c
 QU	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^const QU: u8 = b'"'; \/\/ \\x22$/;"	c
 Quoted	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^struct Quoted<C>(C);$/;"	s
+RAINBOW	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub const RAINBOW: PaletteType<&'static [(f32, f32, f32, f32)]> = Formula(33, 13, 10);$/;"	c
 RE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/lib.rs	/^    static RE: Lazy<Regex> = Lazy::new(|| Regex::new(r"...").unwrap());$/;"	c
 REMOTE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const REMOTE: Symbol = Symbol("remote");$/;"	c
 RENAME	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const RENAME: Symbol = Symbol("rename");$/;"	c
@@ -785,6 +842,7 @@ SetMatchesIntoIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba150
 SetMatchesIntoIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^pub struct SetMatchesIntoIter {$/;"	s
 SetMatchesIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^pub struct SetMatchesIter<'a>(PatternSetIter<'a>);$/;"	s
 SetMatchesIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^pub struct SetMatchesIter<'a>(PatternSetIter<'a>);$/;"	s
+Size	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub struct Size$/;"	s
 SliceRead	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^pub struct SliceRead<'a> {$/;"	s
 Slope	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/bivariate/regression.rs	/^pub struct Slope<A>(pub A)$/;"	s
 SmolExecutor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/async_executor.rs	/^pub struct SmolExecutor;$/;"	s
@@ -818,12 +876,14 @@ T	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193
 TAG	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const TAG: Symbol = Symbol("tag");$/;"	c
 TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    const TEST_INPUT: &str = r#"Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green$/;"	c
 TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day6.rs	/^    const TEST_INPUT: &str = r#"Time:      7  15   30$/;"	c
-TEST_INPUT	/Users/mart/code/advent-of-code-23/src/main.rs	/^    const TEST_INPUT: &str = r#"Time:      7  15   30$/;"	c
 THUMBNAIL_SIZE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^const THUMBNAIL_SIZE: Option<Size> = Some(Size(450, 300));$/;"	c
 TOKEN	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^pub const TOKEN: &str = "$serde_json::private::RawValue";$/;"	c
 TRANSPARENT	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const TRANSPARENT: Symbol = Symbol("transparent");$/;"	c
 TRY_FROM	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const TRY_FROM: Symbol = Symbol("try_from");$/;"	c
 TT	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^const TT: u8 = b't'; \/\/ \\x09$/;"	c
+TURBO	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/palettes/cm_listed.rs	/^pub const TURBO: PaletteType<&'static [(f32, f32, f32, f32)]> = PaletteType::Custom(&[$/;"	c
+TWILIGHT	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/palettes/cm_listed.rs	/^pub const TWILIGHT: PaletteType<&'static [(f32, f32, f32, f32)]> = PaletteType::Custom(&[$/;"	c
+TWILIGHT_SHIFTED	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/palettes/cm_listed.rs	/^pub const TWILIGHT_SHIFTED: PaletteType<&'static [(f32, f32, f32, f32)]> = PaletteType::Custom(&[$/;"	c
 TagContentOtherField	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^    pub enum TagContentOtherField {$/;"	g
 TagContentOtherFieldVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^    pub struct TagContentOtherFieldVisitor {$/;"	s
 TagOrContent	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^    pub enum TagOrContent<'de> {$/;"	g
@@ -842,6 +902,10 @@ Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterio
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/sample.rs	/^    type Target = [A];$/;"	T
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    type Target = T;$/;"	T
 Throughput	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^pub enum Throughput {$/;"	g
+Tick	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum Tick<T, S>$/;"	g
+TickAxis	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub enum TickAxis$/;"	g
+TickOption	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum TickOption<T>$/;"	g
+TickType	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub enum TickType$/;"	g
 Trait	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub struct Trait;$/;"	s
 TraitKind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub trait TraitKind: Sized {$/;"	t
 Tuple	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/tuple.rs	/^pub trait Tuple: Sized {$/;"	t
@@ -872,6 +936,7 @@ VARIANTS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-
 VARIANTS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^            const VARIANTS: &'static [&'static str] = &[ #(#names),* ];$/;"	c
 VARIANTS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^            const VARIANTS: &'static [&'static str] = &[ #(#variant_names),* ];$/;"	c
 VARIANT_IDENTIFIER	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const VARIANT_IDENTIFIER: Symbol = Symbol("variant_identifier");$/;"	c
+VIRIDIS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/palettes/cm_listed.rs	/^pub const VIRIDIS: PaletteType<&'static [(f32, f32, f32, f32)]> = PaletteType::Custom(&[$/;"	c
 VacantEntry	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^pub struct VacantEntry<'a> {$/;"	s
 VacantEntryImpl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^type VacantEntryImpl<'a> = btree_map::VacantEntry<'a, String, Value>;$/;"	T
 VacantEntryImpl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^type VacantEntryImpl<'a> = indexmap::map::VacantEntry<'a, String, Value>;$/;"	T
@@ -972,6 +1037,7 @@ VariantRefDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bb
 VecAttr	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^struct VecAttr<'c, T> {$/;"	s
 VecInPlaceVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^        struct VecInPlaceVisitor<'a, T: 'a>(&'a mut Vec<T>);$/;"	s
 VecVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^        struct VecVisitor<T> {$/;"	s
+View	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^enum View$/;"	g
 Visitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/mod.rs	/^pub trait Visitor<'de>: Sized {$/;"	t
 Visitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^        struct Visitor;$/;"	s
 Visitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/number.rs	/^        struct Visitor;$/;"	s
@@ -981,7 +1047,10 @@ WallTime	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criter
 Wide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^type Wide = u128;$/;"	T
 Wide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^type Wide = u64;$/;"	T
 Write	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/io/core.rs	/^pub trait Write {$/;"	t
+Writer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/writer.rs	/^pub trait Writer: Write$/;"	t
 WriterFormatter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^        struct WriterFormatter<'a, 'b: 'a> {$/;"	s
+XAxis	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum XAxis$/;"	g
+YAxis	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum YAxis$/;"	g
 ZERO	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^                const ZERO: Self = 0;$/;"	c
 ZERO	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const ZERO: Self;$/;"	c
 ZERO	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const ZERO: f32 = 0.0;$/;"	c
@@ -1042,6 +1111,7 @@ apply_to_field	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/
 apply_to_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/case.rs	/^    pub fn apply_to_variant(self, variant: &str) -> String {$/;"	f
 array_impls	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^macro_rules! array_impls {$/;"	d
 array_impls	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/impls.rs	/^macro_rules! array_impls {$/;"	d
+arrow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn arrow<'l>($/;"	f
 as_array	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^    pub fn as_array(&self) -> Option<&Vec<Value>> {$/;"	f
 as_array_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^    pub fn as_array_mut(&mut self) -> Option<&mut Vec<Value>> {$/;"	f
 as_bool	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^    pub fn as_bool(&self) -> Option<bool> {$/;"	f
@@ -1094,6 +1164,8 @@ at_most_one	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ser
 at_unchecked	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/percentiles.rs	/^    unsafe fn at_unchecked(&self, p: A) -> A {$/;"	f
 atomic_impl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^macro_rules! atomic_impl {$/;"	d
 atomic_impl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/impls.rs	/^macro_rules! atomic_impl {$/;"	d
+axes2d	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn axes2d(&mut self) -> &mut Axes2D$/;"	f
+axes3d	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn axes3d(&mut self) -> &mut Axes3D$/;"	f
 backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^macro_rules! backtrace {$/;"	d
 backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn backtrace(&self) -> &impl_backtrace!() {$/;"	f
 backtrace_if_absent	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^macro_rules! backtrace_if_absent {$/;"	d
@@ -1134,8 +1206,12 @@ borrow_cow_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/
 borrowable_lifetimes	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn borrowable_lifetimes($/;"	f
 borrowed_lifetimes	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^fn borrowed_lifetimes(cont: &Container) -> BorrowedLifetimes {$/;"	f
 borrowed_lifetimes	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn borrowed_lifetimes(&self) -> &BTreeSet<syn::Lifetime> {$/;"	f
+box_and_whisker	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn box_and_whisker<$/;"	f
+box_and_whisker_set_width	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn box_and_whisker_set_width<$/;"	f
 box_forwarded_impl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^macro_rules! box_forwarded_impl {$/;"	d
 boxed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub unsafe fn boxed(self) -> Box<T> {$/;"	f
+boxes	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn boxes<$/;"	f
+boxes_set_width	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn boxes_set_width<$/;"	f
 build	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn build(&self) -> Result<Regex, Error> {$/;"	f
 build	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn build(&self) -> Result<RegexSet, Error> {$/;"	f
 build_change_estimates	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/estimate.rs	/^pub fn build_change_estimates($/;"	f
@@ -1185,6 +1261,7 @@ cause	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion
 cautious	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/size_hint.rs	/^pub fn cautious<Element>(hint: Option<usize>) -> usize {$/;"	f
 chain	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn chain(&self) -> Chain {$/;"	f
 change	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/format.rs	/^pub fn change(pct: f64, signed: bool) -> String {$/;"	f
+char_to_symbol	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub fn char_to_symbol(c: char) -> i32$/;"	f
 check	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/check.rs	/^pub fn check(cx: &Ctxt, cont: &mut Container, derive: Derive) {$/;"	f
 check	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/ctxt.rs	/^    pub fn check(self) -> syn::Result<()> {$/;"	f
 check_adjacent_tag_conflict	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/check.rs	/^fn check_adjacent_tag_conflict(cx: &Ctxt, cont: &Container) {$/;"	f
@@ -1200,9 +1277,11 @@ check_recursion	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f
 check_remote_generic	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/check.rs	/^fn check_remote_generic(cx: &Ctxt, cont: &Container) {$/;"	f
 check_transparent	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/check.rs	/^fn check_transparent(cx: &Ctxt, cont: &mut Container, derive: Derive) {$/;"	f
 check_variant_skip_attrs	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/check.rs	/^fn check_variant_skip_attrs(cx: &Ctxt, cont: &Container) {$/;"	f
+clamp	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^		fn clamp<T: PartialOrd>(val: T, min: T, max: T) -> T$/;"	f
 classify	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^pub fn classify<A>(sample: &Sample<A>) -> LabeledSample<'_, A>$/;"	f
 classify	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/error.rs	/^    pub fn classify(&self) -> Category {$/;"	f
 clear	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    pub fn clear(&mut self) {$/;"	f
+clear_axes	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn clear_axes(&mut self) -> &mut Figure$/;"	f
 clone	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    fn clone(&self) -> Self {$/;"	f
 clone	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/bivariate/mod.rs	/^    fn clone(&self) -> Data<'a, X, Y> {$/;"	f
 clone	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^            fn clone(&self) -> Self {$/;"	f
@@ -1211,6 +1290,7 @@ clone	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0
 clone	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    fn clone(&self) -> Self {$/;"	f
 clone	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^    fn clone(&self) -> Self {$/;"	f
 clone_from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    fn clone_from(&mut self, source: &Self) {$/;"	f
+close	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn close(&mut self) -> &mut Figure$/;"	f
 cmp	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/sample.rs	/^        fn cmp<T>(a: &T, b: &T) -> Ordering$/;"	f
 col	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/iter.rs	/^    pub fn col(&self) -> usize {$/;"	f
 collect_lifetimes	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn collect_lifetimes(ty: &syn::Type, out: &mut BTreeSet<syn::Lifetime>) {$/;"	f
@@ -1297,6 +1377,9 @@ default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-
 default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    fn default() -> Criterion {$/;"	f
 default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    fn default() -> PlotConfiguration {$/;"	f
 default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    fn default() -> Self {$/;"	f
+default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn default() -> Self$/;"	f
+default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	fn default() -> GnuplotVersion$/;"	f
+default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	fn default() -> Self$/;"	f
 default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn default() -> Builder {$/;"	f
 default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    fn default() -> Self {$/;"	f
 default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    fn default() -> Self {$/;"	f
@@ -1574,9 +1657,12 @@ draw_line_comarision_figure	/Users/mart/.cargo/registry/src/index.crates.io-6f17
 draw_violin_figure	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/plotters_backend/summary.rs	/^fn draw_violin_figure<XR: AsRangedCoord<Value = f64>, YR: AsRangedCoord<Value = f64>>($/;"	f
 drop	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn drop(&mut self) {$/;"	f
 drop	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/benchmark_group.rs	/^    fn drop(&mut self) {$/;"	f
+drop	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	fn drop(&mut self)$/;"	f
 drop	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/ctxt.rs	/^    fn drop(&mut self) {$/;"	f
 duplicate_field	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/mod.rs	/^            fn duplicate_field(field: &'static str) -> Self {$/;"	f
 eat_char	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn eat_char(&mut self) {$/;"	f
+echo	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn echo<T: Writer>(&self, writer: &mut T) -> &Figure$/;"	f
+echo_to_file	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn echo_to_file<P: AsRef<Path>>(&self, filename: P) -> &Figure$/;"	f
 effective_style	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^fn effective_style(variant: &Variant) -> Style {$/;"	f
 effective_style	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/ser.rs	/^fn effective_style(variant: &Variant) -> Style {$/;"	f
 elapsed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/analysis/mod.rs	/^macro_rules! elapsed {$/;"	d
@@ -1640,6 +1726,7 @@ error_scale	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ser
 error_scale	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/errors.rs	/^    fn error_scale() -> u32;$/;"	f
 error_spanned_by	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/ctxt.rs	/^    pub fn error_spanned_by<A: ToTokens, T: Display>(&self, obj: A, msg: T) {$/;"	f
 escape	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/lib.rs	/^pub fn escape(pattern: &str) -> alloc::string::String {$/;"	f
+escape_test	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/util.rs	/^fn escape_test()$/;"	f
 estimate	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/mod.rs	/^    fn estimate<A: Float>(self, sample: &Sample<A>) -> A {$/;"	f
 estimate	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/mod.rs	/^    pub fn estimate(&self, x: A) -> A {$/;"	f
 estimates	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/analysis/compare.rs	/^fn estimates<M: Measurement>($/;"	f
@@ -1692,6 +1779,7 @@ faint	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion
 fences	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^    pub fn fences(&self) -> (A, A, A, A) {$/;"	f
 field_i	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^fn field_i(i: usize) -> Ident {$/;"	f
 fields_from_ast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/ast.rs	/^fn fields_from_ast<'a>($/;"	f
+fill_between	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn fill_between<$/;"	f
 filter_matches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    fn filter_matches(&self, id: &str) -> bool {$/;"	f
 final_summary	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^    fn final_summary(&self, report_context: &ReportContext) {$/;"	f
 final_summary	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    pub fn final_summary(&self) {$/;"	f
@@ -1705,6 +1793,8 @@ find_iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex
 finish	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/benchmark_group.rs	/^    pub fn finish(self) {$/;"	f
 first_digit	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn first_digit(s: &str) -> char {$/;"	f
 first_num	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn first_num(s: &str) -> i64 {$/;"	f
+first_opt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/util.rs	/^macro_rules! first_opt$/;"	d
+first_opt_default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/util.rs	/^macro_rules! first_opt_default$/;"	d
 fit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/bivariate/regression.rs	/^    pub fn fit(data: &Data<'_, A, A>) -> Slope<A> {$/;"	f
 fix_position	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn fix_position(&self, err: Error) -> Error {$/;"	f
 flat_map_take_entry	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^fn flat_map_take_entry<'de>($/;"	f
@@ -1714,6 +1804,7 @@ float_key_must_be_finite	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22
 flush	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/io/core.rs	/^    fn flush(&mut self) -> Result<()> {$/;"	f
 flush	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/io/core.rs	/^    fn flush(&mut self) -> Result<()>;$/;"	f
 flush	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^            fn flush(&mut self) -> io::Result<()> {$/;"	f
+flush_test	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^fn flush_test()$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn fmt(&self, fmt: &mut fmt::Formatter) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
@@ -1723,6 +1814,8 @@ fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/error.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/estimate.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/coordinates.rs	/^	fn fmt(&self, buf: &mut fmt::Formatter) -> fmt::Result$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/error_types.rs	/^	fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/error.rs	/^    fn fmt(&self, f: &mut core::fmt::Formatter<'_>) -> core::fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^            fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn fmt(&self, f: &mut core::fmt::Formatter) -> core::fmt::Result {$/;"	f
@@ -1778,6 +1871,7 @@ from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^    fn from(other: std::time::Duration) -> Self {$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/error.rs	/^    fn from(other: CsvError) -> Error {$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/mod.rs	/^    pub fn from(values: Box<[A]>) -> Distribution<A> {$/;"	f
+from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/error_types.rs	/^	fn from(error: io::Error) -> Self$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn from(m: Match<'h>) -> &'h [u8] {$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn from(m: Match<'h>) -> core::ops::Range<usize> {$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn from(m: Match<'h>) -> &'h str {$/;"	f
@@ -1802,12 +1896,12 @@ from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/from.rs	/^    fn from(f: f32) -> Self {$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/from.rs	/^    fn from(f: f64) -> Self {$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/from.rs	/^    fn from(opt: Option<T>) -> Self {$/;"	f
-from_	/Users/mart/code/advent-of-code-23/src/day5.rs	/^    fn from_$/;"	f
 from_ast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/ast.rs	/^    pub fn from_ast($/;"	f
 from_ast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn from_ast($/;"	f
 from_ast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn from_ast(cx: &Ctxt, item: &syn::DeriveInput) -> Self {$/;"	f
 from_ast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn from_ast(cx: &Ctxt, variant: &syn::Variant) -> Self {$/;"	f
 from_attrs	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    fn from_attrs($/;"	f
+from_axis	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn from_axis(axis_type: TickAxis) -> Self$/;"	f
 from_bits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn from_bits(u: Self::Unsigned) -> Self;$/;"	f
 from_bits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn from_bits(u: u32) -> f32 {$/;"	f
 from_bits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn from_bits(u: u64) -> f64 {$/;"	f
@@ -1850,6 +1944,9 @@ get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0
 get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/estimate.rs	/^    pub fn get(&self, stat: Statistic) -> &Estimate {$/;"	f
 get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/estimate.rs	/^    pub fn get(&self, stat: Statistic) -> Option<&Distribution<f64>> {$/;"	f
 get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/estimate.rs	/^    pub fn get(&self, stat: Statistic) -> Option<&Estimate> {$/;"	f
+get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/datatype.rs	/^			fn get(&self) -> f64$/;"	f
+get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/datatype.rs	/^	fn get(&self) -> f64$/;"	f
+get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/datatype.rs	/^	fn get(&self) -> f64;$/;"	f
 get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn get(&self, i: usize) -> Option<(usize, usize)> {$/;"	f
 get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn get(&self, i: usize) -> Option<Match<'h>> {$/;"	f
 get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn get(&self, i: usize) -> Option<(usize, usize)> {$/;"	f
@@ -1862,13 +1959,22 @@ get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-
 get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^    pub fn get(&self) -> &str {$/;"	f
 get	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^    pub fn get<I: Index>(&self, index: I) -> Option<&Value> {$/;"	f
 get	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn get(&self, x: usize, y: usize) -> Option<char> {$/;"	f
+get_axis_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn get_axis_str(&self) -> &str$/;"	f
+get_common_data	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	fn get_common_data(&self) -> &AxesCommonData$/;"	f
+get_common_data	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	fn get_common_data(&self) -> &AxesCommonData$/;"	f
+get_common_data	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn get_common_data(&self) -> &AxesCommonData;$/;"	f
+get_common_data_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	fn get_common_data_mut(&mut self) -> &mut AxesCommonData$/;"	f
+get_common_data_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	fn get_common_data_mut(&mut self) -> &mut AxesCommonData$/;"	f
+get_common_data_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn get_common_data_mut(&mut self) -> &mut AxesCommonData;$/;"	f
 get_extended_float	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/cached.rs	/^    pub fn get_extended_float(&self, index: usize) -> ExtendedFloat {$/;"	f
+get_gnuplot_version	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn get_gnuplot_version(&self) -> GnuplotVersion$/;"	f
 get_key_value	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    pub fn get_key_value<Q>(&self, key: &Q) -> Option<(&String, &Value)>$/;"	f
 get_large	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/cached.rs	/^    pub fn get_large(&self, index: usize) -> ExtendedFloat {$/;"	f
 get_lit_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn get_lit_str($/;"	f
 get_lit_str2	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn get_lit_str2($/;"	f
 get_member	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/ser.rs	/^fn get_member(params: &Parameters, field: &Field, member: &Member) -> TokenStream {$/;"	f
 get_min_cubes	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn get_min_cubes(&self) -> Round {$/;"	f
+get_mtick_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn get_mtick_str(&self) -> &str$/;"	f
 get_multiple_renames	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn get_multiple_renames($/;"	f
 get_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    pub fn get_mut(&mut self) -> &mut Value {$/;"	f
 get_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    pub fn get_mut<Q>(&mut self, key: &Q) -> Option<&mut Value>$/;"	f
@@ -1877,12 +1983,14 @@ get_next_link	/Users/mart/code/advent-of-code-23/src/day5.rs	/^fn get_next_link(
 get_number_at	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn get_number_at(&self, x: i32, y: i32) -> Option<Part> {$/;"	f
 get_powers	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/cached.rs	/^    fn get_powers() -> &'static ModeratePathPowers {$/;"	f
 get_powers	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/cached.rs	/^    fn get_powers() -> &'static ModeratePathPowers;$/;"	f
+get_range_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn get_range_str(&self) -> &str$/;"	f
 get_renames	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn get_renames($/;"	f
 get_seed_ranges	/Users/mart/code/advent-of-code-23/src/day5.rs	/^fn get_seed_ranges(s: String) -> Vec<(u64, u64)> {$/;"	f
 get_seeds	/Users/mart/code/advent-of-code-23/src/day5.rs	/^fn get_seeds(s: String) -> Vec<u64> {$/;"	f
 get_ser_and_de	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn get_ser_and_de<'c, T, F, R>($/;"	f
 get_small	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/cached.rs	/^    pub fn get_small(&self, index: usize) -> ExtendedFloat {$/;"	f
 get_small_int	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/cached.rs	/^    pub fn get_small_int(&self, index: usize) -> u64 {$/;"	f
+get_tick_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn get_tick_str(&self) -> &str$/;"	f
 get_where_predicates	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn get_where_predicates($/;"	f
 get_with_tokens	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    fn get_with_tokens(self) -> Option<(TokenStream, T)> {$/;"	f
 getter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn getter(&self) -> Option<&syn::ExprPath> {$/;"	f
@@ -1925,9 +2033,12 @@ ignore_value	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/se
 ignore_whitespace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn ignore_whitespace($/;"	f
 ignore_whitespace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn ignore_whitespace(&mut self, yes: bool) -> &mut RegexBuilder {$/;"	f
 ignore_whitespace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn ignore_whitespace(&mut self, yes: bool) -> &mut Builder {$/;"	f
+image	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn image<'l, T: DataType, X: IntoIterator<Item = T>>($/;"	f
 imp	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/find_byte.rs	/^    fn imp(needle: u8, haystack: &[u8]) -> Option<usize> {$/;"	f
 impl_backtrace	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^macro_rules! impl_backtrace {$/;"	d
 impl_copy_clone	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^macro_rules! impl_copy_clone {$/;"	d
+impl_data_type	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/datatype.rs	/^macro_rules! impl_data_type {$/;"	d
+impl_data_type_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/datatype.rs	/^macro_rules! impl_data_type_ref {$/;"	d
 impl_deserialize_num	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^macro_rules! impl_deserialize_num {$/;"	d
 impl_from_signed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/number.rs	/^macro_rules! impl_from_signed {$/;"	d
 impl_from_unsigned	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/number.rs	/^macro_rules! impl_from_unsigned {$/;"	d
@@ -2028,6 +2139,7 @@ is_empty	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_
 is_eof	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/error.rs	/^    pub fn is_eof(&self) -> bool {$/;"	f
 is_f64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/number.rs	/^    pub fn is_f64(&self) -> bool {$/;"	f
 is_f64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^    pub fn is_f64(&self) -> bool {$/;"	f
+is_fill	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn is_fill(&self) -> bool$/;"	f
 is_high	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^    pub fn is_high(&self) -> bool {$/;"	f
 is_human_readable	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/mod.rs	/^    fn is_human_readable(&self) -> bool {$/;"	f
 is_human_readable	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/mod.rs	/^    fn is_human_readable(&self) -> bool {$/;"	f
@@ -2037,6 +2149,8 @@ is_implicitly_borrowed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bb
 is_implicitly_borrowed_reference	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn is_implicitly_borrowed_reference(ty: &syn::Type) -> bool {$/;"	f
 is_inf	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn is_inf(self) -> bool {$/;"	f
 is_io	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/error.rs	/^    pub fn is_io(&self) -> bool {$/;"	f
+is_label	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn is_label(&self) -> bool$/;"	f
+is_line	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn is_line(&self) -> bool$/;"	f
 is_linear	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    fn is_linear(&self) -> bool {$/;"	f
 is_low	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^    pub fn is_low(&self) -> bool {$/;"	f
 is_match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn is_match(&self, haystack: &[u8]) -> bool {$/;"	f
@@ -2055,6 +2169,7 @@ is_object	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde
 is_option	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn is_option(ty: &syn::Type, elem: fn(&syn::Type) -> bool) -> bool {$/;"	f
 is_outlier	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^    pub fn is_outlier(&self) -> bool {$/;"	f
 is_packed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn is_packed(&self) -> bool {$/;"	f
+is_points	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn is_points(&self) -> bool$/;"	f
 is_primitive_path	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn is_primitive_path(path: &syn::Path, primitive: &str) -> bool {$/;"	f
 is_primitive_type	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn is_primitive_type(ty: &syn::Type, primitive: &str) -> bool {$/;"	f
 is_reference	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn is_reference(ty: &syn::Type, elem: fn(&syn::Type) -> bool) -> bool {$/;"	f
@@ -2123,6 +2238,7 @@ key	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-
 key_must_be_a_string	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^fn key_must_be_a_string() -> Error {$/;"	f
 key_must_be_a_string	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/ser.rs	/^fn key_must_be_a_string() -> Error {$/;"	f
 keys	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    pub fn keys(&self) -> Keys {$/;"	f
+label	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn label<'l>($/;"	f
 large_atof	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/bhcomp.rs	/^fn large_atof<F>(mantissa: Bigint, exponent: i32) -> F$/;"	f
 last_digit	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn last_digit(s: &str) -> char {$/;"	f
 last_num	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn last_num(s: &str) -> i64 {$/;"	f
@@ -2149,6 +2265,10 @@ line_comparison_series_data	/Users/mart/.cargo/registry/src/index.crates.io-6f17
 line_terminator	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn line_terminator(&mut self, byte: u8) -> &mut RegexBuilder {$/;"	f
 line_terminator	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn line_terminator(&mut self, byte: u8) -> &mut RegexSetBuilder {$/;"	f
 line_terminator	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn line_terminator(&mut self, byte: u8) -> &mut Builder {$/;"	f
+lines	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn lines<$/;"	f
+lines	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn lines<$/;"	f
+lines_points	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn lines_points<$/;"	f
+lines_points	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn lines_points<$/;"	f
 list_existing_benchmarks	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/fs.rs	/^pub fn list_existing_benchmarks<P>(directory: &P) -> Result<Vec<BenchmarkId>>$/;"	f
 load	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/fs.rs	/^pub fn load<A, P: ?Sized>(path: &P) -> Result<A>$/;"	f
 load_summary_data	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^    fn load_summary_data<'a>($/;"	f
@@ -2172,6 +2292,7 @@ mantissa	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_
 mantissa_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn mantissa_limit() -> i32 {$/;"	f
 mantissa_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn mantissa_limit() -> i32;$/;"	f
 map	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/mod.rs	/^    pub fn map(&self, xs: &[A]) -> Box<[A]> {$/;"	f
+map	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^	pub fn map<U, F: FnOnce(T) -> U>(self, f: F) -> AutoOption<U>$/;"	f
 map_as_enum	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^    pub fn map_as_enum<A>(map: A) -> MapAsEnum<A> {$/;"	f
 map_impl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^macro_rules! map_impl {$/;"	d
 map_impl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/impls.rs	/^macro_rules! map_impl {$/;"	d
@@ -2253,6 +2374,14 @@ new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/mod.rs	/^    pub fn new(sample: &'a Sample<A>, kernel: K, bw: Bandwidth) -> Kde<'a, A, K> {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/resamples.rs	/^    pub fn new(sample: &'a Sample<A>) -> Resamples<'a, A> {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/sample.rs	/^    pub fn new(slice: &[A]) -> &Sample<A> {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	fn new() -> BorderOptions$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn new(label_type: LabelType) -> Self$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn new() -> AxesCommonData$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn new() -> Self$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn new(axis: TickAxis) -> Self$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	fn new(gnuplot: Child) -> Self$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn new() -> Figure$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn new() -> MultiplotOptions$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn new(pattern: &str) -> RegexBuilder {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn new<I, S>(patterns: I) -> RegexSetBuilder$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn new<I, S>(patterns: I) -> Builder$/;"	f
@@ -2309,6 +2438,12 @@ new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/de.rs	/^    fn new(value: Cow<'de, str>) -> Self {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/de.rs	/^    fn new(vec: Vec<Value>) -> Self {$/;"	f
 new	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn new() -> Self {$/;"	f
+new_page	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn new_page(&mut self) -> &mut Figure$/;"	f
+new_plot2	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn new_plot2<T1, X1, T2, X2>($/;"	f
+new_plot3	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn new_plot3<T1, X1, T2, X2, T3, X3>($/;"	f
+new_plot5	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn new_plot5<T1, X1, T2, X2, T3, X3, T4, X4, T5, X5>($/;"	f
+new_plot6	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn new_plot6<T1, X1, T2, X2, T3, X3, T4, X4, T5, X5, T6, X6>($/;"	f
+new_plot_matrix	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn new_plot_matrix<T: DataType, X: IntoIterator<Item = T>>($/;"	f
 new_rng	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/rand_util.rs	/^pub fn new_rng() -> Rng {$/;"	f
 newtype_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/mod.rs	/^    fn newtype_variant<T>(self) -> Result<T, Self::Error>$/;"	f
 newtype_variant_seed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/mod.rs	/^    fn newtype_variant_seed<T>(self, seed: T) -> Result<T::Value, Self::Error>$/;"	f
@@ -2481,6 +2616,8 @@ plot_config	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cri
 plotting_backend	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    pub fn plotting_backend(mut self, backend: PlottingBackend) -> Criterion<M> {$/;"	f
 pointer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^    pub fn pointer(&self, pointer: &str) -> Option<&Value> {$/;"	f
 pointer_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^    pub fn pointer_mut(&mut self, pointer: &str) -> Option<&mut Value> {$/;"	f
+points	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn points<$/;"	f
+points	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn points<$/;"	f
 pos	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn pos(&self, i: usize) -> Option<(usize, usize)> {$/;"	f
 pos	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn pos(&self, i: usize) -> Option<(usize, usize)> {$/;"	f
 position	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    fn position(&self) -> Position {$/;"	f
@@ -2530,10 +2667,11 @@ read_captures_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001
 read_captures_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn read_captures_at<'h>($/;"	f
 read_input	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn read_input(day: u8) -> io::Result<Vec<String>> {$/;"	f
 read_lines	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
-read_lines	/Users/mart/code/advent-of-code-23/src/day5.rs	/^fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
-read_lines	/Users/mart/code/advent-of-code-23/src/day6.rs	/^fn read_lines() -> (Vec<String>, Vec<String>) {$/;"	f
-read_lines	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn read_lines() -> (Vec<String>, Vec<String>) {$/;"	f
+read_lines	/Users/mart/code/advent-of-code-23/src/day5.rs	/^pub fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
+read_lines	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn read_lines() -> (Vec<String>, Vec<String>) {$/;"	f
+read_lines	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
 read_lines	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
+read_lines2	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn read_lines2() -> (u128, u128) {$/;"	f
 read_matches_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn read_matches_at($/;"	f
 read_matches_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn read_matches_at($/;"	f
 recommend_flat_sample_size	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    fn recommend_flat_sample_size(target_time: f64, met: f64) -> u64 {$/;"	f
@@ -2578,6 +2716,10 @@ replacen	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-
 report_path	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    pub fn report_path<P: AsRef<Path> + ?Sized>(&self, id: &BenchmarkId, file_name: &P) -> PathBuf {$/;"	f
 reports_impl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^macro_rules! reports_impl {$/;"	d
 requires_default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^fn requires_default(field: &attr::Field, _variant: Option<&attr::Variant>) -> bool {$/;"	f
+reset_state	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	fn reset_state(&self, writer: &mut dyn Writer)$/;"	f
+reset_state	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	fn reset_state(&self, writer: &mut dyn Writer)$/;"	f
+reset_state	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn reset_state(&self, writer: &mut dyn Writer)$/;"	f
+reset_state	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	fn reset_state(&self, writer: &mut dyn Writer)$/;"	f
 resolve	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn resolve(&mut self) {$/;"	f
 respan_token	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/respan.rs	/^fn respan_token(mut token: TokenTree, span: Span) -> TokenTree {$/;"	f
 retain	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    pub fn retain<F>(&mut self, f: F)$/;"	f
@@ -2596,6 +2738,11 @@ sampling_mode	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/c
 save	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/fs.rs	/^pub fn save<D, P>(data: &D, path: &P) -> Result<()>$/;"	f
 save_baseline	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    pub fn save_baseline(mut self, baseline: String) -> Criterion<M> {$/;"	f
 save_string	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/fs.rs	/^pub fn save_string<P>(data: &str, path: &P) -> Result<()>$/;"	f
+save_to_canvas	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn save_to_canvas<P: AsRef<Path>>($/;"	f
+save_to_eps	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn save_to_eps<P: AsRef<Path>>($/;"	f
+save_to_pdf	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn save_to_pdf<P: AsRef<Path>>($/;"	f
+save_to_png	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn save_to_png<P: AsRef<Path>>($/;"	f
+save_to_svg	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn save_to_svg<P: AsRef<Path>>($/;"	f
 scale_for_machines	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn scale_for_machines(&self, _values: &mut [f64]) -> &'static str {$/;"	f
 scale_for_machines	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn scale_for_machines(&self, values: &mut [f64]) -> &'static str;$/;"	f
 scale_throughputs	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn scale_throughputs($/;"	f
@@ -2915,13 +3062,102 @@ serialize_value	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f
 serialize_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/ser.rs	/^fn serialize_variant($/;"	f
 serialize_with	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn serialize_with(&self) -> Option<&syn::ExprPath> {$/;"	f
 serve_value_formatter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^    pub fn serve_value_formatter($/;"	f
+set	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn set(&mut self, text: String, options: Vec<LabelOption<String>>)$/;"	f
 set	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    fn set<A: ToTokens>(&mut self, obj: A, value: T) {$/;"	f
+set_aspect_ratio	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_aspect_ratio(&mut self, ratio: AutoOption<f64>) -> &mut Self$/;"	f
+set_border	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn set_border<'l>($/;"	f
+set_cb_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_cb_grid(&mut self, show: bool) -> &mut Self$/;"	f
+set_cb_label	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_cb_label<'l>(&'l mut self, text: &str, options: &[LabelOption<&str>]) -> &'l mut Self$/;"	f
+set_cb_log	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_cb_log(&mut self, base: Option<f64>) -> &mut Self$/;"	f
+set_cb_range	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_cb_range(&mut self, min: AutoOption<f64>, max: AutoOption<f64>) -> &mut Self$/;"	f
+set_cb_ticks	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_cb_ticks<'l>($/;"	f
+set_cb_ticks_custom	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_cb_ticks_custom<$/;"	f
+set_cb_time	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_cb_time(&mut self, is_time: bool) -> &mut Self$/;"	f
+set_cntrparam	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^			fn set_cntrparam<F: FnOnce(&mut dyn Writer)>(w: &mut dyn Writer, wr: F)$/;"	f
+set_enhanced_text	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn set_enhanced_text(&mut self, enhanced: bool) -> &mut Figure$/;"	f
 set_failed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    fn set_failed(&mut self, _failed: &mut bool) {$/;"	f
 set_failed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    fn set_failed(&mut self, failed: &mut bool) {$/;"	f
 set_failed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    fn set_failed(&mut self, failed: &mut bool);$/;"	f
+set_gnuplot_version	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn set_gnuplot_version(&mut self, version: Option<GnuplotVersion>) -> &mut Figure$/;"	f
+set_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn set_grid(&mut self, show: bool)$/;"	f
+set_grid_options	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_grid_options<'l>(&'l mut self, front: bool, options: &[PlotOption<&str>])$/;"	f
 set_if_none	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    fn set_if_none(&mut self, value: T) {$/;"	f
+set_legend	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn set_legend<'l>($/;"	f
+set_log	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn set_log(&mut self, base: Option<f64>)$/;"	f
+set_margins	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_margins(&mut self, margins: &[MarginSide]) -> &mut Self$/;"	f
+set_minor_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn set_minor_grid(&mut self, show: bool)$/;"	f
+set_minor_grid_options	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_minor_grid_options<'l>(&'l mut self, options: &[PlotOption<&str>]) -> &'l mut Self$/;"	f
+set_multiplot_fill_order	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn set_multiplot_fill_order($/;"	f
+set_multiplot_layout	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn set_multiplot_layout(&mut self, rows: usize, columns: usize) -> &mut Self$/;"	f
+set_offset	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn set_offset(&mut self, offset_x: f32, offset_y: f32) -> &mut Self$/;"	f
 set_opt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    fn set_opt<A: ToTokens>(&mut self, obj: A, value: Option<T>) {$/;"	f
+set_palette	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_palette(&mut self, palette: PaletteType<&[(f32, f32, f32, f32)]>) -> &mut Self$/;"	f
+set_pos	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_pos(&mut self, x: f64, y: f64) -> &mut Self$/;"	f
+set_pos_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_pos_grid(&mut self, nrow: u32, ncol: u32, pos: u32) -> &mut Self$/;"	f
+set_post_commands	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn set_post_commands(&mut self, post_commands: &str) -> &mut Figure$/;"	f
+set_pre_commands	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn set_pre_commands(&mut self, pre_commands: &str) -> &mut Figure$/;"	f
+set_range	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn set_range(&mut self, min: AutoOption<f64>, max: AutoOption<f64>)$/;"	f
+set_reverse	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn set_reverse(&mut self, reverse: bool)$/;"	f
+set_scale	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn set_scale(&mut self, scale_x: f32, scale_y: f32) -> &mut Self$/;"	f
+set_size	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_size(&mut self, w: f64, h: f64) -> &mut Self$/;"	f
+set_terminal	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn set_terminal<'l>(&'l mut self, terminal: &str, output_file: &str) -> &'l mut Figure$/;"	f
+set_ticks	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn set_ticks($/;"	f
+set_ticks_custom	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn set_ticks_custom<T: DataType, TL: IntoIterator<Item = Tick<T, String>>>($/;"	f
+set_time	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn set_time(&mut self, is_time: bool)$/;"	f
+set_title	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_title<'l>(&'l mut self, text: &str, options: &[LabelOption<&str>]) -> &'l mut Self$/;"	f
+set_title	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn set_title(&mut self, title: &str) -> &mut Self$/;"	f
 set_true	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    fn set_true<A: ToTokens>(&mut self, obj: A) {$/;"	f
+set_view	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_view(&mut self, pitch: f64, yaw: f64) -> &mut Self$/;"	f
+set_view_map	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_view_map(&mut self) -> &mut Self$/;"	f
+set_x2_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x2_grid(&mut self, show: bool) -> &mut Self$/;"	f
+set_x2_label	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x2_label<'l>(&'l mut self, text: &str, options: &[LabelOption<&str>]) -> &'l mut Self$/;"	f
+set_x2_log	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x2_log(&mut self, base: Option<f64>) -> &mut Self$/;"	f
+set_x2_minor_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x2_minor_grid(&mut self, show: bool) -> &mut Self$/;"	f
+set_x2_range	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x2_range(&mut self, min: AutoOption<f64>, max: AutoOption<f64>) -> &mut Self$/;"	f
+set_x2_reverse	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x2_reverse(&mut self, reverse: bool) -> &mut Self$/;"	f
+set_x2_ticks	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x2_ticks<'l>($/;"	f
+set_x2_ticks_custom	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x2_ticks_custom<$/;"	f
+set_x2_time	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x2_time(&mut self, is_time: bool) -> &mut Self$/;"	f
+set_x_axis	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn set_x_axis<'l>(&'l mut self, show: bool, options: &[PlotOption<&str>]) -> &'l mut Self$/;"	f
+set_x_axis	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_x_axis<'l>(&'l mut self, show: bool, options: &[PlotOption<&str>]) -> &'l mut Self$/;"	f
+set_x_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x_grid(&mut self, show: bool) -> &mut Self$/;"	f
+set_x_label	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x_label<'l>(&'l mut self, text: &str, options: &[LabelOption<&str>]) -> &'l mut Self$/;"	f
+set_x_log	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x_log(&mut self, base: Option<f64>) -> &mut Self$/;"	f
+set_x_minor_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x_minor_grid(&mut self, show: bool) -> &mut Self$/;"	f
+set_x_range	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x_range(&mut self, min: AutoOption<f64>, max: AutoOption<f64>) -> &mut Self$/;"	f
+set_x_reverse	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x_reverse(&mut self, reverse: bool) -> &mut Self$/;"	f
+set_x_ticks	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x_ticks<'l>($/;"	f
+set_x_ticks_custom	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x_ticks_custom<$/;"	f
+set_x_time	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x_time(&mut self, is_time: bool) -> &mut Self$/;"	f
+set_y2_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y2_grid(&mut self, show: bool) -> &mut Self$/;"	f
+set_y2_label	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y2_label<'l>(&'l mut self, text: &str, options: &[LabelOption<&str>]) -> &'l mut Self$/;"	f
+set_y2_log	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y2_log(&mut self, base: Option<f64>) -> &mut Self$/;"	f
+set_y2_minor_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y2_minor_grid(&mut self, show: bool) -> &mut Self$/;"	f
+set_y2_range	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y2_range(&mut self, min: AutoOption<f64>, max: AutoOption<f64>) -> &mut Self$/;"	f
+set_y2_reverse	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y2_reverse(&mut self, reverse: bool) -> &mut Self$/;"	f
+set_y2_ticks	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y2_ticks<'l>($/;"	f
+set_y2_ticks_custom	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y2_ticks_custom<$/;"	f
+set_y2_time	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y2_time(&mut self, is_time: bool) -> &mut Self$/;"	f
+set_y_axis	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn set_y_axis<'l>(&'l mut self, show: bool, options: &[PlotOption<&str>]) -> &'l mut Self$/;"	f
+set_y_axis	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_y_axis<'l>(&'l mut self, show: bool, options: &[PlotOption<&str>]) -> &'l mut Self$/;"	f
+set_y_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y_grid(&mut self, show: bool) -> &mut Self$/;"	f
+set_y_label	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y_label<'l>(&'l mut self, text: &str, options: &[LabelOption<&str>]) -> &'l mut Self$/;"	f
+set_y_log	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y_log(&mut self, base: Option<f64>) -> &mut Self$/;"	f
+set_y_minor_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y_minor_grid(&mut self, show: bool) -> &mut Self$/;"	f
+set_y_range	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y_range(&mut self, min: AutoOption<f64>, max: AutoOption<f64>) -> &mut Self$/;"	f
+set_y_reverse	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y_reverse(&mut self, reverse: bool) -> &mut Self$/;"	f
+set_y_ticks	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y_ticks<'l>($/;"	f
+set_y_ticks_custom	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y_ticks_custom<$/;"	f
+set_y_time	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_y_time(&mut self, is_time: bool) -> &mut Self$/;"	f
+set_z_axis	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_z_axis<'l>(&'l mut self, show: bool, options: &[PlotOption<&str>]) -> &'l mut Self$/;"	f
+set_z_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_z_grid(&mut self, show: bool) -> &mut Self$/;"	f
+set_z_label	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_z_label<'l>(&'l mut self, text: &str, options: &[LabelOption<&str>])$/;"	f
+set_z_log	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_z_log(&mut self, base: Option<f64>) -> &mut Self$/;"	f
+set_z_range	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_z_range(&mut self, min: AutoOption<f64>, max: AutoOption<f64>) -> &mut Self$/;"	f
+set_z_reverse	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_z_reverse(&mut self, reverse: bool) -> &mut Self$/;"	f
+set_z_ticks	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_z_ticks<'l>($/;"	f
+set_z_ticks_custom	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_z_ticks_custom<$/;"	f
+set_z_time	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_z_time(&mut self, is_time: bool) -> &mut Self$/;"	f
 short	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/format.rs	/^pub fn short(n: f64) -> String {$/;"	f
 short_max_len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/format.rs	/^    fn short_max_len() {$/;"	f
 shortest_match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn shortest_match(&self, haystack: &[u8]) -> Option<usize> {$/;"	f
@@ -2933,6 +3169,10 @@ should_early_return_if_failed	/Users/mart/.cargo/registry/src/index.crates.io-6f
 should_early_return_if_failed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    const should_early_return_if_failed: bool = true;$/;"	c
 should_early_return_if_failed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    const should_early_return_if_failed: bool;$/;"	c
 should_save_baseline	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    fn should_save_baseline(&self) -> bool {$/;"	f
+show	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn show(&mut self) -> Result<CloseSentinel, GnuplotInitError>$/;"	f
+show_and_keep_running	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn show_and_keep_running(&mut self) -> Result<&mut Figure, GnuplotInitError>$/;"	f
+show_contours	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn show_contours($/;"	f
+show_contours_custom	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn show_contours_custom<T: DataType, TC: IntoIterator<Item = T>>($/;"	f
 signed_short	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/format.rs	/^fn signed_short(n: f64) -> String {$/;"	f
 signed_short_max_len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/format.rs	/^    fn signed_short_max_len() {$/;"	f
 significance_level	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/benchmark_group.rs	/^    pub fn significance_level(&mut self, sl: f64) -> &mut Self {$/;"	f
@@ -2965,6 +3205,7 @@ source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1
 source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
 source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^    fn source(&self) -> Option<&(dyn StdError + 'static)> {$/;"	f
 source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^    fn source(&self) -> Option<&(dyn std::error::Error + 'static)> {$/;"	f
+source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/error_types.rs	/^	fn source(&self) -> Option<&(dyn error::Error + 'static)>$/;"	f
 source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/std_error.rs	/^    fn source(&self) -> Option<&(Error + 'static)> {$/;"	f
 source	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/error.rs	/^    fn source(&self) -> Option<&(dyn error::Error + 'static)> {$/;"	f
 split	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn split<'r, 'h>(&'r self, haystack: &'h [u8]) -> Split<'r, 'h> {$/;"	f
@@ -2980,9 +3221,9 @@ star1	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star1() -> io::Result<
 star1	/Users/mart/code/advent-of-code-23/src/day2.rs	/^fn star1() -> anyhow::Result<u32> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn star1(input: Vec<String>) -> anyhow::Result<u64> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn star1(lines: Vec<String>) -> anyhow::Result<u32> {$/;"	f
-star1	/Users/mart/code/advent-of-code-23/src/day5.rs	/^fn star1(lines: Vec<String>) -> u64 {$/;"	f
-star1	/Users/mart/code/advent-of-code-23/src/day6.rs	/^fn star1(times: Vec<String>, distances: Vec<String>) -> anyhow::Result<i32> {$/;"	f
-star1	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star1(times: Vec<String>, distances: Vec<String>) -> anyhow::Result<i32> {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/day5.rs	/^pub fn star1(lines: Vec<String>) -> u64 {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn star1(times: Vec<String>, distances: Vec<String>) -> anyhow::Result<i32> {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star1(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star1(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star2() -> anyhow::Result<u64> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day2.rs	/^fn star2() -> anyhow::Result<i32> {$/;"	f
@@ -2990,7 +3231,7 @@ star2	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn star2(input: Vec<Strin
 star2	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day5.rs	/^fn star2(lines: Vec<String>) -> u64 {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn star2(time: u128, distance: u128) -> anyhow::Result<u128> {$/;"	f
-star2	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star2(time: u128, distance: u128) -> anyhow::Result<u128> {$/;"	f
+star2	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn start(&self) -> Self::Intermediate {$/;"	f
 start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn start(&self) -> Self::Intermediate;$/;"	f
@@ -3023,6 +3264,7 @@ sum_parts	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn sum_parts(&mut
 summarize	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^    fn summarize($/;"	f
 summarize	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn summarize($/;"	f
 summary_scale	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    pub fn summary_scale(mut self, new_scale: AxisScale) -> PlotConfiguration {$/;"	f
+surface	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn surface<'l, T: DataType, X: IntoIterator<Item = T>>($/;"	f
 swap_greed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn swap_greed(&mut self, yes: bool) -> &mut RegexBuilder {$/;"	f
 swap_greed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn swap_greed(&mut self, yes: bool) -> &mut RegexSetBuilder {$/;"	f
 swap_greed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn swap_greed(&mut self, yes: bool) -> &mut Builder {$/;"	f
@@ -3049,7 +3291,6 @@ test_benchmark_id_make_long_directory_name_unique	/Users/mart/.cargo/registry/sr
 test_first_num	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn test_first_num() {$/;"	f
 test_format_u8	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/impls.rs	/^fn test_format_u8() {$/;"	f
 test_input	/Users/mart/code/advent-of-code-23/src/day6.rs	/^    fn test_input() -> (Vec<String>, Vec<String>) {$/;"	f
-test_input	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn test_input() -> (Vec<String>, Vec<String>) {$/;"	f
 test_make_filename_safe_replaces_characters	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn test_make_filename_safe_replaces_characters() {$/;"	f
 test_make_filename_safe_respects_character_boundaries	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn test_make_filename_safe_respects_character_boundaries() {$/;"	f
 test_make_filename_safe_truncates_long_strings	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn test_make_filename_safe_truncates_long_strings() {$/;"	f
@@ -3060,13 +3301,11 @@ test_star1	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn test_star1() 
 test_star1	/Users/mart/code/advent-of-code-23/src/day4.rs	/^    fn test_star1() -> anyhow::Result<()> {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day5.rs	/^    fn test_star1() {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day6.rs	/^    fn test_star1() -> anyhow::Result<()> {$/;"	f
-test_star1	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn test_star1() -> anyhow::Result<()> {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day4.rs	/^    fn test_star2() -> anyhow::Result<()> {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day5.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day6.rs	/^    fn test_star2() -> anyhow::Result<()> {$/;"	f
-test_star2	/Users/mart/code/advent-of-code-23/src/main.rs	/^    fn test_star2() -> anyhow::Result<()> {$/;"	f
 test_start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn test_start(&self, _id: &BenchmarkId, _context: &ReportContext) {}$/;"	f
 test_start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn test_start(&self, id: &BenchmarkId, _: &ReportContext) {$/;"	f
 text_overwrite	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn text_overwrite(&self) {$/;"	f
@@ -3083,6 +3322,10 @@ to_bits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_j
 to_f64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn to_f64(&self, val: &Self::Value) -> f64 {$/;"	f
 to_f64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn to_f64(&self, value: &Self::Value) -> f64;$/;"	f
 to_gnuplot	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/gnuplot_backend/summary.rs	/^    fn to_gnuplot(self) -> Scale {$/;"	f
+to_int	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^	pub fn to_int(&self) -> i32$/;"	f
+to_one_way_owned	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^	fn to_one_way_owned(&self) -> Self::Output$/;"	f
+to_one_way_owned	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/util.rs	/^	fn to_one_way_owned(&self) -> Self::Output$/;"	f
+to_one_way_owned	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/util.rs	/^	fn to_one_way_owned(&self) -> Self::Output;$/;"	f
 to_owned	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^    fn to_owned(&self) -> Self::Owned {$/;"	f
 to_raw_value	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^pub fn to_raw_value<T>(value: &T) -> Result<Box<RawValue>, Error>$/;"	f
 to_string	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^pub fn to_string<T>(value: &T) -> Result<String>$/;"	f
@@ -3104,6 +3347,7 @@ try_from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-
 try_from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn try_from(s: &str) -> Result<Regex, Error> {$/;"	f
 try_from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn try_from(s: String) -> Result<Regex, Error> {$/;"	f
 try_parse	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^        fn try_parse(s: &str) -> Option<f64> {$/;"	f
+try_wait	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn try_wait(&mut self) -> std::io::Result<Option<std::process::ExitStatus>>$/;"	f
 tuple_impls	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^macro_rules! tuple_impls {$/;"	d
 tuple_impls	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/impls.rs	/^macro_rules! tuple_impls {$/;"	d
 tuple_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/mod.rs	/^    fn tuple_variant<V>(self, len: usize, visitor: V) -> Result<V::Value, Self::Error>$/;"	f
@@ -3371,6 +3615,7 @@ vtable	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1
 wait	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/gnuplot_backend/mod.rs	/^    fn wait(&mut self) {$/;"	f
 wait	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/mod.rs	/^    fn wait(&mut self);$/;"	f
 wait	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/plotters_backend/mod.rs	/^    fn wait(&mut self) {}$/;"	f
+wait	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn wait(&mut self) -> std::io::Result<std::process::ExitStatus>$/;"	f
 warm_up	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/routine.rs	/^    fn warm_up(&mut self, m: &M, how_long: Duration, parameter: &T) -> (u64, u64) {$/;"	f
 warm_up	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/routine.rs	/^    fn warm_up(&mut self, m: &M, how_long: Duration, parameter: &T) -> (u64, u64);$/;"	f
 warm_up_time	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/benchmark_group.rs	/^    pub fn warm_up_time(&mut self, dur: Duration) -> &mut Self {$/;"	f
@@ -3408,24 +3653,42 @@ write	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_jso
 write	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/io/core.rs	/^    fn write(&mut self, buf: &[u8]) -> Result<usize>;$/;"	f
 write	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^            fn write(&mut self, buf: &[u8]) -> io::Result<usize> {$/;"	f
 write_all	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/io/core.rs	/^    fn write_all(&mut self, buf: &[u8]) -> Result<()> {$/;"	f
+write_args	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn write_args(&self, writer: &mut dyn Writer, version: GnuplotVersion)$/;"	f
 write_bool	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_bool<W>(&mut self, writer: &mut W, value: bool) -> io::Result<()>$/;"	f
 write_byte_array	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_byte_array<W>(&mut self, writer: &mut W, value: &[u8]) -> io::Result<()>$/;"	f
 write_char_escape	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_char_escape<W>(&mut self, writer: &mut W, char_escape: CharEscape) -> io::Result<()>$/;"	f
+write_color_options	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn write_color_options($/;"	f
 write_data	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/csv_report.rs	/^    fn write_data($/;"	f
+write_data	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn write_data(&self, writer: &mut dyn Writer)$/;"	f
 write_f32	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_f32<W>(&mut self, writer: &mut W, value: f32) -> io::Result<()>$/;"	f
 write_f64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_f64<W>(&mut self, writer: &mut W, value: f64) -> io::Result<()>$/;"	f
 write_file	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/csv_report.rs	/^    fn write_file($/;"	f
+write_grid_options	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn write_grid_options(&self, c: &mut dyn Writer, axes: &[TickAxis], version: GnuplotVersion)$/;"	f
 write_i128	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_i128<W>(&mut self, writer: &mut W, value: i128) -> io::Result<()>$/;"	f
 write_i16	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_i16<W>(&mut self, writer: &mut W, value: i16) -> io::Result<()>$/;"	f
 write_i32	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_i32<W>(&mut self, writer: &mut W, value: i32) -> io::Result<()>$/;"	f
 write_i64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_i64<W>(&mut self, writer: &mut W, value: i64) -> io::Result<()>$/;"	f
 write_i8	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_i8<W>(&mut self, writer: &mut W, value: i8) -> io::Result<()>$/;"	f
+write_label_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn write_label_str(&self, w: &mut dyn Writer)$/;"	f
+write_le_f64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/writer.rs	/^	fn write_le_f64(&mut self, v: f64) -> Result<(), io::Error>$/;"	f
+write_line_options	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn write_line_options($/;"	f
 write_null	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_null<W>(&mut self, writer: &mut W) -> io::Result<()>$/;"	f
 write_number_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_number_str<W>(&mut self, writer: &mut W, value: &str) -> io::Result<()>$/;"	f
+write_out	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	fn write_out(&self, writer: &mut dyn Writer)$/;"	f
+write_out	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	fn write_out(&self, writer: &mut dyn Writer, version: GnuplotVersion)$/;"	f
+write_out	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	fn write_out(&self, writer: &mut dyn Writer)$/;"	f
+write_out	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	fn write_out(&self, writer: &mut dyn Writer, auto_layout: bool, version: GnuplotVersion)$/;"	f
+write_out_commands	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn write_out_commands($/;"	f
+write_out_commands	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn write_out_commands(&self, w: &mut dyn Writer)$/;"	f
+write_out_commands	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn write_out_commands(&self, w: &mut dyn Writer, version: GnuplotVersion)$/;"	f
+write_out_commands	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn write_out_commands(&self, writer: &mut dyn Writer)$/;"	f
+write_out_elements	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn write_out_elements(&self, cmd: &str, writer: &mut dyn Writer, version: GnuplotVersion)$/;"	f
+write_out_label_options	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub fn write_out_label_options($/;"	f
 write_raw_fragment	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_raw_fragment<W>(&mut self, writer: &mut W, fragment: &str) -> io::Result<()>$/;"	f
 write_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
 write_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^    fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
 write_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^    fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
+write_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/writer.rs	/^	fn write_str(&mut self, s: &str) -> Result<(), io::Error>$/;"	f
 write_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/format.rs	/^    fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
 write_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^            fn write_str(&mut self, s: &str) -> fmt::Result {$/;"	f
 write_string_fragment	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_string_fragment<W>(&mut self, writer: &mut W, fragment: &str) -> io::Result<()>$/;"	f
@@ -3435,7 +3698,11 @@ write_u32	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde
 write_u64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_u64<W>(&mut self, writer: &mut W, value: u64) -> io::Result<()>$/;"	f
 write_u8	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn write_u8<W>(&mut self, writer: &mut W, value: u8) -> io::Result<()>$/;"	f
 x	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/bivariate/mod.rs	/^    pub fn x(&self) -> &'a Sample<X> {$/;"	f
+x_error_bars	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn x_error_bars<$/;"	f
+x_error_lines	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn x_error_lines<$/;"	f
 y	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/bivariate/mod.rs	/^    pub fn y(&self) -> &'a Sample<Y> {$/;"	f
+y_error_bars	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn y_error_bars<$/;"	f
+y_error_lines	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn y_error_lines<$/;"	f
 yellow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn yellow(&self, s: &str) -> String {$/;"	f
 zero	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn zero(&self) -> Self::Value {$/;"	f
 zero	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn zero(&self) -> Self::Value;$/;"	f

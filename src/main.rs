@@ -1,6 +1,7 @@
 use std::io::prelude::*;
 use std::io::{self};
 use std::{fs::File, io::BufReader};
+mod day6;
 
 fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {
     let f = File::open("input/x.txt")?;
@@ -9,14 +10,10 @@ fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {
 }
 
 fn main() {
-    let mut lines = Vec::new();
-    for line in read_lines().unwrap() {
-        let line = line.unwrap();
-        lines.push(line);
-    }
+    let (time, distance) = day6::read_lines2();
 
-    println!("star 1: {}", star1(lines.clone()).unwrap());
-    println!("star 2: {}", star2(lines).unwrap());
+    // println!("star 1: {}", star1(lines.clone()).unwrap());
+    println!("star 2: {}", day6::star2(time, distance).unwrap());
 }
 
 fn star1(lines: Vec<String>) -> anyhow::Result<i32> {

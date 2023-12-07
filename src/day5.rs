@@ -1,11 +1,11 @@
 use regex::Regex;
-use std::collections::HashMap;
 use std::collections::btree_map::Range;
+use std::collections::HashMap;
 use std::io::prelude::*;
 use std::io::{self};
 use std::{fs::File, io::BufReader};
 
-fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {
+pub fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {
     let f = File::open("input/5.txt")?;
     let f = BufReader::new(f);
     Ok(f.lines())
@@ -54,12 +54,11 @@ fn get_seed_ranges(s: String) -> Vec<(u64, u64)> {
     res
 }
 
-fn star1(lines: Vec<String>) -> u64 {
+pub fn star1(lines: Vec<String>) -> u64 {
     let mut map_chain: Vec<Vec<GardenMap>> = Vec::new();
     let mut cats_list = lines.split(|s| s == "");
     let seeds_str: String = cats_list.nth(0).unwrap().to_vec()[0].to_owned();
     for cat_str in cats_list {
-
         let maps = GardenMap::vec_from_lines(cat_str.to_vec());
         map_chain.push(maps);
     }
@@ -78,7 +77,7 @@ fn star1(lines: Vec<String>) -> u64 {
     locs.into_iter().reduce(|x, y| std::cmp::min(x, y)).unwrap()
 }
 
-// fn star2(lines: Vec<String>) -> u64 {
+// pub fn star2(lines: Vec<String>) -> u64 {
 //     let mut cats_list = lines.split(|s| s == "");
 //     // build map chain...
 //     let mut map_chain: Vec<Vec<GardenMap>> = Vec::new();
@@ -115,38 +114,35 @@ fn star2(lines: Vec<String>) -> u64 {
     let answer_map: HashMap<u64, u64> = HashMap::new();
     let seed_ranges: Vec<(u64, u64)> = get_seed_ranges(seeds_str);
     let mut c = 0;
-    for (start, length)  in seed_ranges {
-        let r = start..start + length;
-        r
-        println!("calcing seed range: {}", c);
-        for i in 0..7 {
-            for map in map_chain[i] {
-                if start < map.src_start
-            }
+    // for (start, length) in seed_ranges {
+    //     let r = start..start + length;
+    // r
+    // println!("calcing seed range: {}", c);
+    // for i in 0..7 {
+    //     for map in map_chain[i] {
+    //         if start < map.src_start
+    //     }
 
+    //     }
+    // }
 
+    // for seed in start..start + length {
+    //     if let Some(l) = answer_map.get(&(seed)) {
+    //         locs.push(*l);
+    //         continue;
+    //     }
+    //     let mut next_link = seed;
+    //     for i in 0..7 {
+    //         next_link = get_next_link(&map_chain[i], next_link);
+    //     }
+    //     locs.push(next_link);
+    // }
+    // c += 1;
+    // }
+    // }
 
-            }
-        }
-
-
-
-
-        for seed in start..start + length {
-            if let Some(l) = answer_map.get(&(seed)) {
-                locs.push(*l);
-                continue;
-            }
-            let mut next_link = seed;
-            for i in 0..7 {
-                next_link = get_next_link(&map_chain[i], next_link);
-            }
-            locs.push(next_link);
-        }
-        c += 1;
-    }
-
-    locs.into_iter().reduce(|x, y| std::cmp::min(x, y)).unwrap()
+    // locs.into_iter().reduce(|x, y| std::cmp::min(x, y)).unwrap()
+    0
 }
 
 struct GardenMap {
@@ -159,7 +155,7 @@ impl GardenMap {
         let re = Regex::new(r"^(\w+)-to-(\w+) map:").unwrap();
         let (_full_cap, [src, dest]) = re.captures(&lines[0]).unwrap().extract();
 
-        println!("making map list for {}-to-{}", src, dest);
+        // println!("making map list for {}-to-{}", src, dest);
 
         let mut maps = Vec::new();
         for line in lines.into_iter().skip(1) {
@@ -178,9 +174,8 @@ impl GardenMap {
         maps
     }
 
-    fn from_
+    // fn from_
 }
-
 
 #[cfg(test)]
 mod tests {
