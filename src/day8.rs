@@ -1,13 +1,8 @@
+use regex::Regex;
 use std::collections::HashMap;
 use std::io::prelude::*;
 use std::io::{self};
 use std::{fs::File, io::BufReader};
-
-use regex::Regex;
-
-// macro_rules! addy {
-//     (token, token, token) => {let $val = Address {next: ($val, $val)}};
-// }
 
 #[derive(Debug)]
 #[repr(C)]
@@ -44,7 +39,7 @@ fn parse_dirs_line(line: &str) -> Vec<Dir> {
     dirs
 }
 
-fn main() {
+pub fn main() {
     let mut lines = Vec::new();
     for line in read_file().unwrap() {
         let line = line.unwrap();
@@ -52,7 +47,7 @@ fn main() {
     }
 
     println!("star 1: {:#?}", star1(lines.clone()).unwrap());
-    // println!("star 2: {}", star2(lines).unwrap());
+    println!("star 2: {:#?}", star2(lines.clone()).unwrap());
 }
 
 fn maps<'a>(lines: &'a [String]) -> HashMap<String, Address<'a>> {
@@ -76,7 +71,6 @@ fn maps_with_starting<'a>(lines: &'a [String]) -> (HashMap<String, Address<'a>>,
     let mut starting_addrs = Vec::new();
     let re = Regex::new(r"(\w+) = \((\w+), (\w+)\)").unwrap();
     let is_starting_re = Regex::new(r"(..A)").unwrap();
-    let is_ending_re = Regex::new(r"(..Z)").unwrap();
     for line in lines {
         let (_full_cap, [this, left, right]) = re.captures(line).unwrap().extract();
         addrs.insert(
@@ -92,6 +86,44 @@ fn maps_with_starting<'a>(lines: &'a [String]) -> (HashMap<String, Address<'a>>,
     }
 
     (addrs, starting_addrs)
+}
+
+#[derive(Debug)]
+struct Addr {
+    left: usize,
+    right: usize,
+    is_end: bool,
+}
+
+fn star2_map<'a>(lines: &'a [String]) -> (Vec<Addr>, Vec<usize>) {
+    let re = Regex::new(r"(\w+) = \((\w+), (\w+)\)").unwrap();
+    let mut str_vec = Vec::new();
+    let mut str_to_idx_map = HashMap::new();
+
+    lines[2..].iter().enumerate().for_each(|(idx, line)| {
+        let (_full_cap, [this, left, right]) = re.captures(line).unwrap().extract();
+        str_to_idx_map.insert(this, idx);
+        str_vec.push((this, left, right));
+    });
+
+    let mut map = Vec::new();
+    let mut start_idxs = Vec::new();
+    let start_re = Regex::new(r"..A").unwrap();
+    let end_re = Regex::new(r"..Z").unwrap();
+    for (this, left, right) in str_vec.iter() {
+        let mut is_end = false;
+        if start_re.is_match(this) {
+            start_idxs.push(map.len());
+        } else if end_re.is_match(this) {
+            is_end = true;
+        }
+        map.push(Addr {
+            left: *str_to_idx_map.get(left).unwrap(),
+            right: *str_to_idx_map.get(right).unwrap(),
+            is_end,
+        });
+    }
+    (map, start_idxs)
 }
 
 pub fn star1(lines: Vec<String>) -> anyhow::Result<i32> {
@@ -117,11 +149,32 @@ pub fn star1(lines: Vec<String>) -> anyhow::Result<i32> {
 
 pub fn star2(lines: Vec<String>) -> anyhow::Result<i32> {
     let dirs = parse_dirs_line(&lines[0]);
-    let (addrs, starting_addrs) = maps_with_starting(&lines[2..]);
+    let (map, mut starting_idxs) = star2_map(&lines[..]);
+    println!("built map: {:#?}", map);
+    let mut end_count = 0;
+    map.iter().for_each(|a| {
+        if a.is_end {
+            end_count += 1;
+        }
+    });
 
+    println!("starting: {}", starting_idxs.len());
+    println!("ends: {}", end_count);
     let mut steps = 0;
 
-    Ok(0)
+    loop {
+        for i in 0..starting_idxs.len() {
+            starting_idxs[i] = match dirs[steps % dirs.len()] {
+                Dir::Left => map[starting_idxs[i]].left,
+                Dir::Right => map[starting_idxs[i]].right,
+            }
+        }
+
+        steps += 1;
+        if starting_idxs.iter().all(|p| map[*p].is_end) {
+            return Ok(steps as i32);
+        }
+    }
 }
 
 #[cfg(test)]
