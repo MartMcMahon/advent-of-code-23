@@ -1,5 +1,6 @@
-use advent_of_code_23::day5;
 use criterion::{criterion_group, criterion_main, Criterion};
+
+use advent_of_code_23::day5;
 
 fn criterion_benchmark_star1(c: &mut Criterion) {
     let input = day5::read_lines()
