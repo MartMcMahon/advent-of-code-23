@@ -1,8 +1,8 @@
 use regex::Regex;
-use std::collections::btree_map::Range;
 use std::collections::HashMap;
 use std::io::prelude::*;
 use std::io::{self};
+use std::ops::Range;
 use std::{fs::File, io::BufReader};
 
 pub fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {
@@ -145,6 +145,25 @@ fn star2(lines: Vec<String>) -> u64 {
     0
 }
 
+Range {start: 50, end: 98}
+
+Range {start: 52, end: 100}
+79 14 55 13
+
+
+enum GardenType {
+    SeedToSoil,
+    SoilToFertilizer,
+    FertilizerToWater,
+    WaterToLight,
+    LightToTemperature,
+    TemperatureToHumidity,
+    HumidityToLocation,
+}
+
+
+
+
 struct GardenMap {
     src_start: u64,
     dest_start: u64,
@@ -155,7 +174,20 @@ impl GardenMap {
         let re = Regex::new(r"^(\w+)-to-(\w+) map:").unwrap();
         let (_full_cap, [src, dest]) = re.captures(&lines[0]).unwrap().extract();
 
-        // println!("making map list for {}-to-{}", src, dest);
+
+
+        let garden_map: HashMap<GardenType, Vec<Range<u64>>> = HashMap::new();
+        garden_map.insert(GardenType::SeedToSoil, Vec::new());
+        garden_map.insert(GardenType::SoilToFertilizer, Vec::new());
+        garden_map.insert(GardenType::FertilizerToWater, Vec::new());
+        garden_map.insert(GardenType::WaterToLight, Vec::new());
+        garden_map.insert(GardenType::LightToTemperature, Vec::new());
+        garden_map.insert(GardenType::TemperatureToHumidity, Vec::new());
+        garden_map.insert(GardenType::HumidityToLocation, Vec::new());
+
+        garden_map[GardenType::SeedToSoil].push(Range {start: 50, end: 98});
+
+
 
         let mut maps = Vec::new();
         for line in lines.into_iter().skip(1) {
@@ -164,6 +196,8 @@ impl GardenMap {
                 .map(|s| u64::from_str_radix(s, 10).unwrap())
                 .collect();
             assert_eq!(map_vals.len(), 3);
+            src_
+            let range = Range {start: map_vals[1], end: map_vals[0] + map_vals[2]};
             maps.push(GardenMap {
                 src_start: map_vals[1],
                 dest_start: map_vals[0],

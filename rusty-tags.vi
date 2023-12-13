@@ -2,6 +2,7 @@
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
 ALIAS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const ALIAS: Symbol = Symbol("alias");$/;"	c
 Adapter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^        struct Adapter<'ser, W: 'ser, F: 'ser> {$/;"	s
+Address	/Users/mart/code/advent-of-code-23/src/day8.rs	/^struct Address<'a> {$/;"	s
 Adhoc	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub struct Adhoc;$/;"	s
 AdhocKind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub trait AdhocKind: Sized {$/;"	t
 AdjacentlyTaggedEnumVariant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/ser.rs	/^pub struct AdjacentlyTaggedEnumVariant {$/;"	s
@@ -207,6 +208,7 @@ Deserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/se
 Deserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^pub struct Deserializer<R> {$/;"	s
 Deserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^    type Deserializer = &'de RawValue;$/;"	T
 Deserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/de.rs	/^    type Deserializer = Self;$/;"	T
+Dir	/Users/mart/code/advent-of-code-23/src/day8.rs	/^enum Dir {$/;"	g
 DisplayError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^pub struct DisplayError<M>(pub M);$/;"	s
 Distribution	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/mod.rs	/^pub struct Distribution<A>(Box<[A]>);$/;"	s
 Distributions	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/estimate.rs	/^pub struct Distributions {$/;"	s
@@ -339,6 +341,7 @@ GNUPLOT_VERSION	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f
 GRAY	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub const GRAY: PaletteType<&'static [(f32, f32, f32, f32)]> = Gray(1.0);$/;"	c
 Game	/Users/mart/code/advent-of-code-23/src/day2.rs	/^struct Game {$/;"	s
 GardenMap	/Users/mart/code/advent-of-code-23/src/day5.rs	/^struct GardenMap {$/;"	s
+GardenType	/Users/mart/code/advent-of-code-23/src/day5.rs	/^enum GardenType {$/;"	g
 Gaussian	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/kernel.rs	/^pub struct Gaussian;$/;"	s
 GnuplotInitError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/error_types.rs	/^pub struct GnuplotInitError$/;"	s
 GnuplotVersion	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub struct GnuplotVersion$/;"	s
@@ -354,6 +357,8 @@ HIGH_SEVERE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cri
 HIMASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const HIMASK: Self;$/;"	c
 HIMASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const HIMASK: u64 = 0xFFFFFFFF00000000;$/;"	c
 HOT	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub const HOT: PaletteType<&'static [(f32, f32, f32, f32)]> = Formula(34, 35, 36);$/;"	c
+Hand	/Users/mart/code/advent-of-code-23/src/day7.rs	/^struct Hand {$/;"	s
+HandType	/Users/mart/code/advent-of-code-23/src/day7.rs	/^enum HandType {$/;"	g
 Hi64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^trait Hi64<T>: AsRef<[T]> {$/;"	t
 Html	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^pub struct Html {$/;"	s
 INFERNO	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/palettes/cm_listed.rs	/^pub const INFERNO: PaletteType<&'static [(f32, f32, f32, f32)]> = PaletteType::Custom(&[$/;"	c
@@ -363,6 +368,7 @@ INFINITY_BITS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/s
 INPUT	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    const INPUT: &str = r#"467..114..$/;"	c
 INPUT	/Users/mart/code/advent-of-code-23/src/day4.rs	/^    const INPUT: &str = r#"Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53$/;"	c
 INPUT	/Users/mart/code/advent-of-code-23/src/day5.rs	/^    const INPUT: &str = r#"seeds: 79 14 55 13$/;"	c
+INPUT	/Users/mart/code/advent-of-code-23/src/day8.rs	/^    const INPUT: &str = r#"RL$/;"	c
 INTO	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const INTO: Symbol = Symbol("into");$/;"	c
 Identifier	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^pub enum Identifier {$/;"	g
 IdentifierDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^pub trait IdentifierDeserializer<'de, E: Error> {$/;"	t
@@ -876,6 +882,7 @@ T	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193
 TAG	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const TAG: Symbol = Symbol("tag");$/;"	c
 TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    const TEST_INPUT: &str = r#"Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green$/;"	c
 TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day6.rs	/^    const TEST_INPUT: &str = r#"Time:      7  15   30$/;"	c
+TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day7.rs	/^    const TEST_INPUT: &str = r#"32T3K 765$/;"	c
 THUMBNAIL_SIZE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^const THUMBNAIL_SIZE: Option<Size> = Some(Size(450, 300));$/;"	c
 TOKEN	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^pub const TOKEN: &str = "$serde_json::private::RawValue";$/;"	c
 TRANSPARENT	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const TRANSPARENT: Symbol = Symbol("transparent");$/;"	c
@@ -1292,6 +1299,7 @@ clone	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_jso
 clone_from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    fn clone_from(&mut self, source: &Self) {$/;"	f
 close	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn close(&mut self) -> &mut Figure$/;"	f
 cmp	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/sample.rs	/^        fn cmp<T>(a: &T, b: &T) -> Ordering$/;"	f
+cmp	/Users/mart/code/advent-of-code-23/src/day7.rs	/^    fn cmp(&self, other: &Self) -> std::cmp::Ordering {$/;"	f
 col	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/iter.rs	/^    pub fn col(&self) -> usize {$/;"	f
 collect_lifetimes	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn collect_lifetimes(ty: &syn::Type, out: &mut BTreeSet<syn::Lifetime>) {$/;"	f
 collect_lifetimes_from_tokens	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn collect_lifetimes_from_tokens(tokens: TokenStream, out: &mut BTreeSet<syn::Lifetime>) {$/;"	f
@@ -1907,6 +1915,7 @@ from_bits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde
 from_bits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn from_bits(u: u64) -> f64 {$/;"	f
 from_borrowed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^    fn from_borrowed(json: &str) -> &Self {$/;"	f
 from_bounds	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/size_hint.rs	/^pub fn from_bounds<I>(iter: &I) -> Option<usize>$/;"	f
+from_byte	/Users/mart/code/advent-of-code-23/src/day8.rs	/^    fn from_byte(b: u8) -> Self {$/;"	f
 from_escape_table	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn from_escape_table(escape: u8, byte: u8) -> CharEscape {$/;"	f
 from_f64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/number.rs	/^    pub fn from_f64(f: f64) -> Option<Number> {$/;"	f
 from_float	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/float.rs	/^    pub fn from_float<F: Float>(f: F) -> ExtendedFloat {$/;"	f
@@ -1916,6 +1925,7 @@ from_iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde
 from_iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/from.rs	/^    fn from_iter<I: IntoIterator<Item = (K, V)>>(iter: I) -> Self {$/;"	f
 from_iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/from.rs	/^    fn from_iter<I: IntoIterator<Item = T>>(iter: I) -> Self {$/;"	f
 from_lines	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn from_lines(lines: &Vec<String>) -> Matrix {$/;"	f
+from_lines	/Users/mart/code/advent-of-code-23/src/day7.rs	/^    fn from_lines(lines: impl Iterator<Item = String>) -> anyhow::Result<Vec<Hand>> {$/;"	f
 from_owned	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^    fn from_owned(json: Box<str>) -> Box<Self> {$/;"	f
 from_parameter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/benchmark_group.rs	/^    pub fn from_parameter<P: ::std::fmt::Display>(parameter: P) -> BenchmarkId {$/;"	f
 from_raw	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn from_raw(ptr: NonNull<T>) -> Self {$/;"	f
@@ -2284,6 +2294,7 @@ main	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/day5.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn main() {$/;"	f
+main	/Users/mart/code/advent-of-code-23/src/day8.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn main() {$/;"	f
 make_error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/error.rs	/^fn make_error(mut msg: String) -> Error {$/;"	f
@@ -2296,6 +2307,8 @@ map	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0
 map_as_enum	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^    pub fn map_as_enum<A>(map: A) -> MapAsEnum<A> {$/;"	f
 map_impl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^macro_rules! map_impl {$/;"	d
 map_impl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/impls.rs	/^macro_rules! map_impl {$/;"	d
+maps	/Users/mart/code/advent-of-code-23/src/day8.rs	/^fn maps<'a>(lines: &'a [String]) -> HashMap<String, Address<'a>> {$/;"	f
+maps_with_starting	/Users/mart/code/advent-of-code-23/src/day8.rs	/^fn maps_with_starting<'a>(lines: &'a [String]) -> (HashMap<String, Address<'a>>, Vec<String>) {$/;"	f
 mark_has_flatten	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn mark_has_flatten(&mut self) {$/;"	f
 mark_transparent	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn mark_transparent(&mut self) {$/;"	f
 matched	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn matched(&self, index: usize) -> bool {$/;"	f
@@ -2565,6 +2578,7 @@ parse_any_signed_number	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22b
 parse_concise_float	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/parse.rs	/^pub fn parse_concise_float<F>(mantissa: u64, mant_exp: i32) -> F$/;"	f
 parse_decimal	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn parse_decimal($/;"	f
 parse_decimal_overflow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn parse_decimal_overflow($/;"	f
+parse_dirs_line	/Users/mart/code/advent-of-code-23/src/day8.rs	/^fn parse_dirs_line(line: &str) -> Vec<Dir> {$/;"	f
 parse_escape	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^fn parse_escape<'de, R: Read<'de>>($/;"	f
 parse_exponent	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn parse_exponent($/;"	f
 parse_exponent_overflow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn parse_exponent_overflow($/;"	f
@@ -2665,11 +2679,11 @@ range	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.1
 read	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub unsafe fn read(self) -> T {$/;"	f
 read_captures_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn read_captures_at<'h>($/;"	f
 read_captures_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn read_captures_at<'h>($/;"	f
+read_file	/Users/mart/code/advent-of-code-23/src/day8.rs	/^pub fn read_file() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
 read_input	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn read_input(day: u8) -> io::Result<Vec<String>> {$/;"	f
 read_lines	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
 read_lines	/Users/mart/code/advent-of-code-23/src/day5.rs	/^pub fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
 read_lines	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn read_lines() -> (Vec<String>, Vec<String>) {$/;"	f
-read_lines	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
 read_lines	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
 read_lines2	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn read_lines2() -> (u128, u128) {$/;"	f
 read_matches_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn read_matches_at($/;"	f
@@ -3223,7 +3237,8 @@ star1	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn star1(input: Vec<Strin
 star1	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn star1(lines: Vec<String>) -> anyhow::Result<u32> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day5.rs	/^pub fn star1(lines: Vec<String>) -> u64 {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn star1(times: Vec<String>, distances: Vec<String>) -> anyhow::Result<i32> {$/;"	f
-star1	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star1(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/day7.rs	/^pub fn star1(lines: impl Iterator<Item = String>) -> anyhow::Result<i32> {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/day8.rs	/^pub fn star1(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star1(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star2() -> anyhow::Result<u64> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day2.rs	/^fn star2() -> anyhow::Result<i32> {$/;"	f
@@ -3231,7 +3246,7 @@ star2	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn star2(input: Vec<Strin
 star2	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day5.rs	/^fn star2(lines: Vec<String>) -> u64 {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn star2(time: u128, distance: u128) -> anyhow::Result<u128> {$/;"	f
-star2	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
+star2	/Users/mart/code/advent-of-code-23/src/day8.rs	/^pub fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn start(&self) -> Self::Intermediate {$/;"	f
 start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn start(&self) -> Self::Intermediate;$/;"	f
@@ -3301,11 +3316,14 @@ test_star1	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn test_star1() 
 test_star1	/Users/mart/code/advent-of-code-23/src/day4.rs	/^    fn test_star1() -> anyhow::Result<()> {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day5.rs	/^    fn test_star1() {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day6.rs	/^    fn test_star1() -> anyhow::Result<()> {$/;"	f
+test_star1	/Users/mart/code/advent-of-code-23/src/day7.rs	/^    fn test_star1() {$/;"	f
+test_star1	/Users/mart/code/advent-of-code-23/src/day8.rs	/^    fn test_star1() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day4.rs	/^    fn test_star2() -> anyhow::Result<()> {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day5.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day6.rs	/^    fn test_star2() -> anyhow::Result<()> {$/;"	f
+test_star2	/Users/mart/code/advent-of-code-23/src/day8.rs	/^    fn test_star2() {$/;"	f
 test_start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn test_start(&self, _id: &BenchmarkId, _context: &ReportContext) {}$/;"	f
 test_start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn test_start(&self, id: &BenchmarkId, _: &ReportContext) {$/;"	f
 text_overwrite	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn text_overwrite(&self) {$/;"	f

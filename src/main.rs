@@ -1,25 +1,17 @@
-use std::io::prelude::*;
-use std::io::{self};
-use std::{fs::File, io::BufReader};
-mod day6;
-
-fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {
-    let f = File::open("input/x.txt")?;
-    let f = BufReader::new(f);
-    Ok(f.lines())
-}
+mod day8;
 
 fn main() {
-    let (time, distance) = day6::read_lines2();
+    let mut lines = Vec::new();
+    for line in day8::read_file().unwrap() {
+        let line = line.unwrap();
+        lines.push(line);
+    }
 
-    // println!("star 1: {}", star1(lines.clone()).unwrap());
-    println!("star 2: {}", day6::star2(time, distance).unwrap());
-}
+    let mut lines = day8::read_file().unwrap();
 
-fn star1(lines: Vec<String>) -> anyhow::Result<i32> {
-    Ok(0)
-}
-
-fn star2(lines: Vec<String>) -> anyhow::Result<i32> {
-    Ok(0)
+    println!(
+        "star 1: {:#?}",
+        day8::star1(lines.map(|s| s.unwrap()).collect())
+    );
+    // println!("star 2: {}", day8::star2(lines.clone()));
 }
