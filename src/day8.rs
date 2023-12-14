@@ -89,14 +89,21 @@ fn maps_with_starting<'a>(lines: &'a [String]) -> (HashMap<String, Address<'a>>,
 }
 
 #[derive(Debug)]
-struct Addr {
-    left: usize,
-    right: usize,
+struct Addr<'a> {
+    left: &'a Addr<'a>,
+    right: &'a Addr<'a>,
     is_end: bool,
+    is_start: bool,
 }
 
-fn star2_map<'a>(lines: &'a [String]) -> (Vec<Addr>, Vec<usize>) {
+fn star2_map<'a>(lines: &'a [String]) -> (Vec<Addr>, Vec<Addr>) {
     let re = Regex::new(r"(\w+) = \((\w+), (\w+)\)").unwrap();
+
+    // make vec of (this, left, right)
+    // make vec of Addr from a start to an end
+    // repeat for each start
+    // find lowest common denom for .len()'s of each Addr vec
+
     let mut str_vec = Vec::new();
     let mut str_to_idx_map = HashMap::new();
 
@@ -106,24 +113,29 @@ fn star2_map<'a>(lines: &'a [String]) -> (Vec<Addr>, Vec<usize>) {
         str_vec.push((this, left, right));
     });
 
+    let mut start_idx = Vec::new();
     let mut map = Vec::new();
-    let mut start_idxs = Vec::new();
+    let mut paths = Vec::new();
     let start_re = Regex::new(r"..A").unwrap();
     let end_re = Regex::new(r"..Z").unwrap();
     for (this, left, right) in str_vec.iter() {
         let mut is_end = false;
+        let mut is_start = false;
         if start_re.is_match(this) {
-            start_idxs.push(map.len());
+            start_idx.push(str_to_idx_map.get(this).unwrap().to_owned());
+            is_start = true;
         } else if end_re.is_match(this) {
             is_end = true;
         }
         map.push(Addr {
-            left: *str_to_idx_map.get(left).unwrap(),
-            right: *str_to_idx_map.get(right).unwrap(),
+            left: &map[*str_to_idx_map.get(left).unwrap()],
+            right: &map[*str_to_idx_map.get(right).unwrap()],
             is_end,
+            is_start,
         });
     }
-    (map, start_idxs)
+
+    (map, paths)
 }
 
 pub fn star1(lines: Vec<String>) -> anyhow::Result<i32> {
@@ -149,7 +161,7 @@ pub fn star1(lines: Vec<String>) -> anyhow::Result<i32> {
 
 pub fn star2(lines: Vec<String>) -> anyhow::Result<i32> {
     let dirs = parse_dirs_line(&lines[0]);
-    let (map, mut starting_idxs) = star2_map(&lines[..]);
+    let (map, mut paths) = star2_map(&lines[..]);
     println!("built map: {:#?}", map);
     let mut end_count = 0;
     map.iter().for_each(|a| {
@@ -165,10 +177,11 @@ pub fn star2(lines: Vec<String>) -> anyhow::Result<i32> {
     loop {
         for i in 0..starting_idxs.len() {
             starting_idxs[i] = match dirs[steps % dirs.len()] {
-                Dir::Left => map[starting_idxs[i]].left,
-                Dir::Right => map[starting_idxs[i]].right,
+                Dir::Left => starting_idxs[i].left,
+                Dir::Right => starting_idxs[i].right,
             }
         }
+        println!("paths: {:?}", starting_idxs);
 
         steps += 1;
         if starting_idxs.iter().all(|p| map[*p].is_end) {

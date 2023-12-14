@@ -2,7 +2,7 @@
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
 ALIAS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const ALIAS: Symbol = Symbol("alias");$/;"	c
 Adapter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^        struct Adapter<'ser, W: 'ser, F: 'ser> {$/;"	s
-Addr	/Users/mart/code/advent-of-code-23/src/day8.rs	/^struct Addr {$/;"	s
+Addr	/Users/mart/code/advent-of-code-23/src/day8.rs	/^struct Addr<'a> {$/;"	s
 Address	/Users/mart/code/advent-of-code-23/src/day8.rs	/^struct Address<'a> {$/;"	s
 Adhoc	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub struct Adhoc;$/;"	s
 AdhocKind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub trait AdhocKind: Sized {$/;"	t
@@ -3249,7 +3249,7 @@ star2	/Users/mart/code/advent-of-code-23/src/day5.rs	/^fn star2(lines: Vec<Strin
 star2	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn star2(time: u128, distance: u128) -> anyhow::Result<u128> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day8.rs	/^pub fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
-star2_map	/Users/mart/code/advent-of-code-23/src/day8.rs	/^fn star2_map<'a>(lines: &'a [String]) -> (Vec<Addr>, Vec<usize>) {$/;"	f
+star2_map	/Users/mart/code/advent-of-code-23/src/day8.rs	/^fn star2_map<'a>(lines: &'a [String]) -> (Vec<Addr>, Vec<Addr>) {$/;"	f
 start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn start(&self) -> Self::Intermediate {$/;"	f
 start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn start(&self) -> Self::Intermediate;$/;"	f
 start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn start(&self) -> usize {$/;"	f
