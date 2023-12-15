@@ -74,6 +74,7 @@ BorrowedStrDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22b
 BorrowedStrDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^pub struct BorrowedStrDeserializer<'de, E> {$/;"	s
 BothDebug	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ensure.rs	/^pub trait BothDebug {$/;"	t
 BoundVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^        struct BoundVisitor<T>(PhantomData<Bound<T>>);$/;"	s
+Box	/Users/mart/code/advent-of-code-23/src/day15.rs	/^struct Box {$/;"	s
 Boxed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub struct Boxed;$/;"	s
 BoxedError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^pub struct BoxedError(pub Box<dyn StdError + Send + Sync>);$/;"	s
 BoxedFromString	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^pub struct BoxedFromString;$/;"	s
@@ -461,6 +462,7 @@ LabeledSample	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/c
 LazilyResolvedCapture	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    struct LazilyResolvedCapture {$/;"	s
 LegendData	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^struct LegendData$/;"	s
 LegendOption	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum LegendOption<T>$/;"	g
+Lens	/Users/mart/code/advent-of-code-23/src/day15.rs	/^struct Lens {$/;"	s
 Limb	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^pub type Limb = u32;$/;"	T
 Limb	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^pub type Limb = u64;$/;"	T
 LineColIterator	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/iter.rs	/^pub struct LineColIterator<I> {$/;"	s
@@ -1851,6 +1853,7 @@ fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
 fmt_primitives	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/fmt.rs	/^macro_rules! fmt_primitives {$/;"	d
+focus_power	/Users/mart/code/advent-of-code-23/src/day15.rs	/^    fn focus_power(&self, box_idx: i32) -> i32 {$/;"	f
 force	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn force(&self) -> &Capture {$/;"	f
 format_err	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    pub fn format_err(args: Arguments) -> Error {$/;"	f
 format_escaped_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^fn format_escaped_str<W, F>(writer: &mut W, formatter: &mut F, value: &str) -> io::Result<()>$/;"	f
@@ -2725,6 +2728,7 @@ replace_append	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/
 replace_append	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn replace_append(&mut self, _: &Captures<'_>, dst: &mut String) {$/;"	f
 replace_append	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn replace_append(&mut self, caps: &Captures<'_>, dst: &mut String) {$/;"	f
 replace_append	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn replace_append(&mut self, caps: &Captures<'_>, dst: &mut String);$/;"	f
+replace_or_add	/Users/mart/code/advent-of-code-23/src/day15.rs	/^    fn replace_or_add(&mut self, label: Vec<u8>, value: i32) {$/;"	f
 replace_receiver	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/receiver.rs	/^pub fn replace_receiver(input: &mut DeriveInput) {$/;"	f
 replacen	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn replacen<'h, R: Replacer>($/;"	f
 replacen	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn replacen<'h, R: Replacer>($/;"	f
@@ -3321,6 +3325,7 @@ test_star1	/Users/mart/code/advent-of-code-23/src/day4.rs	/^    fn test_star1() 
 test_star1	/Users/mart/code/advent-of-code-23/src/day5.rs	/^    fn test_star1() {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day6.rs	/^    fn test_star1() -> anyhow::Result<()> {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day7.rs	/^    fn test_star1() {$/;"	f
+test_star2	/Users/mart/code/advent-of-code-23/src/day15.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day4.rs	/^    fn test_star2() -> anyhow::Result<()> {$/;"	f

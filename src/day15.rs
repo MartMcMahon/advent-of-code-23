@@ -20,8 +20,101 @@ pub fn star1(mut buf: Vec<u8>) -> i32 {
     sum + running_total
 }
 
+#[derive(Debug)]
+struct Box {
+    lenses: Vec<Lens>,
+}
+impl Box {
+    fn replace_or_add(&mut self, label: Vec<u8>, value: i32) {
+        for (l_idx, lens) in self.lenses.iter().enumerate() {
+            if lens.label == label {
+                // replace lens
+                self.lenses[l_idx] = Lens { label, value };
+                return;
+            }
+        }
+
+        self.lenses.push(Lens { label, value });
+    }
+
+    fn focus_power(&self, box_idx: i32) -> i32 {
+        // One plus the box number of the lens in question.
+        // The slot number of the lens within the box: 1 for the first lens, 2 for the second lens, and so on.
+        // The focal length of the lens.
+
+        let mut sum = 0;
+        for (i, lens) in self.lenses.iter().enumerate() {
+            let mut power = 1 + box_idx;
+            power *= i as i32 + 1;
+            power *= lens.value;
+            sum += power;
+        }
+        sum
+    }
+}
+
+#[derive(Debug)]
+struct Lens {
+    label: Vec<u8>,
+    value: i32,
+}
+// impl Copy for Lens {}
+// impl Clone for Lens {
+//     fn clone(&self) -> Lens {
+//         label: self.label.clone(),
+//         value: self.value,
+//     }
+// }
+
 pub fn star2(mut buf: Vec<u8>) -> i32 {
-    0
+    let mut boxes = Vec::with_capacity(256);
+    for i in 0..256 {
+        boxes.push(Box { lenses: Vec::new() });
+    }
+    // Box {
+    //     lenses: Vec::new().clone(),
+    // }; 256];
+
+    let mut label: Vec<u8> = Vec::new();
+    let mut running_hash = 0;
+    for mut i in 0..buf.len() {
+        let c = buf[i];
+        match c {
+            b',' => { // end of step. reset things
+            }
+            b'\n' => continue,
+            b'=' => {
+                // replace or add
+                boxes[running_hash].replace_or_add(
+                    label.clone(),
+                    i32::from_str_radix(&buf[i + 1..].to_owned(), 10).unwrap(),
+                );
+                i += 2;
+            }
+            b'-' => {
+                // remove from box
+                for mut i in 0..boxes[running_hash].lenses.len() {
+                    let lens = &boxes[running_hash].lenses[i];
+                    if lens.label == label {
+                        // remove lens
+                        boxes[running_hash].lenses.remove(i);
+                        i -= 1;
+                    }
+                }
+            }
+            _ => {
+                label.push(c);
+                running_hash = hash_math(running_hash as i32, c) as usize;
+            }
+        }
+    }
+
+    let mut power = 0;
+    for (i, b) in boxes.iter().enumerate() {
+        power += b.focus_power(i as i32);
+    }
+
+    power
 }
 
 pub fn hash_math(start: i32, char: u8) -> i32 {
@@ -60,5 +153,12 @@ mod test {
         let input = TEST_INPUT.as_bytes().to_vec();
         let x = star1(input);
         assert_eq!(x, 1320);
+    }
+
+    #[test]
+    fn test_star2() {
+        let input = TEST_INPUT.as_bytes().to_vec();
+        let x = star2(input);
+        assert_eq!(x, 145);
     }
 }
