@@ -19,6 +19,10 @@ harness = false
 name = "day8"
 harness = false
 
+[[bench]]
+name = "day15"
+harness = false
+
 [dependencies]
 anyhow = "1.0.75"
 gnuplot = "0.0.39"

@@ -17,15 +17,15 @@ fn criterion_benchmark_star1(c: &mut Criterion) {
     group.bench_function("day 8 star 1", |b| b.iter(|| day8::star1(lines.clone())));
 }
 
-fn criterion_benchmark_star2(c: &mut Criterion) {
-    let lines = get_input();
-    let mut group = c.benchmark_group("day_08::star2");
-    group.bench_function("day 8 star 2", |b| b.iter(|| day8::star2(lines.clone())));
-}
+// fn criterion_benchmark_star2(c: &mut Criterion) {
+//     let lines = get_input();
+//     let mut group = c.benchmark_group("day_08::star2");
+//     group.bench_function("day 8 star 2", |b| b.iter(|| day8::star2(lines.clone())));
+// }
 
 criterion_group!(
     benches,
     criterion_benchmark_star1,
-    criterion_benchmark_star2
+    //     // criterion_benchmark_star2
 );
 criterion_main!(benches);
