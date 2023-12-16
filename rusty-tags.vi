@@ -882,6 +882,7 @@ Symbol	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_de
 T	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/lib.rs	/^    pub struct T;$/;"	s
 TAG	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const TAG: Symbol = Symbol("tag");$/;"	c
 TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day15.rs	/^    const TEST_INPUT: &str = "rn=1,cm-,qp=3,cm=2,qp-,pc=4,ot=9,ab=5,pc-,pc=6,ot=7";$/;"	c
+TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day16.rs	/^    const TEST_INPUT: &str = r#".|...\\....$/;"	c
 TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    const TEST_INPUT: &str = r#"Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green$/;"	c
 TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day6.rs	/^    const TEST_INPUT: &str = r#"Time:      7  15   30$/;"	c
 TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day7.rs	/^    const TEST_INPUT: &str = r#"32T3K 765$/;"	c
@@ -2684,6 +2685,7 @@ read_captures_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001
 read_captures_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn read_captures_at<'h>($/;"	f
 read_file	/Users/mart/code/advent-of-code-23/src/day8.rs	/^pub fn read_file() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
 read_input	/Users/mart/code/advent-of-code-23/src/day15.rs	/^pub fn read_input(filename: &str) -> Vec<u8> {$/;"	f
+read_input	/Users/mart/code/advent-of-code-23/src/day16.rs	/^pub fn read_input(filename: &str) -> Vec<u8> {$/;"	f
 read_input	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn read_input(day: u8) -> io::Result<Vec<String>> {$/;"	f
 read_lines	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
 read_lines	/Users/mart/code/advent-of-code-23/src/day5.rs	/^pub fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
@@ -3238,6 +3240,7 @@ splitn	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.
 splitn	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn splitn<'r, 'h>($/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star1() -> io::Result<i64> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day15.rs	/^pub fn star1(mut buf: Vec<u8>) -> i32 {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/day16.rs	/^pub fn star1(buf: Vec<u8>) -> i32 {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day2.rs	/^fn star1() -> anyhow::Result<u32> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn star1(input: Vec<String>) -> anyhow::Result<u64> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn star1(lines: Vec<String>) -> anyhow::Result<u32> {$/;"	f
@@ -3248,6 +3251,7 @@ star1	/Users/mart/code/advent-of-code-23/src/day8.rs	/^pub fn star1(lines: Vec<S
 star1	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star1(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star2() -> anyhow::Result<u64> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day15.rs	/^pub fn star2(mut buf: Vec<u8>) -> i32 {$/;"	f
+star2	/Users/mart/code/advent-of-code-23/src/day16.rs	/^pub fn star2(buf: Vec<u8>) -> i32 {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day2.rs	/^fn star2() -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn star2(input: Vec<String>) -> anyhow::Result<u64> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
@@ -3320,12 +3324,14 @@ test_pass	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crite
 test_pass	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn test_pass(&self, _id: &BenchmarkId, _context: &ReportContext) {}$/;"	f
 test_proc_line	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn test_proc_line() {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day15.rs	/^    fn test_star1() {$/;"	f
+test_star1	/Users/mart/code/advent-of-code-23/src/day16.rs	/^    fn test_star1() {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn test_star1() {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day4.rs	/^    fn test_star1() -> anyhow::Result<()> {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day5.rs	/^    fn test_star1() {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day6.rs	/^    fn test_star1() -> anyhow::Result<()> {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day7.rs	/^    fn test_star1() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day15.rs	/^    fn test_star2() {$/;"	f
+test_star2	/Users/mart/code/advent-of-code-23/src/day16.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day4.rs	/^    fn test_star2() -> anyhow::Result<()> {$/;"	f
