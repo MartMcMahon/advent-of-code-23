@@ -58,37 +58,29 @@ struct Lens {
     label: Vec<u8>,
     value: i32,
 }
-// impl Copy for Lens {}
-// impl Clone for Lens {
-//     fn clone(&self) -> Lens {
-//         label: self.label.clone(),
-//         value: self.value,
-//     }
-// }
 
 pub fn star2(mut buf: Vec<u8>) -> i32 {
     let mut boxes = Vec::with_capacity(256);
     for i in 0..256 {
         boxes.push(Box { lenses: Vec::new() });
     }
-    // Box {
-    //     lenses: Vec::new().clone(),
-    // }; 256];
 
     let mut label: Vec<u8> = Vec::new();
     let mut running_hash = 0;
     for mut i in 0..buf.len() {
         let c = buf[i];
         match c {
-            b',' => { // end of step. reset things
+            b',' => {
+                // end of step. reset things
+                label = Vec::new();
+                running_hash = 0;
             }
             b'\n' => continue,
             b'=' => {
                 // replace or add
-                boxes[running_hash].replace_or_add(
-                    label.clone(),
-                    i32::from_str_radix(&buf[i + 1..].to_owned(), 10).unwrap(),
-                );
+                let val_str = String::from_utf8(vec![buf[i + 1]]).unwrap();
+                boxes[running_hash]
+                    .replace_or_add(label.clone(), i32::from_str_radix(&val_str, 10).unwrap());
                 i += 2;
             }
             b'-' => {
@@ -98,7 +90,7 @@ pub fn star2(mut buf: Vec<u8>) -> i32 {
                     if lens.label == label {
                         // remove lens
                         boxes[running_hash].lenses.remove(i);
-                        i -= 1;
+                        break;
                     }
                 }
             }
