@@ -108,19 +108,27 @@ pub fn star1(buf: Vec<u8>) -> i32 {
     let grid_size = grid.len();
     grid[grid_size - 1][grid_size - 1].dest = true;
     // costs nothing to get to the start
+    grid[0][0].total_heat_loss = 0;
     grid[0][0].cost = 0;
     priority_queue.push_back(grid[0][0].clone());
+
+    let mut traveled = Vec::new();
 
     let mut ans = i32::max_value();
     while !priority_queue.is_empty() {
         let active = priority_queue.pop_front().unwrap();
-        if active.dest && active.total_heat_loss < ans {
+        if active.dest {
             ans = active.total_heat_loss;
+            break;
         }
         // check neighbors
         let neighbors = active.neighbors_coords(grid.len() as i32);
         for neigh_coords in neighbors {
             let n = &mut grid[neigh_coords.1 as usize][neigh_coords.0 as usize];
+
+            if traveled.contains(&(neigh_coords.0, neigh_coords.1)) {
+                continue;
+            }
 
             if active.slc.len() == 3 && active.slc.iter().all(|d| *d == neigh_coords.2) {
                 continue;
@@ -157,7 +165,7 @@ pub fn star1(buf: Vec<u8>) -> i32 {
 
             n.total_heat_loss = active.total_heat_loss + n.heat_loss;
             n.distance_traveled = active.distance_traveled + 1;
-            n.cost = n.total_heat_loss + 6 * n.distance + n.distance_traveled;
+            n.cost = n.total_heat_loss + n.distance + n.distance_traveled;
             // if active.path.contains(&(active.x, active.y)) {
             //     n.cost *= 2;
             // }
@@ -172,20 +180,22 @@ pub fn star1(buf: Vec<u8>) -> i32 {
                 .sort_by(|a, b| a.cost.cmp(&b.cost));
         }
 
-        for (y, row) in grid.iter().enumerate() {
-            for (x, node) in row.iter().enumerate() {
-                if priority_queue[0].path.contains(&(x as i32, y as i32)) {
-                    let c = node.cost.to_string();
-                    print!("{:3} ", c.red());
-                } else {
-                    print!("{:3} ", node.heat_loss.to_string().green());
-                }
-            }
+        traveled.push((active.x, active.y));
 
-            print!("\n");
-        }
-        print!("\n\n");
-        std::thread::sleep(std::time::Duration::from_millis(200));
+        // for (y, row) in grid.iter().enumerate() {
+        //     for (x, node) in row.iter().enumerate() {
+        //         if priority_queue[0].path.contains(&(x as i32, y as i32)) {
+        //             let c = node.cost.to_string();
+        //             print!("{:3} ", c.red());
+        //         } else {
+        //             print!("{:3} ", node.heat_loss.to_string().green());
+        //         }
+        //     }
+
+        //     print!("\n");
+        // }
+        // print!("\n\n");
+        // std::thread::sleep(std::time::Duration::from_millis(200));
     }
 
     ans
