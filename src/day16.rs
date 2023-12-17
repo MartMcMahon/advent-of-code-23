@@ -235,35 +235,33 @@ pub fn star1(buf: Vec<u8>) -> i32 {
         let mut ray = queue.pop().unwrap();
         ray.proc(&grid, &mut queue, &mut energized);
 
-        // let mut iy = 0;
-        // for row in &energized {
-        //     print!("\n");
-        //     for (ix, x) in row.iter().enumerate() {
-        //         if x.up {
-        //             print!("{}", "^".red());
-        //         } else if x.down {
-        //             print!("{}", "v".red());
-        //         } else if x.left {
-        //             print!("{}", "<".red());
-        //         } else if x.right {
-        //             print!("{}", ">".red());
-        //         } else {
-        //             print!("{}", grid[iy][ix] as char);
-        //         }
-        //     }
+        let mut iy = 0;
+        for row in &energized {
+            print!("\n");
+            for (ix, x) in row.iter().enumerate() {
+                if x.up {
+                    print!("{}", "^".red());
+                } else if x.down {
+                    print!("{}", "v".red());
+                } else if x.left {
+                    print!("{}", "<".red());
+                } else if x.right {
+                    print!("{}", ">".red());
+                } else {
+                    print!("{}", grid[iy][ix] as char);
+                }
+            }
 
-        //     if iy < queue.len() {
-        //         print!("                         {}", queue[iy]);
-        //     }
+            if iy < queue.len() {
+                print!("                         {}", queue[iy]);
+            }
 
-        //     iy += 1;
-        // }
-        // print!("\ncount: {}\n", count_energized(&energized));
-        // print!("\n");
+            iy += 1;
+        }
+        print!("\ncount: {}\n", count_energized(&energized));
+        print!("\n");
         // std::io::stdin().read_line(&mut String::new()).unwrap();
-        // std::thread::sleep(std::time::Duration::from_millis(100));
-
-        // println!("{:?}", queue);
+        std::thread::sleep(std::time::Duration::from_millis(100));
     }
 
     count_energized(&energized)
@@ -355,6 +353,7 @@ mod test {
     fn test_step() {
         let mut grid = vec![vec![b'.'; 10]; 10];
         grid[3][4] = b'|';
+        grid[2][4] = b'-';
         let mut energized = vec![vec![Traveled::new(); 10]; 10];
         let mut ray = Ray {
             pos: (3, 3),
@@ -368,10 +367,14 @@ mod test {
 
         assert_eq!(energized[3][3].right, true);
         assert_eq!(energized[3][4].up, true);
+        assert_eq!(energized[3][4].down, true);
         assert_eq!(energized[4][4].down, true);
 
-        assert_eq!(energized[2][4].up, true);
+        assert_eq!(energized[2][4].left, true);
+        assert_eq!(energized[2][4].right, true);
         assert_eq!(energized[5][4].down, true);
+
+        assert_eq!(energized[2][9].right, true);
     }
 
     #[test]
