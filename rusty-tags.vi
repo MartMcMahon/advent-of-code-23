@@ -41,6 +41,8 @@ BASE10_STEP	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ser
 BB	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^const BB: u8 = b'b'; \/\/ \\x08$/;"	c
 BENCHMARK_HELLO_SIZE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^const BENCHMARK_HELLO_SIZE: usize = 9 \/\/BENCHMARK_MAGIC_NUMBER.len() \/\/ magic number$/;"	c
 BENCHMARK_MAGIC_NUMBER	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^const BENCHMARK_MAGIC_NUMBER: &str = "Criterion";$/;"	c
+BLINK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^const BLINK: u8 = 0b0001_0000;$/;"	c
+BOLD	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^const BOLD: u8 = 0b0000_0001;$/;"	c
 BORROW	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const BORROW: Symbol = Symbol("borrow");$/;"	c
 BOUND	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const BOUND: Symbol = Symbol("bound");$/;"	c
 BS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    const BS: bool = true; \/\/ backslash \\x5C$/;"	c
@@ -96,6 +98,8 @@ CARRY_MASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serd
 CARRY_MASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const CARRY_MASK: u64;$/;"	c
 CHANGE_STATS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/mod.rs	/^const CHANGE_STATS: [Statistic; 2] = [Statistic::Mean, Statistic::Median];$/;"	c
 CIVIDIS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/palettes/cm_listed.rs	/^pub const CIVIDIS: PaletteType<&'static [(f32, f32, f32, f32)]> = PaletteType::Custom(&[$/;"	c
+CLEAR	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^pub static CLEAR: Style = Style(CLEARV);$/;"	c
+CLEARV	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^const CLEARV: u8 = 0b0000_0000;$/;"	c
 COLOR	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub const COLOR: PaletteType<&'static [(f32, f32, f32, f32)]> = Formula(7, 5, 15);$/;"	c
 COMPARISON_COLORS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/gnuplot_backend/summary.rs	/^static COMPARISON_COLORS: [Color; NUM_COLORS] = [$/;"	c
 COMPARISON_COLORS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/plotters_backend/summary.rs	/^static COMPARISON_COLORS: [RGBColor; NUM_COLORS] = [$/;"	c
@@ -124,6 +128,11 @@ ChangePointEstimates	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba1
 CharEscape	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^pub enum CharEscape {$/;"	g
 CharVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^struct CharVisitor;$/;"	s
 CloseSentinel	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^pub struct CloseSentinel$/;"	s
+Color	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs	/^pub enum Color {$/;"	g
+ColoredString	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^pub struct ColoredString {$/;"	s
+ColoredStringError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/error.rs	/^pub struct ColoredStringError(pub ColoredString);$/;"	s
+ColoringFormatter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/formatters.rs	/^pub trait ColoringFormatter {$/;"	t
+Colorize	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^pub trait Colorize {$/;"	t
 CompactFormatter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^pub struct CompactFormatter;$/;"	s
 Comparison	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^struct Comparison {$/;"	s
 ComparisonResult	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^enum ComparisonResult {$/;"	g
@@ -151,6 +160,7 @@ Criterion	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crite
 CsvReportWriter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/csv_report.rs	/^struct CsvReportWriter<W: Write> {$/;"	s
 CsvRow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/csv_report.rs	/^struct CsvRow<'a> {$/;"	s
 Ctxt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/ctxt.rs	/^pub struct Ctxt {$/;"	s
+CustomColor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/customcolors.rs	/^pub struct CustomColor {$/;"	s
 DARK_BLUE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/gnuplot_backend/mod.rs	/^const DARK_BLUE: Color = Color::Rgb(31, 120, 180);$/;"	c
 DARK_BLUE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/plotters_backend/mod.rs	/^const DARK_BLUE: RGBColor = RGBColor(31, 120, 180);$/;"	c
 DARK_ORANGE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/gnuplot_backend/mod.rs	/^const DARK_ORANGE: Color = Color::Rgb(255, 127, 0);$/;"	c
@@ -172,6 +182,7 @@ DENORMAL_EXPONENT	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba1500
 DENY_UNKNOWN_FIELDS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const DENY_UNKNOWN_FIELDS: Symbol = Symbol("deny_unknown_fields");$/;"	c
 DESERIALIZE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const DESERIALIZE: Symbol = Symbol("deserialize");$/;"	c
 DESERIALIZE_WITH	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const DESERIALIZE_WITH: Symbol = Symbol("deserialize_with");$/;"	c
+DIMMED	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^const DIMMED: u8 = 0b0100_0000;$/;"	c
 DX	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/kernel.rs	/^                        const DX: $ty = 1e-3;$/;"	c
 DX	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/mod.rs	/^                    const DX: $ty = 1e-3;$/;"	c
 DashType	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub enum DashType$/;"	g
@@ -209,6 +220,8 @@ Deserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/se
 Deserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^pub struct Deserializer<R> {$/;"	s
 Deserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^    type Deserializer = &'de RawValue;$/;"	T
 Deserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/de.rs	/^    type Deserializer = Self;$/;"	T
+Dir	/Users/mart/code/advent-of-code-23/src/day16.rs	/^pub enum Dir {$/;"	g
+Dir	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^pub enum Dir {$/;"	g
 Dir	/Users/mart/code/advent-of-code-23/src/day8.rs	/^enum Dir {$/;"	g
 DisplayError	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^pub struct DisplayError<M>(pub M);$/;"	s
 Distribution	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/mod.rs	/^pub struct Distribution<A>(Box<[A]>);$/;"	s
@@ -238,6 +251,7 @@ EnumDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001
 EnumRefDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^    struct EnumRefDeserializer<'a, 'de: 'a, E>$/;"	s
 EnumRefDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/de.rs	/^struct EnumRefDeserializer<'de> {$/;"	s
 EnumVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^        struct EnumVisitor;$/;"	s
+Err	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs	/^    type Err = ();$/;"	T
 Err	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    type Err = Error;$/;"	T
 Err	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    type Err = Error;$/;"	T
 Err	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    type Err = Error;$/;"	T
@@ -340,6 +354,8 @@ FuturesExecutor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f
 GETTER	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const GETTER: Symbol = Symbol("getter");$/;"	c
 GNUPLOT_VERSION	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^static GNUPLOT_VERSION: Lazy<Result<Version, VersionError>> = Lazy::new(criterion_plot::version);$/;"	c
 GRAY	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub const GRAY: PaletteType<&'static [(f32, f32, f32, f32)]> = Gray(1.0);$/;"	c
+GRID_HEIGHT	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^const GRID_HEIGHT: usize = 110;$/;"	c
+GRID_WIDTH	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^const GRID_WIDTH: usize = 110;$/;"	c
 Game	/Users/mart/code/advent-of-code-23/src/day2.rs	/^struct Game {$/;"	s
 GardenMap	/Users/mart/code/advent-of-code-23/src/day5.rs	/^struct GardenMap {$/;"	s
 GardenType	/Users/mart/code/advent-of-code-23/src/day5.rs	/^enum GardenType {$/;"	g
@@ -350,6 +366,7 @@ HALF	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json
 HELIX	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^pub const HELIX: PaletteType<&'static [(f32, f32, f32, f32)]> = CubeHelix(0.5, -0.8, 2.0, 1.0);$/;"	c
 HEX	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^static HEX: [u8; 256] = {$/;"	c
 HEX_DIGITS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^                static HEX_DIGITS: [u8; 16] = *b"0123456789abcdef";$/;"	c
+HIDDEN	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^const HIDDEN: u8 = 0b0010_0000;$/;"	c
 HIDDEN_BIT_MASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const HIDDEN_BIT_MASK: Self::Unsigned;$/;"	c
 HIDDEN_BIT_MASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const HIDDEN_BIT_MASK: u32 = 0x00800000;$/;"	c
 HIDDEN_BIT_MASK	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    const HIDDEN_BIT_MASK: u64 = 0x0010000000000000;$/;"	c
@@ -370,6 +387,7 @@ INPUT	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    const INPUT: &str = r
 INPUT	/Users/mart/code/advent-of-code-23/src/day4.rs	/^    const INPUT: &str = r#"Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53$/;"	c
 INPUT	/Users/mart/code/advent-of-code-23/src/day5.rs	/^    const INPUT: &str = r#"seeds: 79 14 55 13$/;"	c
 INTO	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const INTO: Symbol = Symbol("into");$/;"	c
+ITALIC	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^const ITALIC: u8 = 0b0000_1000;$/;"	c
 Identifier	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^pub enum Identifier {$/;"	g
 IdentifierDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^pub trait IdentifierDeserializer<'de, E: Error> {$/;"	t
 IgnoredAny	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/ignored_any.rs	/^pub struct IgnoredAny;$/;"	s
@@ -536,6 +554,7 @@ NUM_COLORS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crit
 NUM_COLORS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/plotters_backend/summary.rs	/^const NUM_COLORS: usize = 8;$/;"	c
 Name	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^pub struct Name {$/;"	s
 NeverDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^pub struct NeverDeserializer<E> {$/;"	s
+NoColor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/formatters.rs	/^pub struct NoColor;$/;"	s
 NoExpand	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct NoExpand<'s>(pub &'s [u8]);$/;"	s
 NoExpand	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct NoExpand<'s>(pub &'s str);$/;"	s
 NonZeroVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^                struct NonZeroVisitor;$/;"	s
@@ -661,6 +680,7 @@ RENAME_ALL_FIELDS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba1500
 RENAME_RULES	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/case.rs	/^static RENAME_RULES: &[(&str, RenameRule)] = &[$/;"	c
 REPORT_STATS	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/mod.rs	/^const REPORT_STATS: [Statistic; 7] = [$/;"	c
 REPR	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const REPR: Symbol = Symbol("repr");$/;"	c
+REVERSED	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^const REVERSED: u8 = 0b0000_0100;$/;"	c
 RR	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^const RR: u8 = b'r'; \/\/ \\x0D$/;"	c
 RUNNER_HELLO_SIZE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^const RUNNER_HELLO_SIZE: usize = 15 \/\/RUNNER_MAGIC_NUMBER.len() \/\/ magic number$/;"	c
 RUNNER_MAGIC_NUMBER	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^const RUNNER_MAGIC_NUMBER: &str = "cargo-criterion";$/;"	c
@@ -673,6 +693,8 @@ RawKeyDeserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba150
 RawValue	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^pub struct RawValue {$/;"	s
 RawValueEmitter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/ser.rs	/^struct RawValueEmitter;$/;"	s
 RawValueStrEmitter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^struct RawValueStrEmitter<'a, W: 'a + io::Write, F: 'a + Formatter>(&'a mut Serializer<W, F>);$/;"	s
+Ray	/Users/mart/code/advent-of-code-23/src/day16.rs	/^struct Ray {$/;"	s
+Ray	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^struct Ray {$/;"	s
 Read	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^pub trait Read<'de>: private::Sealed {$/;"	t
 Ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^pub struct Ref<'a, T>$/;"	s
 Reference	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^pub enum Reference<'b, 'c, T>$/;"	g
@@ -716,6 +738,8 @@ SKIP	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_deri
 SKIP_DESERIALIZING	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const SKIP_DESERIALIZING: Symbol = Symbol("skip_deserializing");$/;"	c
 SKIP_SERIALIZING	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const SKIP_SERIALIZING: Symbol = Symbol("skip_serializing");$/;"	c
 SKIP_SERIALIZING_IF	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const SKIP_SERIALIZING_IF: Symbol = Symbol("skip_serializing_if");$/;"	c
+STRIKETHROUGH	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^const STRIKETHROUGH: u8 = 0b1000_0000;$/;"	c
+STYLES	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^static STYLES: [(u8, Styles); 8] = [$/;"	c
 Sample	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/sample.rs	/^pub struct Sample<A>([A]);$/;"	s
 SamplingMethod	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^pub enum SamplingMethod {$/;"	g
 SamplingMode	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^pub enum SamplingMode {$/;"	g
@@ -849,6 +873,7 @@ SetMatchesIntoIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba150
 SetMatchesIntoIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^pub struct SetMatchesIntoIter {$/;"	s
 SetMatchesIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^pub struct SetMatchesIter<'a>(PatternSetIter<'a>);$/;"	s
 SetMatchesIter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^pub struct SetMatchesIter<'a>(PatternSetIter<'a>);$/;"	s
+ShouldColorize	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs	/^pub struct ShouldColorize {$/;"	s
 Size	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub struct Size$/;"	s
 SliceRead	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^pub struct SliceRead<'a> {$/;"	s
 Slope	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/bivariate/regression.rs	/^pub struct Slope<A>(pub A)$/;"	s
@@ -874,7 +899,9 @@ StringVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/s
 StructForm	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^enum StructForm<'a> {$/;"	g
 StructTrait	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/ser.rs	/^enum StructTrait {$/;"	g
 StructVariant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/ser.rs	/^enum StructVariant<'a> {$/;"	g
+Style	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^pub struct Style(u8);$/;"	s
 Style	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/ast.rs	/^pub enum Style {$/;"	g
+Styles	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^pub enum Styles {$/;"	g
 SubCaptureMatches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^pub struct SubCaptureMatches<'c, 'h> {$/;"	s
 SubCaptureMatches	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^pub struct SubCaptureMatches<'c, 'h> {$/;"	s
 SummaryContext	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^struct SummaryContext {$/;"	s
@@ -883,9 +910,11 @@ T	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193
 TAG	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const TAG: Symbol = Symbol("tag");$/;"	c
 TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day15.rs	/^    const TEST_INPUT: &str = "rn=1,cm-,qp=3,cm=2,qp-,pc=4,ot=9,ab=5,pc-,pc=6,ot=7";$/;"	c
 TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day16.rs	/^    const TEST_INPUT: &str = r#".|...\\....$/;"	c
+TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^    const TEST_INPUT: &str = r#".|...\\....$/;"	c
 TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    const TEST_INPUT: &str = r#"Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green$/;"	c
 TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day6.rs	/^    const TEST_INPUT: &str = r#"Time:      7  15   30$/;"	c
 TEST_INPUT	/Users/mart/code/advent-of-code-23/src/day7.rs	/^    const TEST_INPUT: &str = r#"32T3K 765$/;"	c
+TEST_INPUT	/Users/mart/code/advent-of-code-23/src/template.rs	/^    const TEST_INPUT: &str = r#".|...\\....$/;"	c
 THUMBNAIL_SIZE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^const THUMBNAIL_SIZE: Option<Size> = Some(Size(450, 300));$/;"	c
 TOKEN	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^pub const TOKEN: &str = "$serde_json::private::RawValue";$/;"	c
 TRANSPARENT	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const TRANSPARENT: Symbol = Symbol("transparent");$/;"	c
@@ -907,6 +936,7 @@ Tails	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    type Target = dyn StdError + Send + Sync + 'static;$/;"	T
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    type Target = T;$/;"	T
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    type Target;$/;"	T
+Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    type Target = str;$/;"	T
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/mod.rs	/^    type Target = Sample<A>;$/;"	T
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^    type Target = Sample<A>;$/;"	T
 Target	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/sample.rs	/^    type Target = [A];$/;"	T
@@ -918,6 +948,7 @@ TickOption	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnup
 TickType	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^pub enum TickType$/;"	g
 Trait	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub struct Trait;$/;"	s
 TraitKind	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/kind.rs	/^pub trait TraitKind: Sized {$/;"	t
+Traveled	/Users/mart/code/advent-of-code-23/src/day16.rs	/^struct Traveled {$/;"	s
 Tuple	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/tuple.rs	/^pub trait Tuple: Sized {$/;"	t
 TupleForm	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^enum TupleForm<'a> {$/;"	g
 TupleInPlaceVisitor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^                    struct TupleInPlaceVisitor<'a, $($name: 'a,)+>(&'a mut ($($name,)+));$/;"	s
@@ -928,6 +959,7 @@ TupledDistributions	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15
 TupledDistributionsBuilder	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/tuple.rs	/^pub trait TupledDistributionsBuilder: Sized {$/;"	t
 Type	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/index.rs	/^struct Type<'a>(&'a Value);$/;"	s
 U32Deserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^pub struct U32Deserializer<E> {$/;"	s
+UNDERLINE	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^const UNDERLINE: u8 = 0b0000_0010;$/;"	c
 UNTAGGED	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/symbol.rs	/^pub const UNTAGGED: Symbol = Symbol("untagged");$/;"	c
 UU	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^const UU: u8 = b'u'; \/\/ \\x00...\\x1F except the ones above$/;"	c
 Unexpected	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/mod.rs	/^pub enum Unexpected<'a> {$/;"	g
@@ -1104,7 +1136,11 @@ add	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0
 add	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn add(&self, v1: &Self::Value, v2: &Self::Value) -> Self::Value;$/;"	f
 add	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    pub fn add(x: &[Limb], y: &[Limb]) -> Vec<Limb> {$/;"	f
 add	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    pub fn add(x: Limb, y: Limb) -> (Limb, bool) {$/;"	f
+aggreg1	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn aggreg1() {$/;"	f
+aggreg2	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn aggreg2() {$/;"	f
+aggreg3	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn aggreg3() {$/;"	f
 aliases	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn aliases(&self) -> &BTreeSet<String> {$/;"	f
+all	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn all() {$/;"	f
 all_fields	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/ast.rs	/^    pub fn all_fields(&'a self) -> Box<dyn Iterator<Item = &'a Field<'a>> + 'a> {$/;"	f
 allow_transparent	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/check.rs	/^fn allow_transparent(field: &Field, derive: Derive) -> bool {$/;"	f
 analysis	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn analysis(&self, _id: &BenchmarkId, _context: &ReportContext) {}$/;"	f
@@ -1201,11 +1237,20 @@ bench_with_input	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001
 benchmark_group	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    pub fn benchmark_group<S: Into<String>>(&mut self, group_name: S) -> BenchmarkGroup<'_, M> {$/;"	f
 benchmark_start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn benchmark_start(&self, _id: &BenchmarkId, _context: &ReportContext) {}$/;"	f
 benchmark_start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn benchmark_start(&self, id: &BenchmarkId, _: &ReportContext) {$/;"	f
+bgcolor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    pub fn bgcolor(&self) -> Option<Color> {$/;"	f
 bit_length	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    fn bit_length(&self) -> usize {$/;"	f
 bit_length	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    pub fn bit_length(x: &[Limb]) -> usize {$/;"	f
+black	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn black(self) -> ColoredString$/;"	f
 black_box	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^pub fn black_box<T>(dummy: T) -> T {$/;"	f
+blink	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn blink(mut self) -> ColoredString {$/;"	f
+blink	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn blink(self) -> ColoredString {$/;"	f
+blink	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn blink(self) -> ColoredString;$/;"	f
 block_on	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/async_executor.rs	/^    fn block_on<T>(&self, future: impl Future<Output = T>) -> T {$/;"	f
 block_on	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/async_executor.rs	/^    fn block_on<T>(&self, future: impl Future<Output = T>) -> T;$/;"	f
+blue	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn blue(self) -> ColoredString$/;"	f
+bold	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn bold(mut self) -> ColoredString {$/;"	f
+bold	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn bold(self) -> ColoredString {$/;"	f
+bold	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn bold(self) -> ColoredString;$/;"	f
 bold	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn bold(&self, s: String) -> String {$/;"	f
 bootstrap	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/bivariate/mod.rs	/^    pub fn bootstrap<T, S>(&self, nresamples: usize, statistic: S) -> T::Distributions$/;"	f
 bootstrap	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/mixed.rs	/^pub fn bootstrap<A, T, S>($/;"	f
@@ -1222,6 +1267,16 @@ box_forwarded_impl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba150
 boxed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub unsafe fn boxed(self) -> Box<T> {$/;"	f
 boxes	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn boxes<$/;"	f
 boxes_set_width	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn boxes_set_width<$/;"	f
+bright_black	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn bright_black(self) -> ColoredString$/;"	f
+bright_blue	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn bright_blue(self) -> ColoredString$/;"	f
+bright_color_fn	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn bright_color_fn() {$/;"	f
+bright_cyan	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn bright_cyan(self) -> ColoredString$/;"	f
+bright_green	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn bright_green(self) -> ColoredString$/;"	f
+bright_magenta	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn bright_magenta(self) -> ColoredString$/;"	f
+bright_purple	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn bright_purple(self) -> ColoredString$/;"	f
+bright_red	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn bright_red(self) -> ColoredString$/;"	f
+bright_white	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn bright_white(self) -> ColoredString$/;"	f
+bright_yellow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn bright_yellow(self) -> ColoredString$/;"	f
 build	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn build(&self) -> Result<Regex, Error> {$/;"	f
 build	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn build(&self) -> Result<RegexSet, Error> {$/;"	f
 build_change_estimates	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/estimate.rs	/^pub fn build_change_estimates($/;"	f
@@ -1290,8 +1345,11 @@ check_variant_skip_attrs	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22
 clamp	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^		fn clamp<T: PartialOrd>(val: T, min: T, max: T) -> T$/;"	f
 classify	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^pub fn classify<A>(sample: &Sample<A>) -> LabeledSample<'_, A>$/;"	f
 classify	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/error.rs	/^    pub fn classify(&self) -> Category {$/;"	f
+clear	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn clear(self) -> ColoredString {$/;"	f
+clear	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn clear(self) -> ColoredString;$/;"	f
 clear	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    pub fn clear(&mut self) {$/;"	f
 clear_axes	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn clear_axes(&mut self) -> &mut Figure$/;"	f
+clicolor_behavior	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs	/^    fn clicolor_behavior() {$/;"	f
 clone	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    fn clone(&self) -> Self {$/;"	f
 clone	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/bivariate/mod.rs	/^    fn clone(&self) -> Data<'a, X, Y> {$/;"	f
 clone	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^            fn clone(&self) -> Self {$/;"	f
@@ -1316,6 +1374,10 @@ collect_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ser
 collect_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/ser.rs	/^    fn collect_str<T>(self, value: &T) -> Result<Self::Ok>$/;"	f
 collect_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/ser.rs	/^    fn collect_str<T>(self, value: &T) -> Result<String>$/;"	f
 collect_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/ser.rs	/^    fn collect_str<T>(self, value: &T) -> Result<Value>$/;"	f
+color	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn color<S: Into<Color>>(mut self, color: S) -> ColoredString {$/;"	f
+color	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn color<S: Into<Color>>(self, color: S) -> ColoredString {$/;"	f
+color	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn color<S: Into<Color>>(self, color: S) -> ColoredString;$/;"	f
+color_fn	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn color_fn() {$/;"	f
 column	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/error.rs	/^    pub fn column(&self) -> usize {$/;"	f
 compare	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    fn compare(&self, y: &Self) -> cmp::Ordering {$/;"	f
 compare	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    pub fn compare(x: &[Limb], y: &[Limb]) -> cmp::Ordering {$/;"	f
@@ -1328,12 +1390,25 @@ complete	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criter
 complete	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/tuple.rs	/^    fn complete(self) -> (Distribution<A>, Distribution<B>, Distribution<C>) {$/;"	f
 complete	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/tuple.rs	/^    fn complete(self) -> (Distribution<A>,) {$/;"	f
 complete	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/tuple.rs	/^    fn complete(self) -> <Self::Item as Tuple>::Distributions;$/;"	f
+compute_style	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn compute_style(&self) -> String {$/;"	f
+compute_style_blue_bold	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn compute_style_blue_bold() {$/;"	f
+compute_style_blue_bold_on_blue	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn compute_style_blue_bold_on_blue() {$/;"	f
+compute_style_blue_on_blue	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn compute_style_blue_on_blue() {$/;"	f
+compute_style_bright_blue_on_bright_blue	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn compute_style_bright_blue_on_bright_blue() {$/;"	f
+compute_style_empty_string	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn compute_style_empty_string() {$/;"	f
+compute_style_simple_bg_blue	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn compute_style_simple_bg_blue() {$/;"	f
+compute_style_simple_bg_bright_blue	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn compute_style_simple_bg_bright_blue() {$/;"	f
+compute_style_simple_bold	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn compute_style_simple_bold() {$/;"	f
+compute_style_simple_fg_blue	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn compute_style_simple_fg_blue() {$/;"	f
+compute_style_simple_fg_bright_blue	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn compute_style_simple_fg_bright_blue() {$/;"	f
 confidence_interval	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/mod.rs	/^    pub fn confidence_interval(&self, confidence_level: A) -> (A, A)$/;"	f
 confidence_level	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/benchmark_group.rs	/^    pub fn confidence_level(&mut self, cl: f64) -> &mut Self {$/;"	f
 confidence_level	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    pub fn confidence_level(mut self, cl: f64) -> Criterion<M> {$/;"	f
 configure_from_args	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    pub fn configure_from_args(mut self) -> Criterion<M> {$/;"	f
 constrain	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/ser.rs	/^pub fn constrain<T: ?Sized>(t: &T) -> &T {$/;"	f
 construct	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    unsafe fn construct<E>($/;"	f
+cont	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^    fn cont(&mut self) -> Self {$/;"	f
+contains	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^    pub fn contains(self, style: Styles) -> bool {$/;"	f
 contains_key	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    pub fn contains_key<Q>(&self, key: &Q) -> bool$/;"	f
 context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn context<C>(self, context: C) -> Result<T, Error>$/;"	f
 context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn context<C>(self, context: C) -> Self$/;"	f
@@ -1350,6 +1425,7 @@ copy_new_dir_to_base	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba1
 count	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^    pub fn count(&self) -> (usize, usize, usize, usize, usize) {$/;"	f
 count	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn count(self) -> usize {$/;"	f
 count	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn count(self) -> usize {$/;"	f
+count_energized	/Users/mart/code/advent-of-code-23/src/day16.rs	/^fn count_energized(energized: &Vec<Vec<Traveled>>) -> i32 {$/;"	f
 count_winning_nums	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn count_winning_nums(winning: Vec<u32>, ours: Vec<u32>) -> u32 {$/;"	f
 cp	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/fs.rs	/^pub fn cp(from: &Path, to: &Path) -> Result<()> {$/;"	f
 create	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn create(ip: usize) -> Backtrace {$/;"	f
@@ -1365,7 +1441,10 @@ custom	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.
 custom	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/fmt.rs	/^    fn custom<T: Display>(_msg: T) -> Self {$/;"	f
 custom	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/mod.rs	/^            fn custom<T>(msg: T) -> Self$/;"	f
 custom	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/error.rs	/^    fn custom<T: Display>(msg: T) -> Error {$/;"	f
+custom_color	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn custom_color(self, color: CustomColor) -> ColoredString$/;"	f
 custom_serde_path	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn custom_serde_path(&self) -> Option<&syn::Path> {$/;"	f
+custom_test1	/Users/mart/code/advent-of-code-23/src/day16.rs	/^    fn custom_test1() {$/;"	f
+cyan	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn cyan(self) -> ColoredString$/;"	f
 data	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/bignum.rs	/^    fn data(&self) -> &Vec<Limb> {$/;"	f
 data	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    fn data(&self) -> &Vec<Limb>;$/;"	f
 data_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/bignum.rs	/^    fn data_mut(&mut self) -> &mut Vec<Limb> {$/;"	f
@@ -1385,6 +1464,8 @@ decode_hex_escape	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba1500
 decode_hex_escape	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    fn decode_hex_escape(&mut self) -> Result<u16>;$/;"	f
 decode_hex_val	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^fn decode_hex_val(val: u8) -> Option<u16> {$/;"	f
 default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn default() -> Self {$/;"	f
+default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs	/^    fn default() -> ShouldColorize {$/;"	f
+default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn default() -> Self {$/;"	f
 default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    fn default() -> Criterion {$/;"	f
 default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    fn default() -> PlotConfiguration {$/;"	f
 default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    fn default() -> Self {$/;"	f
@@ -1404,6 +1485,7 @@ delegate_iterator	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba1500
 deny_unknown_fields	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn deny_unknown_fields(&self) -> bool {$/;"	f
 deref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn deref(&self) -> &Self::Target {$/;"	f
 deref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub unsafe fn deref(self) -> &'a T {$/;"	f
+deref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn deref(&self) -> &str {$/;"	f
 deref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/mod.rs	/^    fn deref(&self) -> &Sample<A> {$/;"	f
 deref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^    fn deref(&self) -> &Sample<A> {$/;"	f
 deref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/sample.rs	/^    fn deref(&self) -> &[A] {$/;"	f
@@ -1654,6 +1736,9 @@ dfa_size_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/
 dfa_size_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn dfa_size_limit(&mut self, bytes: usize) -> &mut RegexBuilder {$/;"	f
 dfa_size_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn dfa_size_limit(&mut self, limit: usize) -> &mut Builder {$/;"	f
 different_subsets	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/resamples.rs	/^    fn different_subsets() {$/;"	f
+dimmed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn dimmed(mut self) -> ColoredString {$/;"	f
+dimmed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn dimmed(self) -> ColoredString {$/;"	f
+dimmed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn dimmed(self) -> ColoredString;$/;"	f
 disable_recursion_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    pub fn disable_recursion_limit(&mut self) {$/;"	f
 discard	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    fn discard(&mut self) {$/;"	f
 discard	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    fn discard(&mut self);$/;"	f
@@ -1680,6 +1765,7 @@ elapsed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criteri
 elements_per_second	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn elements_per_second(&self, elems: f64, typical: f64, values: &mut [f64]) -> &'static str {$/;"	f
 empty	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn empty() -> RegexSet {$/;"	f
 empty	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn empty() -> RegexSet {$/;"	f
+empty_is_none	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn empty_is_none() {$/;"	f
 enabled	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn enabled() -> bool {$/;"	f
 encode_surrogate	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^            fn encode_surrogate(scratch: &mut Vec<u8>, n: u16) {$/;"	f
 end	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn end(&self, i: Self::Intermediate) -> Self::Value {$/;"	f
@@ -1726,6 +1812,7 @@ eq_i64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_js
 eq_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/partial_eq.rs	/^fn eq_str(value: &Value, other: &str) -> bool {$/;"	f
 eq_u64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/partial_eq.rs	/^fn eq_u64(value: &Value, other: u64) -> bool {$/;"	f
 erase	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn erase(&self) -> Ref<ErrorImpl> {$/;"	f
+error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs	/^        fn error() {$/;"	f
 error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/macros_private.rs	/^macro_rules! error {$/;"	d
 error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn error(&self, reason: ErrorCode) -> Error {$/;"	f
 error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^fn error<'de, R, T>(read: &R, reason: ErrorCode) -> Result<T>$/;"	f
@@ -1737,6 +1824,11 @@ error_scale	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ser
 error_scale	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/errors.rs	/^    fn error_scale() -> u32;$/;"	f
 error_spanned_by	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/ctxt.rs	/^    pub fn error_spanned_by<A: ToTokens, T: Display>(&self, obj: A, msg: T) {$/;"	f
 escape	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/lib.rs	/^pub fn escape(pattern: &str) -> alloc::string::String {$/;"	f
+escape_inner_reset_sequences	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn escape_inner_reset_sequences(&self) -> Cow<str> {$/;"	f
+escape_reset_sequence_spec_should_do_nothing_on_empty_strings	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn escape_reset_sequence_spec_should_do_nothing_on_empty_strings() {$/;"	f
+escape_reset_sequence_spec_should_do_nothing_on_string_with_no_reset	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn escape_reset_sequence_spec_should_do_nothing_on_string_with_no_reset() {$/;"	f
+escape_reset_sequence_spec_should_replace_inner_reset_sequence_with_current_style	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn escape_reset_sequence_spec_should_replace_inner_reset_sequence_with_current_style() {$/;"	f
+escape_reset_sequence_spec_should_replace_multiple_inner_reset_sequences_with_current_style	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn escape_reset_sequence_spec_should_replace_multiple_inner_reset_sequences_with_current_style()$/;"	f
 escape_test	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/util.rs	/^fn escape_test()$/;"	f
 estimate	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/mod.rs	/^    fn estimate<A: Float>(self, sample: &Sample<A>) -> A {$/;"	f
 estimate	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/mod.rs	/^    pub fn estimate(&self, x: A) -> A {$/;"	f
@@ -1771,6 +1863,7 @@ expecting	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde
 exponent	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn exponent(self) -> i32 {$/;"	f
 exponent_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn exponent_limit() -> (i32, i32) {$/;"	f
 exponent_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn exponent_limit() -> (i32, i32);$/;"	f
+exposing_tests	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn exposing_tests() {$/;"	f
 expr_is_missing	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^fn expr_is_missing(field: &Field, cattrs: &attr::Container) -> Fragment {$/;"	f
 expr_is_missing_seq	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^fn expr_is_missing_seq($/;"	f
 ext_context	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^        fn ext_context<C>(self, context: C) -> Error$/;"	f
@@ -1788,6 +1881,7 @@ f64_from_parts	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/
 f64_long_from_parts	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn f64_long_from_parts($/;"	f
 faint	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn faint(&self, s: String) -> String {$/;"	f
 fences	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^    pub fn fences(&self) -> (A, A, A, A) {$/;"	f
+fgcolor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    pub fn fgcolor(&self) -> Option<Color> {$/;"	f
 field_i	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^fn field_i(i: usize) -> Ident {$/;"	f
 fields_from_ast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/ast.rs	/^fn fields_from_ast<'a>($/;"	f
 fill_between	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn fill_between<$/;"	f
@@ -1807,6 +1901,7 @@ first_num	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn first_num(s: &str)
 first_opt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/util.rs	/^macro_rules! first_opt$/;"	d
 first_opt_default	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/util.rs	/^macro_rules! first_opt_default$/;"	d
 fit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/bivariate/regression.rs	/^    pub fn fit(data: &Data<'_, A, A>) -> Slope<A> {$/;"	f
+five	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn five() {$/;"	f
 fix_position	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn fix_position(&self, err: Error) -> Error {$/;"	f
 flat_map_take_entry	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^fn flat_map_take_entry<'de>($/;"	f
 flatten	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn flatten(&self) -> bool {$/;"	f
@@ -1821,6 +1916,8 @@ fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/context.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/error.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/error.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/estimate.rs	/^    fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {$/;"	f
@@ -1853,9 +1950,12 @@ fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/index.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {$/;"	f
 fmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^    fn fmt(&self, formatter: &mut fmt::Formatter) -> fmt::Result {$/;"	f
+fmt	/Users/mart/code/advent-of-code-23/src/day16.rs	/^    fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {$/;"	f
 fmt_primitives	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/fmt.rs	/^macro_rules! fmt_primitives {$/;"	d
 focus_power	/Users/mart/code/advent-of-code-23/src/day15.rs	/^    fn focus_power(&self, box_idx: i32) -> i32 {$/;"	f
 force	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn force(&self) -> &Capture {$/;"	f
+format	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/formatters.rs	/^    fn format(out: String, _fg: Color, _bg: Color, _style: Style) -> String {$/;"	f
+format	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/formatters.rs	/^    fn format(out: String, fg: Color, bg: Color, style: Style) -> String;$/;"	f
 format_err	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/lib.rs	/^    pub fn format_err(args: Arguments) -> Error {$/;"	f
 format_escaped_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^fn format_escaped_str<W, F>(writer: &mut W, formatter: &mut F, value: &str) -> io::Result<()>$/;"	f
 format_escaped_str_contents	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^fn format_escaped_str_contents<W, F>($/;"	f
@@ -1865,13 +1965,20 @@ format_u8	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde
 format_value	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn format_value(&self, value: f64) -> String {$/;"	f
 formatter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn formatter(&self) -> &dyn ValueFormatter {$/;"	f
 formatter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn formatter(&self) -> &dyn ValueFormatter;$/;"	f
+formatting	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn formatting() {$/;"	f
 forward_to_deserialize_any	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/macros.rs	/^macro_rules! forward_to_deserialize_any {$/;"	d
 forward_to_deserialize_any_helper	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/macros.rs	/^macro_rules! forward_to_deserialize_any_helper {$/;"	d
 forward_to_deserialize_any_method	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/macros.rs	/^macro_rules! forward_to_deserialize_any_method {$/;"	d
 forward_to_deserialize_other	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^macro_rules! forward_to_deserialize_other {$/;"	d
 forwarded_impl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^macro_rules! forwarded_impl {$/;"	d
+four	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn four() {$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn from(error: E) -> Self {$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn from(error: Error) -> Self {$/;"	f
+from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs	/^    fn from(src: &str) -> Self {$/;"	f
+from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs	/^    fn from(src: String) -> Self {$/;"	f
+from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn from(cs: ColoredString) -> Box<dyn Error> {$/;"	f
+from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn from(s: &'a str) -> Self {$/;"	f
+from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn from(s: String) -> Self {$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^    fn from(other: &InternalBenchmarkId) -> RawBenchmarkId {$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^    fn from(other: &crate::PlotConfiguration) -> Self {$/;"	f
 from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^    fn from(other: &crate::benchmark::BenchmarkConfig) -> Self {$/;"	f
@@ -1920,6 +2027,7 @@ from_bits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde
 from_borrowed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^    fn from_borrowed(json: &str) -> &Self {$/;"	f
 from_bounds	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/size_hint.rs	/^pub fn from_bounds<I>(iter: &I) -> Option<usize>$/;"	f
 from_byte	/Users/mart/code/advent-of-code-23/src/day8.rs	/^    fn from_byte(b: u8) -> Self {$/;"	f
+from_env	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs	/^    pub fn from_env() -> Self {$/;"	f
 from_escape_table	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^    fn from_escape_table(escape: u8, byte: u8) -> CharEscape {$/;"	f
 from_f64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/number.rs	/^    pub fn from_f64(f: f64) -> Option<Number> {$/;"	f
 from_float	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/float.rs	/^    pub fn from_float<F: Float>(f: F) -> ExtendedFloat {$/;"	f
@@ -1937,6 +2045,7 @@ from_reader	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ser
 from_reader	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^pub fn from_reader<R, T>(rdr: R) -> Result<T>$/;"	f
 from_slice	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    pub fn from_slice(bytes: &'a [u8]) -> Self {$/;"	f
 from_slice	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^pub fn from_slice<'a, T>(v: &'a [u8]) -> Result<T>$/;"	f
+from_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs	/^    fn from_str(src: &str) -> Result<Self, Self::Err> {$/;"	f
 from_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn from_str(s: &str) -> Result<Regex, Error> {$/;"	f
 from_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    fn from_str(s: &str) -> Result<Regex, Error> {$/;"	f
 from_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/case.rs	/^    pub fn from_str(rename_all_str: &str) -> Result<Self, ParseError> {$/;"	f
@@ -1948,6 +2057,7 @@ from_string	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/ser
 from_string_unchecked	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/number.rs	/^    pub fn from_string_unchecked(n: String) -> Self {$/;"	f
 from_trait	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^fn from_trait<'de, R, T>(read: R) -> Result<T>$/;"	f
 from_u64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    fn from_u64(x: u64) -> Self {$/;"	f
+from_u8	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^    fn from_u8(u: u8) -> Option<Vec<Styles>> {$/;"	f
 from_utf8_lossy	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/mod.rs	/^    pub fn from_utf8_lossy(bytes: &[u8]) -> &str {$/;"	f
 from_utf8_lossy	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/mod.rs	/^    pub fn from_utf8_lossy(bytes: &[u8]) -> Cow<str> {$/;"	f
 from_value	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^pub fn from_value<T>(value: Value) -> Result<T, Error>$/;"	f
@@ -2010,10 +2120,12 @@ get_with_tokens	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f
 getter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn getter(&self) -> Option<&syn::ExprPath> {$/;"	f
 gnuplot_escape	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/gnuplot_backend/mod.rs	/^fn gnuplot_escape(string: &str) -> String {$/;"	f
 greater_equal	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    pub fn greater_equal(x: &[Limb], y: &[Limb]) -> bool {$/;"	f
+green	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn green(self) -> ColoredString$/;"	f
 green	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn green(&self, s: &str) -> String {$/;"	f
 group	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^    fn group(output_directory: &Path, group_id: &'a str) -> ReportLink<'a> {$/;"	f
 group_separator	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn group_separator(&self) {$/;"	f
 group_separator	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn group_separator(&self) {}$/;"	f
+has_colors	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn has_colors(&self) -> bool {$/;"	f
 has_flatten	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn has_flatten(&self) -> bool {$/;"	f
 has_getter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/ast.rs	/^    pub fn has_getter(&self) -> bool {$/;"	f
 hash	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/number.rs	/^    fn hash<H: Hasher>(&self, h: &mut H) {$/;"	f
@@ -2027,6 +2139,9 @@ hi64_2	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_js
 hi64_2	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    fn hi64_2(&self) -> (u64, bool);$/;"	f
 hi64_3	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    fn hi64_3(&self) -> (u64, bool) {$/;"	f
 hi64_3	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    fn hi64_3(&self) -> (u64, bool);$/;"	f
+hidden	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn hidden(mut self) -> ColoredString {$/;"	f
+hidden	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn hidden(self) -> ColoredString {$/;"	f
+hidden	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn hidden(self) -> ColoredString;$/;"	f
 hide_from_rustfmt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/features_check/mod.rs	/^macro_rules! hide_from_rustfmt {$/;"	d
 iadd	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    pub fn iadd(x: &mut Limb, y: Limb) -> bool {$/;"	f
 iadd	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    pub fn iadd(x: &mut Vec<Limb>, y: &[Limb]) {$/;"	f
@@ -2184,6 +2299,7 @@ is_object	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde
 is_option	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn is_option(ty: &syn::Type, elem: fn(&syn::Type) -> bool) -> bool {$/;"	f
 is_outlier	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^    pub fn is_outlier(&self) -> bool {$/;"	f
 is_packed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn is_packed(&self) -> bool {$/;"	f
+is_plain	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    pub fn is_plain(&self) -> bool {$/;"	f
 is_points	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn is_points(&self) -> bool$/;"	f
 is_primitive_path	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn is_primitive_path(path: &syn::Path, primitive: &str) -> bool {$/;"	f
 is_primitive_type	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn is_primitive_type(ty: &syn::Type, primitive: &str) -> bool {$/;"	f
@@ -2210,6 +2326,10 @@ ishl_limbs	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serd
 isub	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    pub fn isub(x: &mut Limb, y: Limb) -> bool {$/;"	f
 isub	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    pub fn isub(x: &mut Vec<Limb>, y: &[Limb]) {$/;"	f
 isub_impl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    pub fn isub_impl(x: &mut Vec<Limb>, y: Limb, xstart: usize) {$/;"	f
+it_works	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn it_works() {$/;"	f
+italic	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn italic(mut self) -> ColoredString {$/;"	f
+italic	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn italic(self) -> ColoredString {$/;"	f
+italic	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn italic(self) -> ColoredString;$/;"	f
 iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/bencher.rs	/^    pub fn iter<O, R, F>(&mut self, mut routine: R)$/;"	f
 iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/bencher.rs	/^    pub fn iter<O, R>(&mut self, mut routine: R)$/;"	f
 iter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/bivariate/mod.rs	/^    pub fn iter(&self) -> Pairs<'a, X, Y> {$/;"	f
@@ -2291,6 +2411,8 @@ locations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex
 locations	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn locations(&self) -> CaptureLocations {$/;"	f
 log_if_err	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/macros_private.rs	/^macro_rules! log_if_err {$/;"	d
 long_mul	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    fn long_mul(x: &[Limb], y: &[Limb]) -> Vec<Limb> {$/;"	f
+magenta	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn magenta(self) -> ColoredString$/;"	f
+main	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/customcolors.rs	/^    fn main() {$/;"	f
 main	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/macros.rs	/^        fn main() {$/;"	f
 main	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/lib.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn main() {$/;"	f
@@ -2301,9 +2423,9 @@ main	/Users/mart/code/advent-of-code-23/src/day5.rs	/^fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/day8.rs	/^pub fn main() {$/;"	f
 main	/Users/mart/code/advent-of-code-23/src/main.rs	/^fn main() {$/;"	f
-main	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn main() {$/;"	f
 make_error	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/error.rs	/^fn make_error(mut msg: String) -> Error {$/;"	f
 make_filename_safe	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^pub fn make_filename_safe(string: &str) -> String {$/;"	f
+make_test	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs	/^        macro_rules! make_test {$/;"	d
 mantissa	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn mantissa(self) -> Self::Unsigned {$/;"	f
 mantissa_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn mantissa_limit() -> i32 {$/;"	f
 mantissa_limit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn mantissa_limit() -> i32;$/;"	f
@@ -2374,6 +2496,7 @@ new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn new(ptr: &'a T) -> Self {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn new(ptr: &'a mut T) -> Self {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/ptr.rs	/^    pub fn new(ptr: Box<T>) -> Self {$/;"	f
+new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/customcolors.rs	/^    pub fn new(r: u8, g: u8, b: u8) -> Self {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/benchmark_group.rs	/^    pub fn new<S: Into<String>, P: ::std::fmt::Display>($/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^    pub fn new(mut socket: TcpStream) -> Result<Self, std::io::Error> {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^    pub fn new(socket: TcpStream) -> Result<Self, std::io::Error> {$/;"	f
@@ -2454,6 +2577,7 @@ new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/de.rs	/^    fn new(slice: &'de [Value]) -> Self {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/de.rs	/^    fn new(value: Cow<'de, str>) -> Self {$/;"	f
 new	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/de.rs	/^    fn new(vec: Vec<Value>) -> Self {$/;"	f
+new	/Users/mart/code/advent-of-code-23/src/day16.rs	/^    fn new() -> Traveled {$/;"	f
 new	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn new() -> Self {$/;"	f
 new_page	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn new_page(&mut self) -> &mut Figure$/;"	f
 new_plot2	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn new_plot2<T1, X1, T2, X2>($/;"	f
@@ -2546,8 +2670,11 @@ none	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_deri
 nonzero	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^pub fn nonzero<T: Integer>(x: &[T], rindex: usize) -> bool {$/;"	f
 nonzero_integers	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/impls.rs	/^macro_rules! nonzero_integers {$/;"	d
 nop_reserve	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^fn nop_reserve<T>(_seq: T, _n: usize) {}$/;"	f
+normal	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn normal(self) -> ColoredString {$/;"	f
+normal	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn normal(self) -> ColoredString;$/;"	f
 normalize	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    fn normalize(&mut self) {$/;"	f
 normalize	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    pub fn normalize(x: &mut Vec<Limb>) {$/;"	f
+normalize_env	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs	/^    fn normalize_env(env_res: Result<String, env::VarError>) -> Option<bool> {$/;"	f
 nresamples	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/benchmark_group.rs	/^    pub fn nresamples(&mut self, n: usize) -> &mut Self {$/;"	f
 nresamples	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    pub fn nresamples(mut self, n: usize) -> Criterion<M> {$/;"	f
 num_128	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^macro_rules! num_128 {$/;"	d
@@ -2566,6 +2693,31 @@ object_ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyh
 octal	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn octal(&mut self, yes: bool) -> &mut RegexBuilder {$/;"	f
 octal	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^        pub fn octal(&mut self, yes: bool) -> &mut RegexSetBuilder {$/;"	f
 octal	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/builders.rs	/^    fn octal(&mut self, yes: bool) -> &mut Builder {$/;"	f
+on_black	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_black(self) -> ColoredString$/;"	f
+on_blue	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_blue(self) -> ColoredString$/;"	f
+on_bright_black	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_bright_black(self) -> ColoredString$/;"	f
+on_bright_blue	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_bright_blue(self) -> ColoredString$/;"	f
+on_bright_color_fn	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_bright_color_fn() {$/;"	f
+on_bright_cyan	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_bright_cyan(self) -> ColoredString$/;"	f
+on_bright_green	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_bright_green(self) -> ColoredString$/;"	f
+on_bright_magenta	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_bright_magenta(self) -> ColoredString$/;"	f
+on_bright_purple	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_bright_purple(self) -> ColoredString$/;"	f
+on_bright_red	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_bright_red(self) -> ColoredString$/;"	f
+on_bright_white	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_bright_white(self) -> ColoredString$/;"	f
+on_bright_yellow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_bright_yellow(self) -> ColoredString$/;"	f
+on_color	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_color<S: Into<Color>>(mut self, color: S) -> ColoredString {$/;"	f
+on_color	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_color<S: Into<Color>>(self, color: S) -> ColoredString {$/;"	f
+on_color	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_color<S: Into<Color>>(self, color: S) -> ColoredString;$/;"	f
+on_color_fn	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_color_fn() {$/;"	f
+on_custom_color	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_custom_color(self, color: CustomColor) -> ColoredString$/;"	f
+on_cyan	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_cyan(self) -> ColoredString$/;"	f
+on_green	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_green(self) -> ColoredString$/;"	f
+on_magenta	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_magenta(self) -> ColoredString$/;"	f
+on_purple	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_purple(self) -> ColoredString$/;"	f
+on_red	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_red(self) -> ColoredString$/;"	f
+on_truecolor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_truecolor(self, r: u8, g: u8, b: u8) -> ColoredString$/;"	f
+on_white	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_white(self) -> ColoredString$/;"	f
+on_yellow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn on_yellow(self) -> ColoredString$/;"	f
 one_digit	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^    fn one_digit() {$/;"	f
 or	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn or(self, other_rules: Self) -> Self {$/;"	f
 or	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/case.rs	/^    pub fn or(self, rule_b: Self) -> Self {$/;"	f
@@ -2577,6 +2729,7 @@ output_directory	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001
 output_filename	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^    fn output_filename($/;"	f
 overflow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^macro_rules! overflow {$/;"	d
 p_value	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/mod.rs	/^    pub fn p_value(&self, t: A, tails: &Tails) -> A {$/;"	f
+parse	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs	/^        fn parse() {$/;"	f
 parse_any_number	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn parse_any_number(&mut self, positive: bool) -> Result<ParserNumber> {$/;"	f
 parse_any_signed_number	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn parse_any_signed_number(&mut self) -> Result<ParserNumber> {$/;"	f
 parse_concise_float	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/parse.rs	/^pub fn parse_concise_float<F>(mantissa: u64, mant_exp: i32) -> F$/;"	f
@@ -2586,6 +2739,8 @@ parse_dirs_line	/Users/mart/code/advent-of-code-23/src/day8.rs	/^fn parse_dirs_l
 parse_escape	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^fn parse_escape<'de, R: Read<'de>>($/;"	f
 parse_exponent	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn parse_exponent($/;"	f
 parse_exponent_overflow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn parse_exponent_overflow($/;"	f
+parse_grid	/Users/mart/code/advent-of-code-23/src/day16.rs	/^pub fn parse_grid(buf: Vec<u8>) -> Vec<Vec<u8>> {$/;"	f
+parse_grid	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^pub fn parse_grid(buf: Vec<u8>) -> Vec<Vec<u8>> {$/;"	f
 parse_ident	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn parse_ident(&mut self, ident: &[u8]) -> Result<()> {$/;"	f
 parse_index	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^fn parse_index(s: &str) -> Option<usize> {$/;"	f
 parse_integer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn parse_integer(&mut self, positive: bool) -> Result<ParserNumber> {$/;"	f
@@ -2660,6 +2815,8 @@ pretty	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_js
 primitive_deserializer	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^macro_rules! primitive_deserializer {$/;"	d
 primitive_impl	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/impls.rs	/^macro_rules! primitive_impl {$/;"	d
 print_overwritable	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn print_overwritable(&self, s: String) {$/;"	f
+proc	/Users/mart/code/advent-of-code-23/src/day16.rs	/^    fn proc($/;"	f
+proc_laser	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^pub fn proc_laser(grid: &mut Vec<Vec<u8>>, mut ray: Ray) -> Vec<Ray> {$/;"	f
 proc_line	/Users/mart/code/advent-of-code-23/src/day2.rs	/^fn proc_line(line: String) -> Game {$/;"	f
 profile	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn profile(&self, _id: &BenchmarkId, _context: &ReportContext, _profile_ns: f64) {}$/;"	f
 profile	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn profile(&self, id: &BenchmarkId, _: &ReportContext, warmup_ns: f64) {$/;"	f
@@ -2669,6 +2826,7 @@ provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-
 provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
 provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    unsafe fn provide<'a>(this: Ref<'a, Self>, request: &mut Request<'a>) {$/;"	f
 provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/wrapper.rs	/^    fn provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
+purple	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn purple(self) -> ColoredString$/;"	f
 push	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/tuple.rs	/^    fn push(&mut self, tuple: (A, B)) {$/;"	f
 push	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/tuple.rs	/^    fn push(&mut self, tuple: (A, B, C)) {$/;"	f
 push	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/tuple.rs	/^    fn push(&mut self, tuple: (A, B, C, D)) {$/;"	f
@@ -2686,11 +2844,12 @@ read_captures_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001
 read_file	/Users/mart/code/advent-of-code-23/src/day8.rs	/^pub fn read_file() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
 read_input	/Users/mart/code/advent-of-code-23/src/day15.rs	/^pub fn read_input(filename: &str) -> Vec<u8> {$/;"	f
 read_input	/Users/mart/code/advent-of-code-23/src/day16.rs	/^pub fn read_input(filename: &str) -> Vec<u8> {$/;"	f
+read_input	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^pub fn read_input(filename: &str) -> Vec<u8> {$/;"	f
 read_input	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn read_input(day: u8) -> io::Result<Vec<String>> {$/;"	f
+read_input	/Users/mart/code/advent-of-code-23/src/template.rs	/^pub fn read_input(filename: &str) -> Vec<u8> {$/;"	f
 read_lines	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
 read_lines	/Users/mart/code/advent-of-code-23/src/day5.rs	/^pub fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
 read_lines	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn read_lines() -> (Vec<String>, Vec<String>) {$/;"	f
-read_lines	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn read_lines() -> io::Result<io::Lines<BufReader<File>>> {$/;"	f
 read_lines2	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn read_lines2() -> (u128, u128) {$/;"	f
 read_matches_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/bytes.rs	/^    pub fn read_matches_at($/;"	f
 read_matches_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regexset/string.rs	/^    pub fn read_matches_at($/;"	f
@@ -2698,7 +2857,10 @@ recommend_flat_sample_size	/Users/mart/.cargo/registry/src/index.crates.io-6f17d
 recommend_linear_sample_size	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    fn recommend_linear_sample_size(target_time: f64, met: f64) -> u64 {$/;"	f
 recv	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^    pub fn recv(&mut self) -> Result<IncomingMessage, MessageError> {$/;"	f
 recv	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/connection.rs	/^    pub fn recv(&self) -> Result<IncomingMessage, MessageError> {$/;"	f
+red	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn red(self) -> ColoredString$/;"	f
 red	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn red(&self, s: &str) -> String {$/;"	f
+ref	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs	/^    pub static ref SHOULD_COLORIZE: ShouldColorize = ShouldColorize::from_env();$/;"	c
+reflect	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^    fn reflect(&mut self, c: u8) -> Self {$/;"	f
 regression	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/analysis/mod.rs	/^fn regression($/;"	f
 regression	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/gnuplot_backend/mod.rs	/^    fn regression(&mut self, ctx: PlotContext<'_>, data: PlotData<'_>) {$/;"	f
 regression	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/mod.rs	/^    fn regression(&mut self, ctx: PlotContext<'_>, data: PlotData<'_>);$/;"	f
@@ -2742,9 +2904,15 @@ reset_state	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnu
 reset_state	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	pub fn reset_state(&self, writer: &mut dyn Writer)$/;"	f
 reset_state	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	fn reset_state(&self, writer: &mut dyn Writer)$/;"	f
 resolve	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/backtrace.rs	/^        fn resolve(&mut self) {$/;"	f
+resolve_clicolor_force	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs	/^    fn resolve_clicolor_force($/;"	f
 respan_token	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/respan.rs	/^fn respan_token(mut token: TokenTree, span: Span) -> TokenTree {$/;"	f
 retain	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    pub fn retain<F>(&mut self, f: F)$/;"	f
 retain_baseline	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    pub fn retain_baseline(mut self, baseline: String, strict: bool) -> Criterion<M> {$/;"	f
+reverse	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn reverse(self) -> ColoredString {$/;"	f
+reverse	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn reverse(self) -> ColoredString;$/;"	f
+reversed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn reversed(mut self) -> ColoredString {$/;"	f
+reversed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn reversed(self) -> ColoredString {$/;"	f
+reversed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn reversed(self) -> ColoredString;$/;"	f
 root_cause	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn root_cause(&self) -> &(dyn StdError + 'static) {$/;"	f
 round_nearest_tie_even	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/bhcomp.rs	/^fn round_nearest_tie_even(fp: &mut ExtendedFloat, shift: i32, is_truncated: bool) {$/;"	f
 round_positive_even	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn round_positive_even(self) -> Self {$/;"	f
@@ -3112,6 +3280,8 @@ set_multiplot_fill_order	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22
 set_multiplot_layout	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn set_multiplot_layout(&mut self, rows: usize, columns: usize) -> &mut Self$/;"	f
 set_offset	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/figure.rs	/^	pub fn set_offset(&mut self, offset_x: f32, offset_y: f32) -> &mut Self$/;"	f
 set_opt	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    fn set_opt<A: ToTokens>(&mut self, obj: A, value: Option<T>) {$/;"	f
+set_override	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs	/^    pub fn set_override(&self, override_colorize: bool) {$/;"	f
+set_override	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs	/^pub fn set_override(override_colorize: bool) {$/;"	f
 set_palette	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_palette(&mut self, palette: PaletteType<&[(f32, f32, f32, f32)]>) -> &mut Self$/;"	f
 set_pos	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_pos(&mut self, x: f64, y: f64) -> &mut Self$/;"	f
 set_pos_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_pos_grid(&mut self, nrow: u32, ncol: u32, pos: u32) -> &mut Self$/;"	f
@@ -3130,6 +3300,7 @@ set_title	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnupl
 set_true	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    fn set_true<A: ToTokens>(&mut self, obj: A) {$/;"	f
 set_view	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_view(&mut self, pitch: f64, yaw: f64) -> &mut Self$/;"	f
 set_view_map	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes3d.rs	/^	pub fn set_view_map(&mut self) -> &mut Self$/;"	f
+set_virtual_terminal	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs	/^pub fn set_virtual_terminal(use_virtual: bool) -> Result<(), ()> {$/;"	f
 set_x2_grid	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x2_grid(&mut self, show: bool) -> &mut Self$/;"	f
 set_x2_label	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x2_label<'l>(&'l mut self, text: &str, options: &[LabelOption<&str>]) -> &'l mut Self$/;"	f
 set_x2_log	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes_common.rs	/^	fn set_x2_log(&mut self, base: Option<f64>) -> &mut Self$/;"	f
@@ -3185,6 +3356,7 @@ shortest_match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/
 shortest_match	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn shortest_match(&self, haystack: &str) -> Option<usize> {$/;"	f
 shortest_match_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn shortest_match_at($/;"	f
 shortest_match_at	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn shortest_match_at($/;"	f
+should_colorize	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs	/^    pub fn should_colorize(&self) -> bool {$/;"	f
 should_early_return_if_failed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    const should_early_return_if_failed: bool = R::should_early_return_if_failed;$/;"	c
 should_early_return_if_failed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    const should_early_return_if_failed: bool = false;$/;"	c
 should_early_return_if_failed	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/read.rs	/^    const should_early_return_if_failed: bool = true;$/;"	c
@@ -3198,6 +3370,7 @@ signed_short	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cr
 signed_short_max_len	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/format.rs	/^    fn signed_short_max_len() {$/;"	f
 significance_level	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/benchmark_group.rs	/^    pub fn significance_level(&mut self, sl: f64) -> &mut Self {$/;"	f
 significance_level	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    pub fn significance_level(mut self, sl: f64) -> Criterion<M> {$/;"	f
+six	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn six() {$/;"	f
 size	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/mod.rs	/^    pub fn size(mut self, s: Option<criterion_plot::Size>) -> PlotContext<'a> {$/;"	f
 size_hint	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/chain.rs	/^    fn size_hint(&self) -> (usize, Option<usize>) {$/;"	f
 size_hint	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/outliers/tukey.rs	/^    fn size_hint(&self) -> (usize, Option<usize>) {$/;"	f
@@ -3233,14 +3406,17 @@ split	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.1
 split	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn split<'r, 'h>(&'r self, haystack: &'h str) -> Split<'r, 'h> {$/;"	f
 split	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^        fn split(self) -> (A, B) {$/;"	f
 split	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^        fn split(self) -> (Self::First, Self::Second);$/;"	f
+split_left_right	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^    fn split_left_right(&mut self) -> Vec<Ray> {$/;"	f
 split_u64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^fn split_u64(x: u64) -> [Limb; 1] {$/;"	f
 split_u64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^fn split_u64(x: u64) -> [Limb; 2] {$/;"	f
+split_up_down	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^    fn split_up_down(&mut self) -> Vec<Ray> {$/;"	f
 split_with_de_lifetime	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^fn split_with_de_lifetime($/;"	f
 splitn	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn splitn<'r, 'h>($/;"	f
 splitn	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/string.rs	/^    pub fn splitn<'r, 'h>($/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star1() -> io::Result<i64> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day15.rs	/^pub fn star1(mut buf: Vec<u8>) -> i32 {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day16.rs	/^pub fn star1(buf: Vec<u8>) -> i32 {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^pub fn star1(buf: Vec<u8>) -> i32 {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day2.rs	/^fn star1() -> anyhow::Result<u32> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn star1(input: Vec<String>) -> anyhow::Result<u64> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn star1(lines: Vec<String>) -> anyhow::Result<u32> {$/;"	f
@@ -3248,16 +3424,17 @@ star1	/Users/mart/code/advent-of-code-23/src/day5.rs	/^pub fn star1(lines: Vec<S
 star1	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn star1(times: Vec<String>, distances: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day7.rs	/^pub fn star1(lines: impl Iterator<Item = String>) -> anyhow::Result<i32> {$/;"	f
 star1	/Users/mart/code/advent-of-code-23/src/day8.rs	/^pub fn star1(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
-star1	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star1(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
+star1	/Users/mart/code/advent-of-code-23/src/template.rs	/^pub fn star1(buf: Vec<u8>) -> i32 {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn star2() -> anyhow::Result<u64> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day15.rs	/^pub fn star2(mut buf: Vec<u8>) -> i32 {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day16.rs	/^pub fn star2(buf: Vec<u8>) -> i32 {$/;"	f
+star2	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^pub fn star2(buf: Vec<u8>) -> i32 {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day2.rs	/^fn star2() -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day3.rs	/^fn star2(input: Vec<String>) -> anyhow::Result<u64> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day4.rs	/^fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day5.rs	/^fn star2(lines: Vec<String>) -> u64 {$/;"	f
 star2	/Users/mart/code/advent-of-code-23/src/day6.rs	/^pub fn star2(time: u128, distance: u128) -> anyhow::Result<u128> {$/;"	f
-star2	/Users/mart/code/advent-of-code-23/src/template.rs	/^fn star2(lines: Vec<String>) -> anyhow::Result<i32> {$/;"	f
+star2	/Users/mart/code/advent-of-code-23/src/template.rs	/^pub fn star2(buf: Vec<u8>) -> i32 {$/;"	f
 start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn start(&self) -> Self::Intermediate {$/;"	f
 start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn start(&self) -> Self::Intermediate;$/;"	f
 start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    pub fn start(&self) -> usize {$/;"	f
@@ -3271,8 +3448,12 @@ stats	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion
 stats	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/analysis/mod.rs	/^    fn stats(sample: &Sample<f64>) -> (f64, f64, f64, f64) {$/;"	f
 std_dev	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/sample.rs	/^    pub fn std_dev(&self, mean: Option<A>) -> A {$/;"	f
 std_dev_pct	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/sample.rs	/^    pub fn std_dev_pct(&self) -> A {$/;"	f
+step	/Users/mart/code/advent-of-code-23/src/day16.rs	/^    fn step($/;"	f
 stop_profiling	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/profiler.rs	/^    fn stop_profiling(&mut self, _benchmark_id: &str, _benchmark_dir: &Path) {}$/;"	f
 stop_profiling	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/profiler.rs	/^    fn stop_profiling(&mut self, benchmark_id: &str, benchmark_dir: &Path);$/;"	f
+strikethrough	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn strikethrough(mut self) -> ColoredString {$/;"	f
+strikethrough	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn strikethrough(self) -> ColoredString {$/;"	f
+strikethrough	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn strikethrough(self) -> ColoredString;$/;"	f
 struct_from_ast	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/ast.rs	/^fn struct_from_ast<'a>($/;"	f
 struct_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/mod.rs	/^    fn struct_variant<V>($/;"	f
 struct_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/value.rs	/^        fn struct_variant<V>($/;"	f
@@ -3280,6 +3461,8 @@ struct_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/
 struct_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn struct_variant<V>(self, _fields: &'static [&'static str], _visitor: V) -> Result<V::Value>$/;"	f
 struct_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn struct_variant<V>(self, fields: &'static [&'static str], visitor: V) -> Result<V::Value>$/;"	f
 struct_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/de.rs	/^    fn struct_variant<V>($/;"	f
+style	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    pub fn style(&self) -> style::Style {$/;"	f
+style_from_multiples	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn style_from_multiples(styles: &[Styles]) -> Style {$/;"	f
 sub	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^    pub fn sub(x: Limb, y: Limb) -> (Limb, bool) {$/;"	f
 subset	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/resamples.rs	/^        fn subset(size: u8, nresamples: u8) -> TestResult {$/;"	f
 sum	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/mod.rs	/^fn sum<A>(xs: &[A]) -> A$/;"	f
@@ -3311,8 +3494,10 @@ test	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-
 test	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/bootstrap.rs	/^macro_rules! test {$/;"	d
 test	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/kernel.rs	/^macro_rules! test {$/;"	d
 test	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/kde/mod.rs	/^macro_rules! test {$/;"	d
+test_aggreg	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        macro_rules! test_aggreg {$/;"	d
 test_benchmark_id_make_directory_name_unique	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn test_benchmark_id_make_directory_name_unique() {$/;"	f
 test_benchmark_id_make_long_directory_name_unique	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn test_benchmark_id_make_long_directory_name_unique() {$/;"	f
+test_combine	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        macro_rules! test_combine {$/;"	d
 test_first_num	/Users/mart/code/advent-of-code-23/src/day1.rs	/^fn test_first_num() {$/;"	f
 test_format_u8	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/ser/impls.rs	/^fn test_format_u8() {$/;"	f
 test_hash_math	/Users/mart/code/advent-of-code-23/src/day15.rs	/^    fn test_hash_math() {$/;"	f
@@ -3324,34 +3509,43 @@ test_pass	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/crite
 test_pass	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn test_pass(&self, _id: &BenchmarkId, _context: &ReportContext) {}$/;"	f
 test_proc_line	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn test_proc_line() {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day15.rs	/^    fn test_star1() {$/;"	f
-test_star1	/Users/mart/code/advent-of-code-23/src/day16.rs	/^    fn test_star1() {$/;"	f
+test_star1	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^    fn test_star1() {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn test_star1() {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day4.rs	/^    fn test_star1() -> anyhow::Result<()> {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day5.rs	/^    fn test_star1() {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day6.rs	/^    fn test_star1() -> anyhow::Result<()> {$/;"	f
 test_star1	/Users/mart/code/advent-of-code-23/src/day7.rs	/^    fn test_star1() {$/;"	f
+test_star1	/Users/mart/code/advent-of-code-23/src/template.rs	/^    fn test_star1() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day15.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day16.rs	/^    fn test_star2() {$/;"	f
+test_star2	/Users/mart/code/advent-of-code-23/src/day16_poop.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day2.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day3.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day4.rs	/^    fn test_star2() -> anyhow::Result<()> {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day5.rs	/^    fn test_star2() {$/;"	f
 test_star2	/Users/mart/code/advent-of-code-23/src/day6.rs	/^    fn test_star2() -> anyhow::Result<()> {$/;"	f
+test_star2	/Users/mart/code/advent-of-code-23/src/template.rs	/^    fn test_star2() {$/;"	f
 test_start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn test_start(&self, _id: &BenchmarkId, _context: &ReportContext) {}$/;"	f
 test_start	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn test_start(&self, id: &BenchmarkId, _: &ReportContext) {$/;"	f
+test_step	/Users/mart/code/advent-of-code-23/src/day16.rs	/^    fn test_step() {$/;"	f
+test_style_contains	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^    fn test_style_contains() {$/;"	f
 text_overwrite	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn text_overwrite(&self) {$/;"	f
 this_type	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/this.rs	/^pub fn this_type(cont: &Container) -> Path {$/;"	f
 this_value	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/this.rs	/^pub fn this_value(cont: &Container) -> Path {$/;"	f
 thiserror_provide	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/error.rs	/^    pub fn thiserror_provide<'a>(&'a self, request: &mut Request<'a>) {$/;"	f
+three1	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn three1() {$/;"	f
+three2	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn three2() {$/;"	f
 throughput	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/benchmark_group.rs	/^    pub fn throughput(&mut self, throughput: Throughput) -> &mut Self {$/;"	f
 thumbnail	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/mod.rs	/^    pub fn thumbnail(mut self, value: bool) -> PlotContext<'a> {$/;"	f
 time	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/format.rs	/^pub fn time(ns: f64) -> String {$/;"	f
 to_async	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/bencher.rs	/^    pub fn to_async<'b, A: AsyncExecutor>(&'b mut self, runner: A) -> AsyncBencher<'a, 'b, A, M> {$/;"	f
+to_bg_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs	/^    pub fn to_bg_str(&self) -> Cow<'static, str> {$/;"	f
 to_bits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn to_bits(self) -> Self::Unsigned;$/;"	f
 to_bits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn to_bits(self) -> u32 {$/;"	f
 to_bits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/num.rs	/^    fn to_bits(self) -> u64 {$/;"	f
 to_f64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn to_f64(&self, val: &Self::Value) -> f64 {$/;"	f
 to_f64	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn to_f64(&self, value: &Self::Value) -> f64;$/;"	f
+to_fg_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/color.rs	/^    pub fn to_fg_str(&self) -> Cow<'static, str> {$/;"	f
 to_gnuplot	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/plot/gnuplot_backend/summary.rs	/^    fn to_gnuplot(self) -> Scale {$/;"	f
 to_int	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^	pub fn to_int(&self) -> i32$/;"	f
 to_one_way_owned	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/options.rs	/^	fn to_one_way_owned(&self) -> Self::Output$/;"	f
@@ -3359,10 +3553,12 @@ to_one_way_owned	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001
 to_one_way_owned	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/util.rs	/^	fn to_one_way_owned(&self) -> Self::Output;$/;"	f
 to_owned	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^    fn to_owned(&self) -> Self::Owned {$/;"	f
 to_raw_value	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/raw.rs	/^pub fn to_raw_value<T>(value: &T) -> Result<Box<RawValue>, Error>$/;"	f
+to_str	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^    fn to_str<'a>(self) -> &'a str {$/;"	f
 to_string	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^pub fn to_string<T>(value: &T) -> Result<String>$/;"	f
 to_string_pretty	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^pub fn to_string_pretty<T>(value: &T) -> Result<String>$/;"	f
 to_tokens	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^    fn to_tokens(&self, tokens: &mut TokenStream) {$/;"	f
 to_tokens	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/fragment.rs	/^    fn to_tokens(&self, out: &mut TokenStream) {$/;"	f
+to_u8	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^    fn to_u8(self) -> u8 {$/;"	f
 to_value	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/mod.rs	/^pub fn to_value<T>(value: T) -> Result<Value, Error>$/;"	f
 to_vec	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^pub fn to_vec<T>(value: &T) -> Result<Vec<u8>>$/;"	f
 to_vec_pretty	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/ser.rs	/^pub fn to_vec_pretty<T>(value: &T) -> Result<Vec<u8>>$/;"	f
@@ -3371,6 +3567,7 @@ to_writer_pretty	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001
 transparent	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn transparent(&self) -> bool {$/;"	f
 tri	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/lib.rs	/^macro_rules! tri {$/;"	d
 tri	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lib.rs	/^macro_rules! tri {$/;"	d
+truecolor	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn truecolor(self, r: u8, g: u8, b: u8) -> ColoredString$/;"	f
 truncate_to_character_boundary	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^fn truncate_to_character_boundary(s: &mut String, max_len: usize) {$/;"	f
 try_else_return	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/macros_private.rs	/^macro_rules! try_else_return {$/;"	d
 try_from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/regex-1.10.2/src/regex/bytes.rs	/^    fn try_from(s: &str) -> Result<Regex, Error> {$/;"	f
@@ -3389,6 +3586,9 @@ tuple_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/s
 tuple_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/de.rs	/^    fn tuple_variant<V>(self, _len: usize, visitor: V) -> Result<V::Value>$/;"	f
 tuple_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/de.rs	/^    fn tuple_variant<V>(self, _len: usize, _visitor: V) -> Result<V::Value, Error>$/;"	f
 tuple_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/de.rs	/^    fn tuple_variant<V>(self, _len: usize, visitor: V) -> Result<V::Value, Error>$/;"	f
+two1	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn two1() {$/;"	f
+two2	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn two2() {$/;"	f
+two3	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        fn two3() {$/;"	f
 two_digits	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anyhow-1.0.75/src/fmt.rs	/^    fn two_digits() {$/;"	f
 two_sample	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/univariate/bootstrap.rs	/^                fn two_sample($/;"	f
 type_from	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn type_from(&self) -> Option<&syn::Type> {$/;"	f
@@ -3402,6 +3602,9 @@ typical	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criteri
 u64_to_hi64_1	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^fn u64_to_hi64_1(r0: u64) -> (u64, bool) {$/;"	f
 u64_to_hi64_2	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/lexical/math.rs	/^fn u64_to_hi64_2(r0: u64, r1: u64) -> (u64, bool) {$/;"	f
 uint_to_self	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/impls.rs	/^macro_rules! uint_to_self {$/;"	d
+underline	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn underline(mut self) -> ColoredString {$/;"	f
+underline	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn underline(self) -> ColoredString {$/;"	f
+underline	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn underline(self) -> ColoredString;$/;"	f
 unexpected	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/private/de.rs	/^        fn unexpected(&self) -> Unexpected {$/;"	f
 unexpected	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/value/de.rs	/^    fn unexpected(&self) -> Unexpected {$/;"	f
 ungroup	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/mod.rs	/^pub fn ungroup(mut ty: &Type) -> &Type {$/;"	f
@@ -3418,9 +3621,12 @@ unit_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/se
 unknown_field	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/mod.rs	/^            fn unknown_field(field: &str, expected: &'static [&'static str]) -> Self {$/;"	f
 unknown_variant	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde-1.0.193/src/de/mod.rs	/^            fn unknown_variant(variant: &str, expected: &'static [&'static str]) -> Self {$/;"	f
 unraw	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^fn unraw(ident: &Ident) -> String {$/;"	f
+unset_override	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs	/^    pub fn unset_override(&self) {$/;"	f
+unset_override	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/control.rs	/^pub fn unset_override() {$/;"	f
 untagged	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/internals/attr.rs	/^    pub fn untagged(&self) -> bool {$/;"	f
 unwrap_to_variant_closure	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/de.rs	/^fn unwrap_to_variant_closure($/;"	f
 value	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/html/mod.rs	/^    fn value(output_directory: &Path, group_id: &str, value_str: &'a str) -> ReportLink<'a> {$/;"	f
+value_isomorph	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/style.rs	/^        macro_rules! value_isomorph {$/;"	d
 value_type	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    pub fn value_type(&self) -> Option<ValueType> {$/;"	f
 values	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    pub fn values(&self) -> Values {$/;"	f
 values_mut	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    pub fn values_mut(&mut self) -> ValuesMut {$/;"	f
@@ -3653,6 +3859,7 @@ warm_up_time	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cr
 warm_up_time	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    pub fn warm_up_time(mut self, dur: Duration) -> Criterion<M> {$/;"	f
 warmup	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn warmup(&self, _id: &BenchmarkId, _context: &ReportContext, _warmup_ns: f64) {}$/;"	f
 warmup	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn warmup(&self, id: &BenchmarkId, _: &ReportContext, warmup_ns: f64) {$/;"	f
+white	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn white(self) -> ColoredString$/;"	f
 with_benchmark_filter	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/lib.rs	/^    pub fn with_benchmark_filter(mut self, filter: BenchmarkFilter) -> Criterion<M> {$/;"	f
 with_bound	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_derive-1.0.193/src/bound.rs	/^pub fn with_bound($/;"	f
 with_capacity	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/serde_json-1.0.108/src/map.rs	/^    pub fn with_capacity(capacity: usize) -> Self {$/;"	f
@@ -3734,6 +3941,7 @@ x_error_lines	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/g
 y	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/stats/bivariate/mod.rs	/^    pub fn y(&self) -> &'a Sample<Y> {$/;"	f
 y_error_bars	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn y_error_bars<$/;"	f
 y_error_lines	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gnuplot-0.0.39/src/axes2d.rs	/^	pub fn y_error_lines<$/;"	f
+yellow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/colored-2.1.0/src/lib.rs	/^    fn yellow(self) -> ColoredString$/;"	f
 yellow	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/report.rs	/^    fn yellow(&self, s: &str) -> String {$/;"	f
 zero	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn zero(&self) -> Self::Value {$/;"	f
 zero	/Users/mart/.cargo/registry/src/index.crates.io-6f17d22bba15001f/criterion-0.5.1/src/measurement.rs	/^    fn zero(&self) -> Self::Value;$/;"	f
